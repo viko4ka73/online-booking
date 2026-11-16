@@ -1,23 +1,41 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
-    "dev": "tsx watch src/server.ts"
+    "dev": "tsx watch src/server.ts",
+    "test:email": "tsx --test tests/emailNotifications.test.ts",
+    "build:email-logo": "node scripts/build-email-logo.cjs",
+    "test:email-template": "tsx --test tests/emailTemplates.test.ts",
+    "admin:grant": "tsx scripts/grant-admin.ts",
+    "test:admin": "tsx --test --test-concurrency=1 tests/admin.test.ts tests/adminCalendar.test.ts tests/adminCourts.test.ts tests/courtCreation.test.ts tests/halls.test.ts tests/adminWorkspace.test.ts tests/courtLifecycle.test.ts tests/adminReservations.test.ts tests/phone.test.ts tests/profileValidation.test.ts tests/emailInput.test.ts tests/bookingRules.test.ts tests/adminCommercial.test.ts tests/userTransfers.test.ts tests/legacyHallLinks.test.ts tests/adjacentCourts.test.ts tests/authAndFavorites.test.ts tests/courtRemoval.test.ts",
+    "build:favicons": "node scripts/build-favicons.cjs",
+    "seed:schedule": "tsx scripts/seed-schedule.ts",
+    "test:schedule": "tsx --test tests/scheduleSeed.test.ts",
+    "test:waitlist": "tsx --test tests/waitlist.test.ts tests/waitlistTimes.test.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
     "cors": "^2.8.6",
     "dotenv": "^18.0.8",
-    "express": "^5.3.0"
+    "express": "^5.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "nodemailer": "^10.5.0",
+    "pg": "^8.23.1"
   },
   "devDependencies": {
+    "@resvg/resvg-js": "^2.6.2",
+    "@types/cookie-parser": "^1.4.10",
     "@types/cors": "^2.8.19",
     "@types/express": "^5.0.6",
+    "@types/jsonwebtoken": "^9.0.10",
     "@types/node": "^26.6.5",
+    "@types/nodemailer": "^8.0.2",
+    "@types/pg": "^8.23.1",
     "tsx": "^4.23.15",
     "typescript": "^7.0.2"
   }

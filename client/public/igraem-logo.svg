@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 224 76">
+  <text x="5" y="51" font-family="system-ui,sans-serif" font-size="50" font-weight="850" letter-spacing="-2" fill="#f7f5ec">Играем<tspan fill="#c5cea5">?</tspan></text>
+  <path d="M10 62q38 20 90 0t98 0" fill="none" stroke="#c5cea5" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="205" cy="59" r="5" fill="#c5cea5"/>
+</svg>
