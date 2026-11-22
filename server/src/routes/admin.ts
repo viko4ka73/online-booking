@@ -16,7 +16,7 @@ router.use(async (req,res,next) => {
   res.set("Cache-Control","no-store");
   const userId = sessionUserId(req);
   if (!userId) return res.status(401).json({ error:"Войдите в аккаунт администратора." });
-  // Read the role from the database: revocation takes effect even for an existing session.
+
   const { rows } = await pool.query<{role:string}>("SELECT role FROM app_users WHERE id=$1",[userId]);
   if (!rows.length) return res.status(401).json({ error:"Аккаунт не найден. Войдите заново." });
   if (rows[0].role !== "admin") return res.status(403).json({ error:"Этот раздел доступен только администратору." });
@@ -43,7 +43,6 @@ router.use("/blocks",adminBlocksRouter);
 router.use("/courts",adminCourtsRouter);
 router.use("/halls",adminHallsRouter);
 
-// The calendar loads a complete day, independent of list pagination.
 router.get("/schedule", async (req,res) => {
   const date = req.query.date;
   if (Object.keys(req.query).some(key => key !== "date") || typeof date !== "string") {
@@ -118,7 +117,7 @@ router.get("/reservations", async (req,res) => {
     const pageSize = 3;
     const totalPages = Math.max(1,Math.ceil(total/pageSize));
     const page = Math.min(requestedPage,totalPages);
-    // Order the complete filtered set before pagination; UUID breaks ties consistently.
+
     const startsAt="r.play_date+r.start_minute*interval '1 minute'";
     const order=sort==='nearest'
       ? `CASE WHEN ${isUpcoming} THEN 0 WHEN r.status='active' THEN 1 ELSE 2 END ASC,

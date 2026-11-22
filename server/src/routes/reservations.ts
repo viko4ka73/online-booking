@@ -245,7 +245,6 @@ async function changedPrice(row: BookingRow, date: string, start: string, durati
   return calculatePrice(court,date,start,duration,row.players,new Map(row.equipment.map((item) => [item.id,item.quantity])));
 }
 
-// Repeating only prepares a draft; the normal create route rechecks price and availability.
 router.get("/:id/repeat", async (req,res) => {
   const userId = sessionUserId(req);
   if (!userId) return res.status(401).json({ error: "Войдите в аккаунт, чтобы повторить бронирование." });

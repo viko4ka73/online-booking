@@ -28,7 +28,6 @@ export function scheduleError(date: unknown, duration: unknown, now = new Date()
   return null;
 }
 
-// A shared lock serializes bookings across the adjoining physical halls as well.
 export async function bookingLockKeys(db: Pick<PoolClient, "query">, targets: {courtId:number;date:string}[]) {
   const ids=targets.map(t=>t.courtId);
   const links=(await db.query<{court_a:number;court_b:number}>('SELECT court_a,court_b FROM court_adjacency WHERE court_a=ANY($1::int[]) OR court_b=ANY($1::int[])',[ids])).rows;

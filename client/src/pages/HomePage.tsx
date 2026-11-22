@@ -24,7 +24,7 @@ export default function HomePage({ header,catalog,favorites,onLogin }: Props) {
 
         <div
           className="absolute inset-y-0 right-0 w-full bg-cover bg-[85%_center] sm:w-[72%] sm:bg-center"
-          style={{ backgroundImage: "url('/images/home/complex-exterior-v3.jpg')" }}
+          style={{ backgroundImage: "url('/images/home/complex-exterior-v3.jpg')", backgroundPositionY: "calc(50% + 40px)" }}
           role="img"
           aria-label="Спортивный комплекс «Играем?» — фасад и главный вход"
         />

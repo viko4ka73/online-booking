@@ -53,11 +53,11 @@ export async function deliverWaitlistJob(jobId:string,send:EmailSender){
   await db.query('BEGIN');
   const job=(await db.query<{id:string;waitlist_id:string;attempts:number}>("SELECT * FROM waitlist_notifications WHERE id=$1 AND status='pending' AND next_attempt_at<=now() FOR UPDATE SKIP LOCKED",[jobId])).rows[0];
   if(!job){await db.query('COMMIT');return;}
-  // Cancellation and booking confirmation lock the entry before the mail row.
+
   const row=(await db.query<WaitRow & {email:string;name:string}>("SELECT w.*,to_char(play_date,'YYYY-MM-DD') AS play_date,u.email,u.name FROM waitlist_entries w JOIN app_users u ON u.id=w.user_id WHERE w.id=$1 FOR UPDATE OF w NOWAIT",[job.waitlist_id])).rows[0];
   let court=row?.status==='waiting'?await findFreeCourt(db,row):null;
   if(court){
-   // Never wait while holding the entry: a concurrent booking may need it to fulfill the request.
+
    if(!(await db.query("SELECT pg_try_advisory_xact_lock_shared(hashtextextended('court-adjacency-config',0)) AS locked")).rows[0].locked){await db.query('ROLLBACK');return;}
    for(const key of await bookingLockKeys(db,[{courtId:court.id,date:row.play_date}]))if(!(await db.query('SELECT pg_try_advisory_xact_lock(hashtextextended($1,0)) AS locked',[key])).rows[0].locked){await db.query('ROLLBACK');return;}
    if(!(await db.query('SELECT id FROM courts WHERE id=$1 AND deleted_at IS NULL FOR SHARE',[court.id])).rowCount)court=null;

@@ -1,3 +1,4 @@
+import "dotenv/config";
 import {migrateAdjacency} from './migrations/adjacency';
 import {migrateBadmintonTwo} from './migrations/badmintonTwo';
 import {migrateRacketPhotos} from './migrations/racketPhotos';
