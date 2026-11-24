@@ -1,0 +1,505 @@
+{
+  "nodeVersion": "v26.13.0",
+  "executedAt": "2026-11-24T19:47:52.444Z",
+  "tests": [
+    {
+      "name": "EQ-D1 [equivalence] date=2026-11-25 duration=120",
+      "status": "passed"
+    },
+    {
+      "name": "EQ-D2 [equivalence] date=2026-11-25 duration=30",
+      "status": "passed"
+    },
+    {
+      "name": "EQ-D3 [equivalence] date=2026-11-25 duration=330",
+      "status": "passed"
+    },
+    {
+      "name": "EQ-D4 [equivalence] date=2026-11-25 duration=75",
+      "status": "passed"
+    },
+    {
+      "name": "EQ-D5 [equivalence] date=2026-11-25 duration=90.5",
+      "status": "passed"
+    },
+    {
+      "name": "EQ-D6 [equivalence] date=2026-11-25 duration=120",
+      "status": "passed"
+    },
+    {
+      "name": "EQ-DT1 [equivalence] date=2026-11-24 duration=120",
+      "status": "passed"
+    },
+    {
+      "name": "EQ-DT2 [equivalence] date=2026-12-10 duration=120",
+      "status": "passed"
+    },
+    {
+      "name": "EQ-DT3 [equivalence] date=2026-11-23 duration=120",
+      "status": "passed"
+    },
+    {
+      "name": "EQ-DT4 [equivalence] date=2027-01-10 duration=120",
+      "status": "passed"
+    },
+    {
+      "name": "EQ-DT5 [equivalence] date=2026-11-31 duration=120",
+      "status": "passed"
+    },
+    {
+      "name": "EQ-DT6 [equivalence] date=24.11.2026 duration=120",
+      "status": "passed"
+    },
+    {
+      "name": "EQ-DT7 [equivalence] date= duration=120",
+      "status": "passed"
+    }
+  ],
+  "summary": {
+    "success": true,
+    "counts": {
+      "tests": 13,
+      "failed": 0,
+      "passed": 13,
+      "cancelled": 0,
+      "skipped": 0,
+      "todo": 0,
+      "topLevel": 13,
+      "suites": 0
+    },
+    "duration_ms": 111.767333
+  },
+  "coverage": {
+    "workingDirectory": "/local-workspace/Documents/ChatGPT/диплом/МТПО_Лабораторная_1",
+    "files": [
+      {
+        "path": "/local-workspace/Documents/ChatGPT/диплом/МТПО_Лабораторная_1/src/booking.ts",
+        "totalLineCount": 75,
+        "totalBranchCount": 16,
+        "totalFunctionCount": 6,
+        "coveredLineCount": 34,
+        "coveredBranchCount": 16,
+        "coveredFunctionCount": 1,
+        "coveredLinePercent": 45.33333333333333,
+        "coveredBranchPercent": 100,
+        "coveredFunctionPercent": 16.666666666666664,
+        "functions": [
+          {
+            "name": "formatTime",
+            "count": 0,
+            "line": 10
+          },
+          {
+            "name": "scheduleError",
+            "count": 13,
+            "line": 14
+          },
+          {
+            "name": "bookingLockKeys",
+            "count": 0,
+            "line": 32
+          },
+          {
+            "name": "lockBookingDays",
+            "count": 0,
+            "line": 37
+          },
+          {
+            "name": "incompatibleNeighborBookings",
+            "count": 0,
+            "line": 41
+          },
+          {
+            "name": "availableSlots",
+            "count": 0,
+            "line": 51
+          }
+        ],
+        "branches": [
+          {
+            "line": 1,
+            "count": 1
+          },
+          {
+            "line": 14,
+            "count": 13
+          },
+          {
+            "line": 16,
+            "count": 11
+          },
+          {
+            "line": 16,
+            "count": 2
+          },
+          {
+            "line": 18,
+            "count": 11
+          },
+          {
+            "line": 19,
+            "count": 10
+          },
+          {
+            "line": 19,
+            "count": 4
+          },
+          {
+            "line": 21,
+            "count": 9
+          },
+          {
+            "line": 24,
+            "count": 1
+          },
+          {
+            "line": 24,
+            "count": 8
+          },
+          {
+            "line": 25,
+            "count": 7
+          },
+          {
+            "line": 25,
+            "count": 6
+          },
+          {
+            "line": 25,
+            "count": 5
+          },
+          {
+            "line": 25,
+            "count": 4
+          },
+          {
+            "line": 25,
+            "count": 5
+          },
+          {
+            "line": 27,
+            "count": 3
+          }
+        ],
+        "lines": [
+          {
+            "line": 1,
+            "count": 1
+          },
+          {
+            "line": 2,
+            "count": 1
+          },
+          {
+            "line": 3,
+            "count": 1
+          },
+          {
+            "line": 4,
+            "count": 1
+          },
+          {
+            "line": 5,
+            "count": 1
+          },
+          {
+            "line": 6,
+            "count": 1
+          },
+          {
+            "line": 7,
+            "count": 1
+          },
+          {
+            "line": 8,
+            "count": 1
+          },
+          {
+            "line": 9,
+            "count": 1
+          },
+          {
+            "line": 10,
+            "count": 1
+          },
+          {
+            "line": 11,
+            "count": 0
+          },
+          {
+            "line": 12,
+            "count": 0
+          },
+          {
+            "line": 13,
+            "count": 1
+          },
+          {
+            "line": 14,
+            "count": 1
+          },
+          {
+            "line": 15,
+            "count": 13
+          },
+          {
+            "line": 16,
+            "count": 13
+          },
+          {
+            "line": 17,
+            "count": 13
+          },
+          {
+            "line": 18,
+            "count": 13
+          },
+          {
+            "line": 19,
+            "count": 13
+          },
+          {
+            "line": 20,
+            "count": 4
+          },
+          {
+            "line": 21,
+            "count": 4
+          },
+          {
+            "line": 22,
+            "count": 9
+          },
+          {
+            "line": 23,
+            "count": 9
+          },
+          {
+            "line": 24,
+            "count": 13
+          },
+          {
+            "line": 25,
+            "count": 13
+          },
+          {
+            "line": 26,
+            "count": 5
+          },
+          {
+            "line": 27,
+            "count": 5
+          },
+          {
+            "line": 28,
+            "count": 3
+          },
+          {
+            "line": 29,
+            "count": 13
+          },
+          {
+            "line": 30,
+            "count": 1
+          },
+          {
+            "line": 31,
+            "count": 1
+          },
+          {
+            "line": 32,
+            "count": 1
+          },
+          {
+            "line": 33,
+            "count": 0
+          },
+          {
+            "line": 34,
+            "count": 0
+          },
+          {
+            "line": 35,
+            "count": 0
+          },
+          {
+            "line": 36,
+            "count": 0
+          },
+          {
+            "line": 37,
+            "count": 1
+          },
+          {
+            "line": 38,
+            "count": 0
+          },
+          {
+            "line": 39,
+            "count": 0
+          },
+          {
+            "line": 40,
+            "count": 0
+          },
+          {
+            "line": 41,
+            "count": 1
+          },
+          {
+            "line": 42,
+            "count": 0
+          },
+          {
+            "line": 43,
+            "count": 0
+          },
+          {
+            "line": 44,
+            "count": 0
+          },
+          {
+            "line": 45,
+            "count": 0
+          },
+          {
+            "line": 46,
+            "count": 0
+          },
+          {
+            "line": 47,
+            "count": 0
+          },
+          {
+            "line": 48,
+            "count": 0
+          },
+          {
+            "line": 49,
+            "count": 0
+          },
+          {
+            "line": 50,
+            "count": 1
+          },
+          {
+            "line": 51,
+            "count": 1
+          },
+          {
+            "line": 52,
+            "count": 0
+          },
+          {
+            "line": 53,
+            "count": 0
+          },
+          {
+            "line": 54,
+            "count": 0
+          },
+          {
+            "line": 55,
+            "count": 0
+          },
+          {
+            "line": 56,
+            "count": 0
+          },
+          {
+            "line": 57,
+            "count": 0
+          },
+          {
+            "line": 58,
+            "count": 0
+          },
+          {
+            "line": 59,
+            "count": 0
+          },
+          {
+            "line": 60,
+            "count": 0
+          },
+          {
+            "line": 61,
+            "count": 0
+          },
+          {
+            "line": 62,
+            "count": 0
+          },
+          {
+            "line": 63,
+            "count": 0
+          },
+          {
+            "line": 64,
+            "count": 0
+          },
+          {
+            "line": 65,
+            "count": 0
+          },
+          {
+            "line": 66,
+            "count": 0
+          },
+          {
+            "line": 67,
+            "count": 0
+          },
+          {
+            "line": 68,
+            "count": 0
+          },
+          {
+            "line": 69,
+            "count": 0
+          },
+          {
+            "line": 70,
+            "count": 0
+          },
+          {
+            "line": 71,
+            "count": 0
+          },
+          {
+            "line": 72,
+            "count": 0
+          },
+          {
+            "line": 73,
+            "count": 0
+          },
+          {
+            "line": 74,
+            "count": 0
+          },
+          {
+            "line": 75,
+            "count": 0
+          }
+        ]
+      }
+    ],
+    "totals": {
+      "totalLineCount": 75,
+      "totalBranchCount": 16,
+      "totalFunctionCount": 6,
+      "coveredLineCount": 34,
+      "coveredBranchCount": 16,
+      "coveredFunctionCount": 1,
+      "coveredLinePercent": 45.33333333333333,
+      "coveredBranchPercent": 100,
+      "coveredFunctionPercent": 16.666666666666664
+    },
+    "thresholds": {
+      "line": 0,
+      "branch": 0,
+      "function": 0
+    }
+  }
+}

@@ -1,0 +1,2909 @@
+{
+  "file": "src/slot-search.mjs",
+  "before": {
+    "total": 429,
+    "counts": {
+      "Killed": 333,
+      "Survived": 92,
+      "Timeout": 4
+    },
+    "operators": {
+      "StringLiteral": {
+        "Killed": 18,
+        "Survived": 22
+      },
+      "ObjectLiteral": {
+        "Killed": 4,
+        "Survived": 1
+      },
+      "ArrowFunction": {
+        "Killed": 17,
+        "Survived": 1
+      },
+      "ConditionalExpression": {
+        "Killed": 109,
+        "Survived": 33
+      },
+      "LogicalOperator": {
+        "Survived": 17,
+        "Killed": 31
+      },
+      "EqualityOperator": {
+        "Killed": 57,
+        "Survived": 4,
+        "Timeout": 2
+      },
+      "BooleanLiteral": {
+        "Killed": 10
+      },
+      "MethodExpression": {
+        "Survived": 5,
+        "Killed": 14
+      },
+      "ArithmeticOperator": {
+        "Killed": 20,
+        "Survived": 2
+      },
+      "BlockStatement": {
+        "Killed": 20
+      },
+      "CallExpression": {
+        "Killed": 4,
+        "Survived": 1
+      },
+      "Regex": {
+        "Survived": 3,
+        "Killed": 11
+      },
+      "ArrayDeclaration": {
+        "Killed": 15,
+        "Survived": 2
+      },
+      "UnaryOperator": {
+        "Survived": 1
+      },
+      "AssignmentOperator": {
+        "Timeout": 2,
+        "Killed": 3
+      }
+    },
+    "msi": 77.62237762237763,
+    "mccByLine": 100,
+    "coveredCodeMsiByLine": 77.62237762237763,
+    "lcc": 100,
+    "survivors": [
+      {
+        "id": "7",
+        "mutatorName": "ConditionalExpression",
+        "location": {
+          "end": {
+            "column": 81,
+            "line": 3
+          },
+          "start": {
+            "column": 21,
+            "line": 3
+          }
+        },
+        "replacement": "true"
+      },
+      {
+        "id": "9",
+        "mutatorName": "LogicalOperator",
+        "location": {
+          "end": {
+            "column": 81,
+            "line": 3
+          },
+          "start": {
+            "column": 21,
+            "line": 3
+          }
+        },
+        "replacement": "value !== null && typeof value === 'object' || !Array.isArray(value)"
+      },
+      {
+        "id": "10",
+        "mutatorName": "ConditionalExpression",
+        "location": {
+          "end": {
+            "column": 58,
+            "line": 3
+          },
+          "start": {
+            "column": 21,
+            "line": 3
+          }
+        },
+        "replacement": "true"
+      },
+      {
+        "id": "11",
+        "mutatorName": "LogicalOperator",
+        "location": {
+          "end": {
+            "column": 58,
+            "line": 3
+          },
+          "start": {
+            "column": 21,
+            "line": 3
+          }
+        },
+        "replacement": "value !== null || typeof value === 'object'"
+      },
+      {
+        "id": "12",
+        "mutatorName": "ConditionalExpression",
+        "location": {
+          "end": {
+            "column": 33,
+            "line": 3
+          },
+          "start": {
+            "column": 21,
+            "line": 3
+          }
+        },
+        "replacement": "true"
+      },
+      {
+        "id": "14",
+        "mutatorName": "ConditionalExpression",
+        "location": {
+          "end": {
+            "column": 58,
+            "line": 3
+          },
+          "start": {
+            "column": 35,
+            "line": 3
+          }
+        },
+        "replacement": "true"
+      },
+      {
+        "id": "19",
+        "mutatorName": "ConditionalExpression",
+        "location": {
+          "end": {
+            "column": 65,
+            "line": 4
+          },
+          "start": {
+            "column": 19,
+            "line": 4
+          }
+        },
+        "replacement": "true"
+      },
+      {
+        "id": "21",
+        "mutatorName": "LogicalOperator",
+        "location": {
+          "end": {
+            "column": 65,
+            "line": 4
+          },
+          "start": {
+            "column": 19,
+            "line": 4
+          }
+        },
+        "replacement": "typeof value === 'string' || value.trim().length > 0"
+      },
+      {
+        "id": "22",
+        "mutatorName": "ConditionalExpression",
+        "location": {
+          "end": {
+            "column": 42,
+            "line": 4
+          },
+          "start": {
+            "column": 19,
+            "line": 4
+          }
+        },
+        "replacement": "true"
+      },
+      {
+        "id": "25",
+        "mutatorName": "ConditionalExpression",
+        "location": {
+          "end": {
+            "column": 65,
+            "line": 4
+          },
+          "start": {
+            "column": 44,
+            "line": 4
+          }
+        },
+        "replacement": "true"
+      },
+      {
+        "id": "26",
+        "mutatorName": "EqualityOperator",
+        "location": {
+          "end": {
+            "column": 65,
+            "line": 4
+          },
+          "start": {
+            "column": 44,
+            "line": 4
+          }
+        },
+        "replacement": "value.trim().length >= 0"
+      },
+      {
+        "id": "28",
+        "mutatorName": "MethodExpression",
+        "location": {
+          "end": {
+            "column": 56,
+            "line": 4
+          },
+          "start": {
+            "column": 44,
+            "line": 4
+          }
+        },
+        "replacement": "value"
+      },
+      {
+        "id": "33",
+        "mutatorName": "ConditionalExpression",
+        "location": {
+          "end": {
+            "column": 67,
+            "line": 5
+          },
+          "start": {
+            "column": 21,
+            "line": 5
+          }
+        },
+        "replacement": "true"
+      },
+      {
+        "id": "34",
+        "mutatorName": "LogicalOperator",
+        "location": {
+          "end": {
+            "column": 67,
+            "line": 5
+          },
+          "start": {
+            "column": 21,
+            "line": 5
+          }
+        },
+        "replacement": "Number.isInteger(value) && value >= 0 || value <= 1440"
+      },
+      {
+        "id": "35",
+        "mutatorName": "ConditionalExpression",
+        "location": {
+          "end": {
+            "column": 54,
+            "line": 5
+          },
+          "start": {
+            "column": 21,
+            "line": 5
+          }
+        },
+        "replacement": "true"
+      },
+      {
+        "id": "36",
+        "mutatorName": "LogicalOperator",
+        "location": {
+          "end": {
+            "column": 54,
+            "line": 5
+          },
+          "start": {
+            "column": 21,
+            "line": 5
+          }
+        },
+        "replacement": "Number.isInteger(value) || value >= 0"
+      },
+      {
+        "id": "37",
+        "mutatorName": "ConditionalExpression",
+        "location": {
+          "end": {
+            "column": 54,
+            "line": 5
+          },
+          "start": {
+            "column": 46,
+            "line": 5
+          }
+        },
+        "replacement": "true"
+      },
+      {
+        "id": "40",
+        "mutatorName": "ConditionalExpression",
+        "location": {
+          "end": {
+            "column": 67,
+            "line": 5
+          },
+          "start": {
+            "column": 56,
+            "line": 5
+          }
+        },
+        "replacement": "true"
+      },
+      {
+        "id": "53",
+        "mutatorName": "ConditionalExpression",
+        "location": {
+          "end": {
+            "column": 64,
+            "line": 8
+          },
+          "start": {
+            "column": 5,
+            "line": 8
+          }
+        },
+        "replacement": "false"
+      },
+      {
+        "id": "54",
+        "mutatorName": "LogicalOperator",
+        "location": {
+          "end": {
+            "column": 64,
+            "line": 8
+          },
+          "start": {
+            "column": 5,
+            "line": 8
+          }
+        },
+        "replacement": "typeof value !== 'string' && !/^\\d{4}-\\d{2}-\\d{2}$/.test(value)"
+      },
+      {
+        "id": "55",
+        "mutatorName": "ConditionalExpression",
+        "location": {
+          "end": {
+            "column": 28,
+            "line": 8
+          },
+          "start": {
+            "column": 5,
+            "line": 8
+          }
+        },
+        "replacement": "false"
+      },
+      {
+        "id": "59",
+        "mutatorName": "Regex",
+        "location": {
+          "end": {
+            "column": 52,
+            "line": 8
+          },
+          "start": {
+            "column": 31,
+            "line": 8
+          }
+        },
+        "replacement": "/\\d{4}-\\d{2}-\\d{2}$/"
+      },
+      {
+        "id": "60",
+        "mutatorName": "Regex",
+        "location": {
+          "end": {
+            "column": 52,
+            "line": 8
+          },
+          "start": {
+            "column": 31,
+            "line": 8
+          }
+        },
+        "replacement": "/^\\d{4}-\\d{2}-\\d{2}/"
+      },
+      {
+        "id": "68",
+        "mutatorName": "StringLiteral",
+        "location": {
+          "end": {
+            "column": 40,
+            "line": 9
+          },
+          "start": {
+            "column": 28,
+            "line": 9
+          }
+        },
+        "replacement": "\"\""
+      },
+      {
+        "id": "77",
+        "mutatorName": "ConditionalExpression",
+        "location": {
+          "end": {
+            "column": 51,
+            "line": 12
+          },
+          "start": {
+            "column": 15,
+            "line": 12
+          }
+        },
+        "replacement": "true"
+      },
+      {
+        "id": "79",
+        "mutatorName": "LogicalOperator",
+        "location": {
+          "end": {
+            "column": 51,
+            "line": 12
+          },
+          "start": {
+            "column": 15,
+            "line": 12
+          }
+        },
+        "replacement": "object(input) || object(input.request)"
+      },
+      {
+        "id": "80",
+        "mutatorName": "StringLiteral",
+        "location": {
+          "end": {
+            "column": 87,
+            "line": 12
+          },
+          "start": {
+            "column": 52,
+            "line": 12
+          }
+        },
+        "replacement": "\"\""
+      },
+      {
+        "id": "85",
+        "mutatorName": "ConditionalExpression",
+        "location": {
+          "end": {
+            "column": 42,
+            "line": 13
+          },
+          "start": {
+            "column": 15,
+            "line": 13
+          }
+        },
+        "replacement": "true"
+      },
+      {
+        "id": "88",
+        "mutatorName": "Regex",
+        "location": {
+          "end": {
+            "column": 68,
+            "line": 13
+          },
+          "start": {
+            "column": 44,
+            "line": 13
+          }
+        },
+        "replacement": "/(?:Z|[+-]\\d{2}:\\d{2})/"
+      },
+      {
+        "id": "94",
+        "mutatorName": "StringLiteral",
+        "location": {
+          "end": {
+            "column": 117,
+            "line": 13
+          },
+          "start": {
+            "column": 85,
+            "line": 13
+          }
+        },
+        "replacement": "\"\""
+      },
+      {
+        "id": "96",
+        "mutatorName": "StringLiteral",
+        "location": {
+          "end": {
+            "column": 98,
+            "line": 14
+          },
+          "start": {
+            "column": 76,
+            "line": 14
+          }
+        },
+        "replacement": "\"\""
+      },
+      {
+        "id": "101",
+        "mutatorName": "LogicalOperator",
+        "location": {
+          "end": {
+            "column": 97,
+            "line": 16
+          },
+          "start": {
+            "column": 73,
+            "line": 16
+          }
+        },
+        "replacement": "error && 'Invalid request'"
+      },
+      {
+        "id": "104",
+        "mutatorName": "StringLiteral",
+        "location": {
+          "end": {
+            "column": 147,
+            "line": 16
+          },
+          "start": {
+            "column": 126,
+            "line": 16
+          }
+        },
+        "replacement": "\"\""
+      },
+      {
+        "id": "102",
+        "mutatorName": "StringLiteral",
+        "location": {
+          "end": {
+            "column": 97,
+            "line": 16
+          },
+          "start": {
+            "column": 80,
+            "line": 16
+          }
+        },
+        "replacement": "\"\""
+      },
+      {
+        "id": "117",
+        "mutatorName": "ConditionalExpression",
+        "location": {
+          "end": {
+            "column": 120,
+            "line": 18
+          },
+          "start": {
+            "column": 92,
+            "line": 18
+          }
+        },
+        "replacement": "true"
+      },
+      {
+        "id": "118",
+        "mutatorName": "EqualityOperator",
+        "location": {
+          "end": {
+            "column": 120,
+            "line": 18
+          },
+          "start": {
+            "column": 92,
+            "line": 18
+          }
+        },
+        "replacement": "hours.opensAt <= hours.closesAt"
+      },
+      {
+        "id": "120",
+        "mutatorName": "StringLiteral",
+        "location": {
+          "end": {
+            "column": 145,
+            "line": 18
+          },
+          "start": {
+            "column": 122,
+            "line": 18
+          }
+        },
+        "replacement": "\"\""
+      },
+      {
+        "id": "121",
+        "mutatorName": "ObjectLiteral",
+        "location": {
+          "end": {
+            "column": 76,
+            "line": 19
+          },
+          "start": {
+            "column": 42,
+            "line": 19
+          }
+        },
+        "replacement": "{}"
+      },
+      {
+        "id": "123",
+        "mutatorName": "StringLiteral",
+        "location": {
+          "end": {
+            "column": 135,
+            "line": 19
+          },
+          "start": {
+            "column": 116,
+            "line": 19
+          }
+        },
+        "replacement": "\"\""
+      },
+      {
+        "id": "129",
+        "mutatorName": "ConditionalExpression",
+        "location": {
+          "end": {
+            "column": 61,
+            "line": 22
+          },
+          "start": {
+            "column": 16,
+            "line": 22
+          }
+        },
+        "replacement": "true"
+      },
+      {
+        "id": "130",
+        "mutatorName": "LogicalOperator",
+        "location": {
+          "end": {
+            "column": 61,
+            "line": 22
+          },
+          "start": {
+            "column": 16,
+            "line": 22
+          }
+        },
+        "replacement": "object(c) && Number.isSafeInteger(c.id) || c.id > 0"
+      },
+      {
+        "id": "131",
+        "mutatorName": "ConditionalExpression",
+        "location": {
+          "end": {
+            "column": 53,
+            "line": 22
+          },
+          "start": {
+            "column": 16,
+            "line": 22
+          }
+        },
+        "replacement": "true"
+      },
+      {
+        "id": "132",
+        "mutatorName": "LogicalOperator",
+        "location": {
+          "end": {
+            "column": 53,
+            "line": 22
+          },
+          "start": {
+            "column": 16,
+            "line": 22
+          }
+        },
+        "replacement": "object(c) || Number.isSafeInteger(c.id)"
+      },
+      {
+        "id": "133",
+        "mutatorName": "ConditionalExpression",
+        "location": {
+          "end": {
+            "column": 61,
+            "line": 22
+          },
+          "start": {
+            "column": 55,
+            "line": 22
+          }
+        },
+        "replacement": "true"
+      },
+      {
+        "id": "134",
+        "mutatorName": "EqualityOperator",
+        "location": {
+          "end": {
+            "column": 61,
+            "line": 22
+          },
+          "start": {
+            "column": 55,
+            "line": 22
+          }
+        },
+        "replacement": "c.id >= 0"
+      },
+      {
+        "id": "137",
+        "mutatorName": "StringLiteral",
+        "location": {
+          "end": {
+            "column": 117,
+            "line": 22
+          },
+          "start": {
+            "column": 78,
+            "line": 22
+          }
+        },
+        "replacement": "\"\""
+      },
+      {
+        "id": "140",
+        "mutatorName": "ConditionalExpression",
+        "location": {
+          "end": {
+            "column": 122,
+            "line": 23
+          },
+          "start": {
+            "column": 16,
+            "line": 23
+          }
+        },
+        "replacement": "true"
+      },
+      {
+        "id": "142",
+        "mutatorName": "LogicalOperator",
+        "location": {
+          "end": {
+            "column": 122,
+            "line": 23
+          },
+          "start": {
+            "column": 16,
+            "line": 23
+          }
+        },
+        "replacement": "Array.isArray(c.sports) && c.sports.length > 0 && c.sports.every(word) || new Set(c.sports).size === c.sports.length"
+      },
+      {
+        "id": "143",
+        "mutatorName": "ConditionalExpression",
+        "location": {
+          "end": {
+            "column": 80,
+            "line": 23
+          },
+          "start": {
+            "column": 16,
+            "line": 23
+          }
+        },
+        "replacement": "true"
+      },
+      {
+        "id": "145",
+        "mutatorName": "ConditionalExpression",
+        "location": {
+          "end": {
+            "column": 58,
+            "line": 23
+          },
+          "start": {
+            "column": 16,
+            "line": 23
+          }
+        },
+        "replacement": "true"
+      },
+      {
+        "id": "144",
+        "mutatorName": "LogicalOperator",
+        "location": {
+          "end": {
+            "column": 80,
+            "line": 23
+          },
+          "start": {
+            "column": 16,
+            "line": 23
+          }
+        },
+        "replacement": "Array.isArray(c.sports) && c.sports.length > 0 || c.sports.every(word)"
+      },
+      {
+        "id": "146",
+        "mutatorName": "LogicalOperator",
+        "location": {
+          "end": {
+            "column": 58,
+            "line": 23
+          },
+          "start": {
+            "column": 16,
+            "line": 23
+          }
+        },
+        "replacement": "Array.isArray(c.sports) || c.sports.length > 0"
+      },
+      {
+        "id": "147",
+        "mutatorName": "ConditionalExpression",
+        "location": {
+          "end": {
+            "column": 58,
+            "line": 23
+          },
+          "start": {
+            "column": 41,
+            "line": 23
+          }
+        },
+        "replacement": "true"
+      },
+      {
+        "id": "148",
+        "mutatorName": "EqualityOperator",
+        "location": {
+          "end": {
+            "column": 58,
+            "line": 23
+          },
+          "start": {
+            "column": 41,
+            "line": 23
+          }
+        },
+        "replacement": "c.sports.length >= 0"
+      },
+      {
+        "id": "150",
+        "mutatorName": "MethodExpression",
+        "location": {
+          "end": {
+            "column": 80,
+            "line": 23
+          },
+          "start": {
+            "column": 60,
+            "line": 23
+          }
+        },
+        "replacement": "c.sports.some(word)"
+      },
+      {
+        "id": "151",
+        "mutatorName": "ConditionalExpression",
+        "location": {
+          "end": {
+            "column": 122,
+            "line": 23
+          },
+          "start": {
+            "column": 82,
+            "line": 23
+          }
+        },
+        "replacement": "true"
+      },
+      {
+        "id": "153",
+        "mutatorName": "StringLiteral",
+        "location": {
+          "end": {
+            "column": 145,
+            "line": 23
+          },
+          "start": {
+            "column": 123,
+            "line": 23
+          }
+        },
+        "replacement": "\"\""
+      },
+      {
+        "id": "158",
+        "mutatorName": "StringLiteral",
+        "location": {
+          "end": {
+            "column": 57,
+            "line": 25
+          },
+          "start": {
+            "column": 50,
+            "line": 25
+          }
+        },
+        "replacement": "\"\""
+      },
+      {
+        "id": "172",
+        "mutatorName": "ConditionalExpression",
+        "location": {
+          "end": {
+            "column": 161,
+            "line": 26
+          },
+          "start": {
+            "column": 110,
+            "line": 26
+          }
+        },
+        "replacement": "true"
+      },
+      {
+        "id": "175",
+        "mutatorName": "ArithmeticOperator",
+        "location": {
+          "end": {
+            "column": 135,
+            "line": 26
+          },
+          "start": {
+            "column": 110,
+            "line": 26
+          }
+        },
+        "replacement": "b.endMinute + b.startMinute"
+      },
+      {
+        "id": "177",
+        "mutatorName": "ConditionalExpression",
+        "location": {
+          "end": {
+            "column": 154,
+            "line": 26
+          },
+          "start": {
+            "column": 138,
+            "line": 26
+          }
+        },
+        "replacement": "false"
+      },
+      {
+        "id": "179",
+        "mutatorName": "StringLiteral",
+        "location": {
+          "end": {
+            "column": 154,
+            "line": 26
+          },
+          "start": {
+            "column": 145,
+            "line": 26
+          }
+        },
+        "replacement": "\"\""
+      },
+      {
+        "id": "180",
+        "mutatorName": "StringLiteral",
+        "location": {
+          "end": {
+            "column": 172,
+            "line": 26
+          },
+          "start": {
+            "column": 162,
+            "line": 26
+          }
+        },
+        "replacement": "\"\""
+      },
+      {
+        "id": "181",
+        "mutatorName": "StringLiteral",
+        "location": {
+          "end": {
+            "column": 201,
+            "line": 26
+          },
+          "start": {
+            "column": 178,
+            "line": 26
+          }
+        },
+        "replacement": "\"\""
+      },
+      {
+        "id": "194",
+        "mutatorName": "StringLiteral",
+        "location": {
+          "end": {
+            "column": 124,
+            "line": 27
+          },
+          "start": {
+            "column": 115,
+            "line": 27
+          }
+        },
+        "replacement": "\"\""
+      },
+      {
+        "id": "193",
+        "mutatorName": "StringLiteral",
+        "location": {
+          "end": {
+            "column": 109,
+            "line": 27
+          },
+          "start": {
+            "column": 99,
+            "line": 27
+          }
+        },
+        "replacement": "\"\""
+      },
+      {
+        "id": "196",
+        "mutatorName": "ConditionalExpression",
+        "location": {
+          "end": {
+            "column": 22,
+            "line": 28
+          },
+          "start": {
+            "column": 6,
+            "line": 28
+          }
+        },
+        "replacement": "false"
+      },
+      {
+        "id": "198",
+        "mutatorName": "StringLiteral",
+        "location": {
+          "end": {
+            "column": 22,
+            "line": 28
+          },
+          "start": {
+            "column": 13,
+            "line": 28
+          }
+        },
+        "replacement": "\"\""
+      },
+      {
+        "id": "200",
+        "mutatorName": "StringLiteral",
+        "location": {
+          "end": {
+            "column": 81,
+            "line": 28
+          },
+          "start": {
+            "column": 52,
+            "line": 28
+          }
+        },
+        "replacement": "\"\""
+      },
+      {
+        "id": "208",
+        "mutatorName": "ConditionalExpression",
+        "location": {
+          "end": {
+            "column": 50,
+            "line": 32
+          },
+          "start": {
+            "column": 16,
+            "line": 32
+          }
+        },
+        "replacement": "true"
+      },
+      {
+        "id": "209",
+        "mutatorName": "LogicalOperator",
+        "location": {
+          "end": {
+            "column": 50,
+            "line": 32
+          },
+          "start": {
+            "column": 16,
+            "line": 32
+          }
+        },
+        "replacement": "object(link) || ids.has(link.courtA)"
+      },
+      {
+        "id": "212",
+        "mutatorName": "StringLiteral",
+        "location": {
+          "end": {
+            "column": 129,
+            "line": 32
+          },
+          "start": {
+            "column": 100,
+            "line": 32
+          }
+        },
+        "replacement": "\"\""
+      },
+      {
+        "id": "213",
+        "mutatorName": "MethodExpression",
+        "location": {
+          "end": {
+            "column": 55,
+            "line": 33
+          },
+          "start": {
+            "column": 13,
+            "line": 33
+          }
+        },
+        "replacement": "[link.courtA, link.courtB]"
+      },
+      {
+        "id": "215",
+        "mutatorName": "ArrowFunction",
+        "location": {
+          "end": {
+            "column": 54,
+            "line": 33
+          },
+          "start": {
+            "column": 44,
+            "line": 33
+          }
+        },
+        "replacement": "() => undefined"
+      },
+      {
+        "id": "216",
+        "mutatorName": "ArithmeticOperator",
+        "location": {
+          "end": {
+            "column": 54,
+            "line": 33
+          },
+          "start": {
+            "column": 51,
+            "line": 33
+          }
+        },
+        "replacement": "a + b"
+      },
+      {
+        "id": "217",
+        "mutatorName": "StringLiteral",
+        "location": {
+          "end": {
+            "column": 64,
+            "line": 33
+          },
+          "start": {
+            "column": 61,
+            "line": 33
+          }
+        },
+        "replacement": "\"\""
+      },
+      {
+        "id": "220",
+        "mutatorName": "StringLiteral",
+        "location": {
+          "end": {
+            "column": 116,
+            "line": 33
+          },
+          "start": {
+            "column": 95,
+            "line": 33
+          }
+        },
+        "replacement": "\"\""
+      },
+      {
+        "id": "223",
+        "mutatorName": "ConditionalExpression",
+        "location": {
+          "end": {
+            "column": 135,
+            "line": 34
+          },
+          "start": {
+            "column": 16,
+            "line": 34
+          }
+        },
+        "replacement": "true"
+      },
+      {
+        "id": "221",
+        "mutatorName": "CallExpression",
+        "location": {
+          "end": {
+            "column": 133,
+            "line": 33
+          },
+          "start": {
+            "column": 118,
+            "line": 33
+          }
+        },
+        "replacement": ";"
+      },
+      {
+        "id": "225",
+        "mutatorName": "LogicalOperator",
+        "location": {
+          "end": {
+            "column": 135,
+            "line": 34
+          },
+          "start": {
+            "column": 16,
+            "line": 34
+          }
+        },
+        "replacement": "Array.isArray(link.allowedPairs) || link.allowedPairs.every(pair => Array.isArray(pair) && pair.length === 2 && pair.every(word))"
+      },
+      {
+        "id": "228",
+        "mutatorName": "ConditionalExpression",
+        "location": {
+          "end": {
+            "column": 134,
+            "line": 34
+          },
+          "start": {
+            "column": 80,
+            "line": 34
+          }
+        },
+        "replacement": "true"
+      },
+      {
+        "id": "230",
+        "mutatorName": "LogicalOperator",
+        "location": {
+          "end": {
+            "column": 134,
+            "line": 34
+          },
+          "start": {
+            "column": 80,
+            "line": 34
+          }
+        },
+        "replacement": "Array.isArray(pair) && pair.length === 2 || pair.every(word)"
+      },
+      {
+        "id": "231",
+        "mutatorName": "ConditionalExpression",
+        "location": {
+          "end": {
+            "column": 116,
+            "line": 34
+          },
+          "start": {
+            "column": 80,
+            "line": 34
+          }
+        },
+        "replacement": "true"
+      },
+      {
+        "id": "233",
+        "mutatorName": "ConditionalExpression",
+        "location": {
+          "end": {
+            "column": 116,
+            "line": 34
+          },
+          "start": {
+            "column": 101,
+            "line": 34
+          }
+        },
+        "replacement": "true"
+      },
+      {
+        "id": "232",
+        "mutatorName": "LogicalOperator",
+        "location": {
+          "end": {
+            "column": 116,
+            "line": 34
+          },
+          "start": {
+            "column": 80,
+            "line": 34
+          }
+        },
+        "replacement": "Array.isArray(pair) || pair.length === 2"
+      },
+      {
+        "id": "235",
+        "mutatorName": "MethodExpression",
+        "location": {
+          "end": {
+            "column": 134,
+            "line": 34
+          },
+          "start": {
+            "column": 118,
+            "line": 34
+          }
+        },
+        "replacement": "pair.some(word)"
+      },
+      {
+        "id": "236",
+        "mutatorName": "StringLiteral",
+        "location": {
+          "end": {
+            "column": 165,
+            "line": 34
+          },
+          "start": {
+            "column": 136,
+            "line": 34
+          }
+        },
+        "replacement": "\"\""
+      },
+      {
+        "id": "240",
+        "mutatorName": "MethodExpression",
+        "location": {
+          "end": {
+            "column": 97,
+            "line": 37
+          },
+          "start": {
+            "column": 45,
+            "line": 37
+          }
+        },
+        "replacement": "courts.filter(c => c.sports.includes(sportId))"
+      },
+      {
+        "id": "263",
+        "mutatorName": "ConditionalExpression",
+        "location": {
+          "end": {
+            "column": 125,
+            "line": 38
+          },
+          "start": {
+            "column": 112,
+            "line": 38
+          }
+        },
+        "replacement": "true"
+      },
+      {
+        "id": "270",
+        "mutatorName": "UnaryOperator",
+        "location": {
+          "end": {
+            "column": 55,
+            "line": 39
+          },
+          "start": {
+            "column": 53,
+            "line": 39
+          }
+        },
+        "replacement": "+1"
+      },
+      {
+        "id": "400",
+        "mutatorName": "ArrayDeclaration",
+        "location": {
+          "end": {
+            "column": 108,
+            "line": 74
+          },
+          "start": {
+            "column": 106,
+            "line": 74
+          }
+        },
+        "replacement": "[\"Stryker was here\"]"
+      },
+      {
+        "id": "419",
+        "mutatorName": "ArrayDeclaration",
+        "location": {
+          "end": {
+            "column": 44,
+            "line": 84
+          },
+          "start": {
+            "column": 42,
+            "line": 84
+          }
+        },
+        "replacement": "[\"Stryker was here\"]"
+      }
+    ]
+  },
+  "after": {
+    "total": 429,
+    "counts": {
+      "Killed": 404,
+      "Survived": 21,
+      "Timeout": 4
+    },
+    "operators": {
+      "StringLiteral": {
+        "Killed": 34,
+        "Survived": 6
+      },
+      "ObjectLiteral": {
+        "Killed": 5
+      },
+      "ArrowFunction": {
+        "Killed": 18
+      },
+      "ConditionalExpression": {
+        "Killed": 137,
+        "Survived": 5
+      },
+      "LogicalOperator": {
+        "Killed": 45,
+        "Survived": 3
+      },
+      "EqualityOperator": {
+        "Killed": 61,
+        "Timeout": 2
+      },
+      "BooleanLiteral": {
+        "Killed": 10
+      },
+      "MethodExpression": {
+        "Killed": 17,
+        "Survived": 2
+      },
+      "ArithmeticOperator": {
+        "Killed": 22
+      },
+      "BlockStatement": {
+        "Killed": 20
+      },
+      "CallExpression": {
+        "Killed": 5
+      },
+      "Regex": {
+        "Survived": 3,
+        "Killed": 11
+      },
+      "ArrayDeclaration": {
+        "Killed": 15,
+        "Survived": 2
+      },
+      "UnaryOperator": {
+        "Killed": 1
+      },
+      "AssignmentOperator": {
+        "Timeout": 2,
+        "Killed": 3
+      }
+    },
+    "msi": 94.17249417249417,
+    "mccByLine": 100,
+    "coveredCodeMsiByLine": 94.17249417249417,
+    "lcc": 100,
+    "survivors": [
+      {
+        "id": "22",
+        "mutatorName": "ConditionalExpression",
+        "location": {
+          "end": {
+            "column": 42,
+            "line": 4
+          },
+          "start": {
+            "column": 19,
+            "line": 4
+          }
+        },
+        "replacement": "true"
+      },
+      {
+        "id": "55",
+        "mutatorName": "ConditionalExpression",
+        "location": {
+          "end": {
+            "column": 28,
+            "line": 8
+          },
+          "start": {
+            "column": 5,
+            "line": 8
+          }
+        },
+        "replacement": "false"
+      },
+      {
+        "id": "53",
+        "mutatorName": "ConditionalExpression",
+        "location": {
+          "end": {
+            "column": 64,
+            "line": 8
+          },
+          "start": {
+            "column": 5,
+            "line": 8
+          }
+        },
+        "replacement": "false"
+      },
+      {
+        "id": "54",
+        "mutatorName": "LogicalOperator",
+        "location": {
+          "end": {
+            "column": 64,
+            "line": 8
+          },
+          "start": {
+            "column": 5,
+            "line": 8
+          }
+        },
+        "replacement": "typeof value !== 'string' && !/^\\d{4}-\\d{2}-\\d{2}$/.test(value)"
+      },
+      {
+        "id": "60",
+        "mutatorName": "Regex",
+        "location": {
+          "end": {
+            "column": 52,
+            "line": 8
+          },
+          "start": {
+            "column": 31,
+            "line": 8
+          }
+        },
+        "replacement": "/^\\d{4}-\\d{2}-\\d{2}/"
+      },
+      {
+        "id": "59",
+        "mutatorName": "Regex",
+        "location": {
+          "end": {
+            "column": 52,
+            "line": 8
+          },
+          "start": {
+            "column": 31,
+            "line": 8
+          }
+        },
+        "replacement": "/\\d{4}-\\d{2}-\\d{2}$/"
+      },
+      {
+        "id": "68",
+        "mutatorName": "StringLiteral",
+        "location": {
+          "end": {
+            "column": 40,
+            "line": 9
+          },
+          "start": {
+            "column": 28,
+            "line": 9
+          }
+        },
+        "replacement": "\"\""
+      },
+      {
+        "id": "85",
+        "mutatorName": "ConditionalExpression",
+        "location": {
+          "end": {
+            "column": 42,
+            "line": 13
+          },
+          "start": {
+            "column": 15,
+            "line": 13
+          }
+        },
+        "replacement": "true"
+      },
+      {
+        "id": "88",
+        "mutatorName": "Regex",
+        "location": {
+          "end": {
+            "column": 68,
+            "line": 13
+          },
+          "start": {
+            "column": 44,
+            "line": 13
+          }
+        },
+        "replacement": "/(?:Z|[+-]\\d{2}:\\d{2})/"
+      },
+      {
+        "id": "96",
+        "mutatorName": "StringLiteral",
+        "location": {
+          "end": {
+            "column": 98,
+            "line": 14
+          },
+          "start": {
+            "column": 76,
+            "line": 14
+          }
+        },
+        "replacement": "\"\""
+      },
+      {
+        "id": "94",
+        "mutatorName": "StringLiteral",
+        "location": {
+          "end": {
+            "column": 117,
+            "line": 13
+          },
+          "start": {
+            "column": 85,
+            "line": 13
+          }
+        },
+        "replacement": "\"\""
+      },
+      {
+        "id": "101",
+        "mutatorName": "LogicalOperator",
+        "location": {
+          "end": {
+            "column": 97,
+            "line": 16
+          },
+          "start": {
+            "column": 73,
+            "line": 16
+          }
+        },
+        "replacement": "error && 'Invalid request'"
+      },
+      {
+        "id": "102",
+        "mutatorName": "StringLiteral",
+        "location": {
+          "end": {
+            "column": 97,
+            "line": 16
+          },
+          "start": {
+            "column": 80,
+            "line": 16
+          }
+        },
+        "replacement": "\"\""
+      },
+      {
+        "id": "208",
+        "mutatorName": "ConditionalExpression",
+        "location": {
+          "end": {
+            "column": 50,
+            "line": 32
+          },
+          "start": {
+            "column": 16,
+            "line": 32
+          }
+        },
+        "replacement": "true"
+      },
+      {
+        "id": "209",
+        "mutatorName": "LogicalOperator",
+        "location": {
+          "end": {
+            "column": 50,
+            "line": 32
+          },
+          "start": {
+            "column": 16,
+            "line": 32
+          }
+        },
+        "replacement": "object(link) || ids.has(link.courtA)"
+      },
+      {
+        "id": "212",
+        "mutatorName": "StringLiteral",
+        "location": {
+          "end": {
+            "column": 129,
+            "line": 32
+          },
+          "start": {
+            "column": 100,
+            "line": 32
+          }
+        },
+        "replacement": "\"\""
+      },
+      {
+        "id": "217",
+        "mutatorName": "StringLiteral",
+        "location": {
+          "end": {
+            "column": 64,
+            "line": 33
+          },
+          "start": {
+            "column": 61,
+            "line": 33
+          }
+        },
+        "replacement": "\"\""
+      },
+      {
+        "id": "235",
+        "mutatorName": "MethodExpression",
+        "location": {
+          "end": {
+            "column": 134,
+            "line": 34
+          },
+          "start": {
+            "column": 118,
+            "line": 34
+          }
+        },
+        "replacement": "pair.some(word)"
+      },
+      {
+        "id": "240",
+        "mutatorName": "MethodExpression",
+        "location": {
+          "end": {
+            "column": 97,
+            "line": 37
+          },
+          "start": {
+            "column": 45,
+            "line": 37
+          }
+        },
+        "replacement": "courts.filter(c => c.sports.includes(sportId))"
+      },
+      {
+        "id": "400",
+        "mutatorName": "ArrayDeclaration",
+        "location": {
+          "end": {
+            "column": 108,
+            "line": 74
+          },
+          "start": {
+            "column": 106,
+            "line": 74
+          }
+        },
+        "replacement": "[\"Stryker was here\"]"
+      },
+      {
+        "id": "419",
+        "mutatorName": "ArrayDeclaration",
+        "location": {
+          "end": {
+            "column": 44,
+            "line": 84
+          },
+          "start": {
+            "column": 42,
+            "line": 84
+          }
+        },
+        "replacement": "[\"Stryker was here\"]"
+      }
+    ]
+  },
+  "improved": [
+    {
+      "id": "7",
+      "mutatorName": "ConditionalExpression",
+      "location": {
+        "end": {
+          "column": 81,
+          "line": 3
+        },
+        "start": {
+          "column": 21,
+          "line": 3
+        }
+      },
+      "replacement": "true"
+    },
+    {
+      "id": "9",
+      "mutatorName": "LogicalOperator",
+      "location": {
+        "end": {
+          "column": 81,
+          "line": 3
+        },
+        "start": {
+          "column": 21,
+          "line": 3
+        }
+      },
+      "replacement": "value !== null && typeof value === 'object' || !Array.isArray(value)"
+    },
+    {
+      "id": "10",
+      "mutatorName": "ConditionalExpression",
+      "location": {
+        "end": {
+          "column": 58,
+          "line": 3
+        },
+        "start": {
+          "column": 21,
+          "line": 3
+        }
+      },
+      "replacement": "true"
+    },
+    {
+      "id": "11",
+      "mutatorName": "LogicalOperator",
+      "location": {
+        "end": {
+          "column": 58,
+          "line": 3
+        },
+        "start": {
+          "column": 21,
+          "line": 3
+        }
+      },
+      "replacement": "value !== null || typeof value === 'object'"
+    },
+    {
+      "id": "12",
+      "mutatorName": "ConditionalExpression",
+      "location": {
+        "end": {
+          "column": 33,
+          "line": 3
+        },
+        "start": {
+          "column": 21,
+          "line": 3
+        }
+      },
+      "replacement": "true"
+    },
+    {
+      "id": "14",
+      "mutatorName": "ConditionalExpression",
+      "location": {
+        "end": {
+          "column": 58,
+          "line": 3
+        },
+        "start": {
+          "column": 35,
+          "line": 3
+        }
+      },
+      "replacement": "true"
+    },
+    {
+      "id": "19",
+      "mutatorName": "ConditionalExpression",
+      "location": {
+        "end": {
+          "column": 65,
+          "line": 4
+        },
+        "start": {
+          "column": 19,
+          "line": 4
+        }
+      },
+      "replacement": "true"
+    },
+    {
+      "id": "21",
+      "mutatorName": "LogicalOperator",
+      "location": {
+        "end": {
+          "column": 65,
+          "line": 4
+        },
+        "start": {
+          "column": 19,
+          "line": 4
+        }
+      },
+      "replacement": "typeof value === 'string' || value.trim().length > 0"
+    },
+    {
+      "id": "25",
+      "mutatorName": "ConditionalExpression",
+      "location": {
+        "end": {
+          "column": 65,
+          "line": 4
+        },
+        "start": {
+          "column": 44,
+          "line": 4
+        }
+      },
+      "replacement": "true"
+    },
+    {
+      "id": "26",
+      "mutatorName": "EqualityOperator",
+      "location": {
+        "end": {
+          "column": 65,
+          "line": 4
+        },
+        "start": {
+          "column": 44,
+          "line": 4
+        }
+      },
+      "replacement": "value.trim().length >= 0"
+    },
+    {
+      "id": "28",
+      "mutatorName": "MethodExpression",
+      "location": {
+        "end": {
+          "column": 56,
+          "line": 4
+        },
+        "start": {
+          "column": 44,
+          "line": 4
+        }
+      },
+      "replacement": "value"
+    },
+    {
+      "id": "33",
+      "mutatorName": "ConditionalExpression",
+      "location": {
+        "end": {
+          "column": 67,
+          "line": 5
+        },
+        "start": {
+          "column": 21,
+          "line": 5
+        }
+      },
+      "replacement": "true"
+    },
+    {
+      "id": "34",
+      "mutatorName": "LogicalOperator",
+      "location": {
+        "end": {
+          "column": 67,
+          "line": 5
+        },
+        "start": {
+          "column": 21,
+          "line": 5
+        }
+      },
+      "replacement": "Number.isInteger(value) && value >= 0 || value <= 1440"
+    },
+    {
+      "id": "35",
+      "mutatorName": "ConditionalExpression",
+      "location": {
+        "end": {
+          "column": 54,
+          "line": 5
+        },
+        "start": {
+          "column": 21,
+          "line": 5
+        }
+      },
+      "replacement": "true"
+    },
+    {
+      "id": "36",
+      "mutatorName": "LogicalOperator",
+      "location": {
+        "end": {
+          "column": 54,
+          "line": 5
+        },
+        "start": {
+          "column": 21,
+          "line": 5
+        }
+      },
+      "replacement": "Number.isInteger(value) || value >= 0"
+    },
+    {
+      "id": "37",
+      "mutatorName": "ConditionalExpression",
+      "location": {
+        "end": {
+          "column": 54,
+          "line": 5
+        },
+        "start": {
+          "column": 46,
+          "line": 5
+        }
+      },
+      "replacement": "true"
+    },
+    {
+      "id": "40",
+      "mutatorName": "ConditionalExpression",
+      "location": {
+        "end": {
+          "column": 67,
+          "line": 5
+        },
+        "start": {
+          "column": 56,
+          "line": 5
+        }
+      },
+      "replacement": "true"
+    },
+    {
+      "id": "77",
+      "mutatorName": "ConditionalExpression",
+      "location": {
+        "end": {
+          "column": 51,
+          "line": 12
+        },
+        "start": {
+          "column": 15,
+          "line": 12
+        }
+      },
+      "replacement": "true"
+    },
+    {
+      "id": "79",
+      "mutatorName": "LogicalOperator",
+      "location": {
+        "end": {
+          "column": 51,
+          "line": 12
+        },
+        "start": {
+          "column": 15,
+          "line": 12
+        }
+      },
+      "replacement": "object(input) || object(input.request)"
+    },
+    {
+      "id": "80",
+      "mutatorName": "StringLiteral",
+      "location": {
+        "end": {
+          "column": 87,
+          "line": 12
+        },
+        "start": {
+          "column": 52,
+          "line": 12
+        }
+      },
+      "replacement": "\"\""
+    },
+    {
+      "id": "104",
+      "mutatorName": "StringLiteral",
+      "location": {
+        "end": {
+          "column": 147,
+          "line": 16
+        },
+        "start": {
+          "column": 126,
+          "line": 16
+        }
+      },
+      "replacement": "\"\""
+    },
+    {
+      "id": "117",
+      "mutatorName": "ConditionalExpression",
+      "location": {
+        "end": {
+          "column": 120,
+          "line": 18
+        },
+        "start": {
+          "column": 92,
+          "line": 18
+        }
+      },
+      "replacement": "true"
+    },
+    {
+      "id": "118",
+      "mutatorName": "EqualityOperator",
+      "location": {
+        "end": {
+          "column": 120,
+          "line": 18
+        },
+        "start": {
+          "column": 92,
+          "line": 18
+        }
+      },
+      "replacement": "hours.opensAt <= hours.closesAt"
+    },
+    {
+      "id": "120",
+      "mutatorName": "StringLiteral",
+      "location": {
+        "end": {
+          "column": 145,
+          "line": 18
+        },
+        "start": {
+          "column": 122,
+          "line": 18
+        }
+      },
+      "replacement": "\"\""
+    },
+    {
+      "id": "121",
+      "mutatorName": "ObjectLiteral",
+      "location": {
+        "end": {
+          "column": 76,
+          "line": 19
+        },
+        "start": {
+          "column": 42,
+          "line": 19
+        }
+      },
+      "replacement": "{}"
+    },
+    {
+      "id": "123",
+      "mutatorName": "StringLiteral",
+      "location": {
+        "end": {
+          "column": 135,
+          "line": 19
+        },
+        "start": {
+          "column": 116,
+          "line": 19
+        }
+      },
+      "replacement": "\"\""
+    },
+    {
+      "id": "129",
+      "mutatorName": "ConditionalExpression",
+      "location": {
+        "end": {
+          "column": 61,
+          "line": 22
+        },
+        "start": {
+          "column": 16,
+          "line": 22
+        }
+      },
+      "replacement": "true"
+    },
+    {
+      "id": "130",
+      "mutatorName": "LogicalOperator",
+      "location": {
+        "end": {
+          "column": 61,
+          "line": 22
+        },
+        "start": {
+          "column": 16,
+          "line": 22
+        }
+      },
+      "replacement": "object(c) && Number.isSafeInteger(c.id) || c.id > 0"
+    },
+    {
+      "id": "131",
+      "mutatorName": "ConditionalExpression",
+      "location": {
+        "end": {
+          "column": 53,
+          "line": 22
+        },
+        "start": {
+          "column": 16,
+          "line": 22
+        }
+      },
+      "replacement": "true"
+    },
+    {
+      "id": "132",
+      "mutatorName": "LogicalOperator",
+      "location": {
+        "end": {
+          "column": 53,
+          "line": 22
+        },
+        "start": {
+          "column": 16,
+          "line": 22
+        }
+      },
+      "replacement": "object(c) || Number.isSafeInteger(c.id)"
+    },
+    {
+      "id": "133",
+      "mutatorName": "ConditionalExpression",
+      "location": {
+        "end": {
+          "column": 61,
+          "line": 22
+        },
+        "start": {
+          "column": 55,
+          "line": 22
+        }
+      },
+      "replacement": "true"
+    },
+    {
+      "id": "134",
+      "mutatorName": "EqualityOperator",
+      "location": {
+        "end": {
+          "column": 61,
+          "line": 22
+        },
+        "start": {
+          "column": 55,
+          "line": 22
+        }
+      },
+      "replacement": "c.id >= 0"
+    },
+    {
+      "id": "137",
+      "mutatorName": "StringLiteral",
+      "location": {
+        "end": {
+          "column": 117,
+          "line": 22
+        },
+        "start": {
+          "column": 78,
+          "line": 22
+        }
+      },
+      "replacement": "\"\""
+    },
+    {
+      "id": "140",
+      "mutatorName": "ConditionalExpression",
+      "location": {
+        "end": {
+          "column": 122,
+          "line": 23
+        },
+        "start": {
+          "column": 16,
+          "line": 23
+        }
+      },
+      "replacement": "true"
+    },
+    {
+      "id": "142",
+      "mutatorName": "LogicalOperator",
+      "location": {
+        "end": {
+          "column": 122,
+          "line": 23
+        },
+        "start": {
+          "column": 16,
+          "line": 23
+        }
+      },
+      "replacement": "Array.isArray(c.sports) && c.sports.length > 0 && c.sports.every(word) || new Set(c.sports).size === c.sports.length"
+    },
+    {
+      "id": "143",
+      "mutatorName": "ConditionalExpression",
+      "location": {
+        "end": {
+          "column": 80,
+          "line": 23
+        },
+        "start": {
+          "column": 16,
+          "line": 23
+        }
+      },
+      "replacement": "true"
+    },
+    {
+      "id": "145",
+      "mutatorName": "ConditionalExpression",
+      "location": {
+        "end": {
+          "column": 58,
+          "line": 23
+        },
+        "start": {
+          "column": 16,
+          "line": 23
+        }
+      },
+      "replacement": "true"
+    },
+    {
+      "id": "144",
+      "mutatorName": "LogicalOperator",
+      "location": {
+        "end": {
+          "column": 80,
+          "line": 23
+        },
+        "start": {
+          "column": 16,
+          "line": 23
+        }
+      },
+      "replacement": "Array.isArray(c.sports) && c.sports.length > 0 || c.sports.every(word)"
+    },
+    {
+      "id": "146",
+      "mutatorName": "LogicalOperator",
+      "location": {
+        "end": {
+          "column": 58,
+          "line": 23
+        },
+        "start": {
+          "column": 16,
+          "line": 23
+        }
+      },
+      "replacement": "Array.isArray(c.sports) || c.sports.length > 0"
+    },
+    {
+      "id": "147",
+      "mutatorName": "ConditionalExpression",
+      "location": {
+        "end": {
+          "column": 58,
+          "line": 23
+        },
+        "start": {
+          "column": 41,
+          "line": 23
+        }
+      },
+      "replacement": "true"
+    },
+    {
+      "id": "148",
+      "mutatorName": "EqualityOperator",
+      "location": {
+        "end": {
+          "column": 58,
+          "line": 23
+        },
+        "start": {
+          "column": 41,
+          "line": 23
+        }
+      },
+      "replacement": "c.sports.length >= 0"
+    },
+    {
+      "id": "150",
+      "mutatorName": "MethodExpression",
+      "location": {
+        "end": {
+          "column": 80,
+          "line": 23
+        },
+        "start": {
+          "column": 60,
+          "line": 23
+        }
+      },
+      "replacement": "c.sports.some(word)"
+    },
+    {
+      "id": "151",
+      "mutatorName": "ConditionalExpression",
+      "location": {
+        "end": {
+          "column": 122,
+          "line": 23
+        },
+        "start": {
+          "column": 82,
+          "line": 23
+        }
+      },
+      "replacement": "true"
+    },
+    {
+      "id": "153",
+      "mutatorName": "StringLiteral",
+      "location": {
+        "end": {
+          "column": 145,
+          "line": 23
+        },
+        "start": {
+          "column": 123,
+          "line": 23
+        }
+      },
+      "replacement": "\"\""
+    },
+    {
+      "id": "158",
+      "mutatorName": "StringLiteral",
+      "location": {
+        "end": {
+          "column": 57,
+          "line": 25
+        },
+        "start": {
+          "column": 50,
+          "line": 25
+        }
+      },
+      "replacement": "\"\""
+    },
+    {
+      "id": "172",
+      "mutatorName": "ConditionalExpression",
+      "location": {
+        "end": {
+          "column": 161,
+          "line": 26
+        },
+        "start": {
+          "column": 110,
+          "line": 26
+        }
+      },
+      "replacement": "true"
+    },
+    {
+      "id": "175",
+      "mutatorName": "ArithmeticOperator",
+      "location": {
+        "end": {
+          "column": 135,
+          "line": 26
+        },
+        "start": {
+          "column": 110,
+          "line": 26
+        }
+      },
+      "replacement": "b.endMinute + b.startMinute"
+    },
+    {
+      "id": "177",
+      "mutatorName": "ConditionalExpression",
+      "location": {
+        "end": {
+          "column": 154,
+          "line": 26
+        },
+        "start": {
+          "column": 138,
+          "line": 26
+        }
+      },
+      "replacement": "false"
+    },
+    {
+      "id": "179",
+      "mutatorName": "StringLiteral",
+      "location": {
+        "end": {
+          "column": 154,
+          "line": 26
+        },
+        "start": {
+          "column": 145,
+          "line": 26
+        }
+      },
+      "replacement": "\"\""
+    },
+    {
+      "id": "180",
+      "mutatorName": "StringLiteral",
+      "location": {
+        "end": {
+          "column": 172,
+          "line": 26
+        },
+        "start": {
+          "column": 162,
+          "line": 26
+        }
+      },
+      "replacement": "\"\""
+    },
+    {
+      "id": "181",
+      "mutatorName": "StringLiteral",
+      "location": {
+        "end": {
+          "column": 201,
+          "line": 26
+        },
+        "start": {
+          "column": 178,
+          "line": 26
+        }
+      },
+      "replacement": "\"\""
+    },
+    {
+      "id": "194",
+      "mutatorName": "StringLiteral",
+      "location": {
+        "end": {
+          "column": 124,
+          "line": 27
+        },
+        "start": {
+          "column": 115,
+          "line": 27
+        }
+      },
+      "replacement": "\"\""
+    },
+    {
+      "id": "193",
+      "mutatorName": "StringLiteral",
+      "location": {
+        "end": {
+          "column": 109,
+          "line": 27
+        },
+        "start": {
+          "column": 99,
+          "line": 27
+        }
+      },
+      "replacement": "\"\""
+    },
+    {
+      "id": "196",
+      "mutatorName": "ConditionalExpression",
+      "location": {
+        "end": {
+          "column": 22,
+          "line": 28
+        },
+        "start": {
+          "column": 6,
+          "line": 28
+        }
+      },
+      "replacement": "false"
+    },
+    {
+      "id": "198",
+      "mutatorName": "StringLiteral",
+      "location": {
+        "end": {
+          "column": 22,
+          "line": 28
+        },
+        "start": {
+          "column": 13,
+          "line": 28
+        }
+      },
+      "replacement": "\"\""
+    },
+    {
+      "id": "200",
+      "mutatorName": "StringLiteral",
+      "location": {
+        "end": {
+          "column": 81,
+          "line": 28
+        },
+        "start": {
+          "column": 52,
+          "line": 28
+        }
+      },
+      "replacement": "\"\""
+    },
+    {
+      "id": "213",
+      "mutatorName": "MethodExpression",
+      "location": {
+        "end": {
+          "column": 55,
+          "line": 33
+        },
+        "start": {
+          "column": 13,
+          "line": 33
+        }
+      },
+      "replacement": "[link.courtA, link.courtB]"
+    },
+    {
+      "id": "215",
+      "mutatorName": "ArrowFunction",
+      "location": {
+        "end": {
+          "column": 54,
+          "line": 33
+        },
+        "start": {
+          "column": 44,
+          "line": 33
+        }
+      },
+      "replacement": "() => undefined"
+    },
+    {
+      "id": "216",
+      "mutatorName": "ArithmeticOperator",
+      "location": {
+        "end": {
+          "column": 54,
+          "line": 33
+        },
+        "start": {
+          "column": 51,
+          "line": 33
+        }
+      },
+      "replacement": "a + b"
+    },
+    {
+      "id": "220",
+      "mutatorName": "StringLiteral",
+      "location": {
+        "end": {
+          "column": 116,
+          "line": 33
+        },
+        "start": {
+          "column": 95,
+          "line": 33
+        }
+      },
+      "replacement": "\"\""
+    },
+    {
+      "id": "223",
+      "mutatorName": "ConditionalExpression",
+      "location": {
+        "end": {
+          "column": 135,
+          "line": 34
+        },
+        "start": {
+          "column": 16,
+          "line": 34
+        }
+      },
+      "replacement": "true"
+    },
+    {
+      "id": "221",
+      "mutatorName": "CallExpression",
+      "location": {
+        "end": {
+          "column": 133,
+          "line": 33
+        },
+        "start": {
+          "column": 118,
+          "line": 33
+        }
+      },
+      "replacement": ";"
+    },
+    {
+      "id": "225",
+      "mutatorName": "LogicalOperator",
+      "location": {
+        "end": {
+          "column": 135,
+          "line": 34
+        },
+        "start": {
+          "column": 16,
+          "line": 34
+        }
+      },
+      "replacement": "Array.isArray(link.allowedPairs) || link.allowedPairs.every(pair => Array.isArray(pair) && pair.length === 2 && pair.every(word))"
+    },
+    {
+      "id": "228",
+      "mutatorName": "ConditionalExpression",
+      "location": {
+        "end": {
+          "column": 134,
+          "line": 34
+        },
+        "start": {
+          "column": 80,
+          "line": 34
+        }
+      },
+      "replacement": "true"
+    },
+    {
+      "id": "230",
+      "mutatorName": "LogicalOperator",
+      "location": {
+        "end": {
+          "column": 134,
+          "line": 34
+        },
+        "start": {
+          "column": 80,
+          "line": 34
+        }
+      },
+      "replacement": "Array.isArray(pair) && pair.length === 2 || pair.every(word)"
+    },
+    {
+      "id": "231",
+      "mutatorName": "ConditionalExpression",
+      "location": {
+        "end": {
+          "column": 116,
+          "line": 34
+        },
+        "start": {
+          "column": 80,
+          "line": 34
+        }
+      },
+      "replacement": "true"
+    },
+    {
+      "id": "233",
+      "mutatorName": "ConditionalExpression",
+      "location": {
+        "end": {
+          "column": 116,
+          "line": 34
+        },
+        "start": {
+          "column": 101,
+          "line": 34
+        }
+      },
+      "replacement": "true"
+    },
+    {
+      "id": "232",
+      "mutatorName": "LogicalOperator",
+      "location": {
+        "end": {
+          "column": 116,
+          "line": 34
+        },
+        "start": {
+          "column": 80,
+          "line": 34
+        }
+      },
+      "replacement": "Array.isArray(pair) || pair.length === 2"
+    },
+    {
+      "id": "236",
+      "mutatorName": "StringLiteral",
+      "location": {
+        "end": {
+          "column": 165,
+          "line": 34
+        },
+        "start": {
+          "column": 136,
+          "line": 34
+        }
+      },
+      "replacement": "\"\""
+    },
+    {
+      "id": "263",
+      "mutatorName": "ConditionalExpression",
+      "location": {
+        "end": {
+          "column": 125,
+          "line": 38
+        },
+        "start": {
+          "column": 112,
+          "line": 38
+        }
+      },
+      "replacement": "true"
+    },
+    {
+      "id": "270",
+      "mutatorName": "UnaryOperator",
+      "location": {
+        "end": {
+          "column": 55,
+          "line": 39
+        },
+        "start": {
+          "column": 53,
+          "line": 39
+        }
+      },
+      "replacement": "+1"
+    }
+  ],
+  "note": "MSI counts only killed mutants. MCC and CoveredCodeMSI use independent V8 line coverage for each corresponding test suite, not per-mutant coverage from Stryker."
+}

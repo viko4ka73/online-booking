@@ -1,0 +1,2565 @@
+{
+  "nodeVersion": "v26.13.0",
+  "executedAt": "2026-11-24T19:57:33.185Z",
+  "tests": [
+    {
+      "name": "scan: FREE",
+      "status": "passed"
+    },
+    {
+      "name": "scan: CLOSED",
+      "status": "passed"
+    },
+    {
+      "name": "scan: TOO-SHORT",
+      "status": "passed"
+    },
+    {
+      "name": "scan: OTHER-SPORT",
+      "status": "passed"
+    },
+    {
+      "name": "scan: NO-COURTS",
+      "status": "passed"
+    },
+    {
+      "name": "scan: TODAY",
+      "status": "passed"
+    },
+    {
+      "name": "scan: SECOND-BEFORE",
+      "status": "passed"
+    },
+    {
+      "name": "scan: MOSCOW-MIDNIGHT",
+      "status": "passed"
+    },
+    {
+      "name": "scan: OWN-OVERLAP",
+      "status": "passed"
+    },
+    {
+      "name": "scan: TOUCH-BEFORE",
+      "status": "passed"
+    },
+    {
+      "name": "scan: GAP-AFTER",
+      "status": "passed"
+    },
+    {
+      "name": "scan: GAP-BEFORE",
+      "status": "passed"
+    },
+    {
+      "name": "scan: CANCELED",
+      "status": "passed"
+    },
+    {
+      "name": "scan: OTHER-DAY",
+      "status": "passed"
+    },
+    {
+      "name": "scan: BLOCK",
+      "status": "passed"
+    },
+    {
+      "name": "scan: RELEASED",
+      "status": "passed"
+    },
+    {
+      "name": "scan: BLOCK-NO-GAP-RULE",
+      "status": "passed"
+    },
+    {
+      "name": "scan: UNIVERSAL",
+      "status": "passed"
+    },
+    {
+      "name": "scan: NUMERIC-ORDER",
+      "status": "passed"
+    },
+    {
+      "name": "scan: FULL-FIVE-HOURS",
+      "status": "passed"
+    },
+    {
+      "name": "scan: NINETY-MINUTES",
+      "status": "passed"
+    },
+    {
+      "name": "scan: CLOSING-MIDNIGHT",
+      "status": "passed"
+    },
+    {
+      "name": "scan: LAST-DAY",
+      "status": "passed"
+    },
+    {
+      "name": "scan: NEIGHBOR-INCOMPATIBLE",
+      "status": "passed"
+    },
+    {
+      "name": "scan: NEIGHBOR-REVERSE",
+      "status": "passed"
+    },
+    {
+      "name": "scan: NEIGHBOR-COMPATIBLE",
+      "status": "passed"
+    },
+    {
+      "name": "scan: NEIGHBOR-DIRECTION",
+      "status": "passed"
+    },
+    {
+      "name": "scan: NEIGHBOR-DIRECTION-REVERSE",
+      "status": "passed"
+    },
+    {
+      "name": "scan: NEIGHBOR-EMPTY-PAIRS",
+      "status": "passed"
+    },
+    {
+      "name": "scan: NEIGHBOR-NO-GAP-RULE",
+      "status": "passed"
+    },
+    {
+      "name": "scan: NEIGHBOR-TECHNICAL-NOT-SHARED",
+      "status": "passed"
+    },
+    {
+      "name": "scan: reject INVALID-DATE",
+      "status": "passed"
+    },
+    {
+      "name": "scan: reject PAST-DATE",
+      "status": "passed"
+    },
+    {
+      "name": "scan: reject HORIZON",
+      "status": "passed"
+    },
+    {
+      "name": "scan: reject SHORT",
+      "status": "passed"
+    },
+    {
+      "name": "scan: reject LONG",
+      "status": "passed"
+    },
+    {
+      "name": "scan: reject FRACTION",
+      "status": "passed"
+    },
+    {
+      "name": "scan: reject STEP",
+      "status": "passed"
+    },
+    {
+      "name": "scan: reject TYPE",
+      "status": "passed"
+    },
+    {
+      "name": "scan: reject BAD-CLOCK",
+      "status": "passed"
+    },
+    {
+      "name": "scan: reject CLOCK-ZONE-MISSING",
+      "status": "passed"
+    },
+    {
+      "name": "scan: reject BAD-HOURS",
+      "status": "passed"
+    },
+    {
+      "name": "scan: reject HOURS-STEP",
+      "status": "passed"
+    },
+    {
+      "name": "scan: reject DUPLICATE-ID",
+      "status": "passed"
+    },
+    {
+      "name": "scan: reject UNKNOWN-RESOURCE",
+      "status": "passed"
+    },
+    {
+      "name": "scan: reject BAD-INTERVAL",
+      "status": "passed"
+    },
+    {
+      "name": "scan: reject BAD-STATUS",
+      "status": "passed"
+    },
+    {
+      "name": "scan: reject SELF-ADJACENCY",
+      "status": "passed"
+    },
+    {
+      "name": "scan: reject UNKNOWN-NEIGHBOR",
+      "status": "passed"
+    },
+    {
+      "name": "scan: reject null input",
+      "status": "passed"
+    },
+    {
+      "name": "masks: FREE",
+      "status": "passed"
+    },
+    {
+      "name": "masks: CLOSED",
+      "status": "passed"
+    },
+    {
+      "name": "masks: TOO-SHORT",
+      "status": "passed"
+    },
+    {
+      "name": "masks: OTHER-SPORT",
+      "status": "passed"
+    },
+    {
+      "name": "masks: NO-COURTS",
+      "status": "passed"
+    },
+    {
+      "name": "masks: TODAY",
+      "status": "passed"
+    },
+    {
+      "name": "masks: SECOND-BEFORE",
+      "status": "passed"
+    },
+    {
+      "name": "masks: MOSCOW-MIDNIGHT",
+      "status": "passed"
+    },
+    {
+      "name": "masks: OWN-OVERLAP",
+      "status": "passed"
+    },
+    {
+      "name": "masks: TOUCH-BEFORE",
+      "status": "passed"
+    },
+    {
+      "name": "masks: GAP-AFTER",
+      "status": "passed"
+    },
+    {
+      "name": "masks: GAP-BEFORE",
+      "status": "passed"
+    },
+    {
+      "name": "masks: CANCELED",
+      "status": "passed"
+    },
+    {
+      "name": "masks: OTHER-DAY",
+      "status": "passed"
+    },
+    {
+      "name": "masks: BLOCK",
+      "status": "passed"
+    },
+    {
+      "name": "masks: RELEASED",
+      "status": "passed"
+    },
+    {
+      "name": "masks: BLOCK-NO-GAP-RULE",
+      "status": "passed"
+    },
+    {
+      "name": "masks: UNIVERSAL",
+      "status": "passed"
+    },
+    {
+      "name": "masks: NUMERIC-ORDER",
+      "status": "passed"
+    },
+    {
+      "name": "masks: FULL-FIVE-HOURS",
+      "status": "passed"
+    },
+    {
+      "name": "masks: NINETY-MINUTES",
+      "status": "passed"
+    },
+    {
+      "name": "masks: CLOSING-MIDNIGHT",
+      "status": "passed"
+    },
+    {
+      "name": "masks: LAST-DAY",
+      "status": "passed"
+    },
+    {
+      "name": "masks: NEIGHBOR-INCOMPATIBLE",
+      "status": "passed"
+    },
+    {
+      "name": "masks: NEIGHBOR-REVERSE",
+      "status": "passed"
+    },
+    {
+      "name": "masks: NEIGHBOR-COMPATIBLE",
+      "status": "passed"
+    },
+    {
+      "name": "masks: NEIGHBOR-DIRECTION",
+      "status": "passed"
+    },
+    {
+      "name": "masks: NEIGHBOR-DIRECTION-REVERSE",
+      "status": "passed"
+    },
+    {
+      "name": "masks: NEIGHBOR-EMPTY-PAIRS",
+      "status": "passed"
+    },
+    {
+      "name": "masks: NEIGHBOR-NO-GAP-RULE",
+      "status": "passed"
+    },
+    {
+      "name": "masks: NEIGHBOR-TECHNICAL-NOT-SHARED",
+      "status": "passed"
+    },
+    {
+      "name": "masks: reject INVALID-DATE",
+      "status": "passed"
+    },
+    {
+      "name": "masks: reject PAST-DATE",
+      "status": "passed"
+    },
+    {
+      "name": "masks: reject HORIZON",
+      "status": "passed"
+    },
+    {
+      "name": "masks: reject SHORT",
+      "status": "passed"
+    },
+    {
+      "name": "masks: reject LONG",
+      "status": "passed"
+    },
+    {
+      "name": "masks: reject FRACTION",
+      "status": "passed"
+    },
+    {
+      "name": "masks: reject STEP",
+      "status": "passed"
+    },
+    {
+      "name": "masks: reject TYPE",
+      "status": "passed"
+    },
+    {
+      "name": "masks: reject BAD-CLOCK",
+      "status": "passed"
+    },
+    {
+      "name": "masks: reject CLOCK-ZONE-MISSING",
+      "status": "passed"
+    },
+    {
+      "name": "masks: reject BAD-HOURS",
+      "status": "passed"
+    },
+    {
+      "name": "masks: reject HOURS-STEP",
+      "status": "passed"
+    },
+    {
+      "name": "masks: reject DUPLICATE-ID",
+      "status": "passed"
+    },
+    {
+      "name": "masks: reject UNKNOWN-RESOURCE",
+      "status": "passed"
+    },
+    {
+      "name": "masks: reject BAD-INTERVAL",
+      "status": "passed"
+    },
+    {
+      "name": "masks: reject BAD-STATUS",
+      "status": "passed"
+    },
+    {
+      "name": "masks: reject SELF-ADJACENCY",
+      "status": "passed"
+    },
+    {
+      "name": "masks: reject UNKNOWN-NEIGHBOR",
+      "status": "passed"
+    },
+    {
+      "name": "masks: reject null input",
+      "status": "passed"
+    },
+    {
+      "name": "two algorithms agree on 200 deterministic generated schedules",
+      "status": "passed"
+    },
+    {
+      "name": "both algorithms agree with the diploma module on 30 prepared schedules",
+      "status": "passed"
+    },
+    {
+      "name": "AV01 hours absent",
+      "status": "passed"
+    },
+    {
+      "name": "AV02 working window shorter than duration",
+      "status": "passed"
+    },
+    {
+      "name": "AV03 past and exactly current starts skipped",
+      "status": "passed"
+    },
+    {
+      "name": "AV04 overlap rejected, touching end allowed",
+      "status": "passed"
+    },
+    {
+      "name": "AV05 thirty minute gap after booking",
+      "status": "passed"
+    },
+    {
+      "name": "AV06 thirty minute gap before booking",
+      "status": "passed"
+    },
+    {
+      "name": "AV07 incompatible neighbor overlaps",
+      "status": "passed"
+    },
+    {
+      "name": "AV08 technical block overlaps",
+      "status": "passed"
+    },
+    {
+      "name": "AV09 free day",
+      "status": "passed"
+    },
+    {
+      "name": "AV10 touching before existing booking",
+      "status": "passed"
+    },
+    {
+      "name": "BV-OPEN-BEFORE before opening unavailable",
+      "status": "passed"
+    },
+    {
+      "name": "BV-OPEN-AT exact opening available",
+      "status": "passed"
+    },
+    {
+      "name": "BV-CLOSE-AT exact closing available",
+      "status": "passed"
+    },
+    {
+      "name": "BV-CLOSE-AFTER after closing unavailable",
+      "status": "passed"
+    },
+    {
+      "name": "BV-GAP1 booking gap boundary",
+      "status": "passed"
+    },
+    {
+      "name": "BV-GAP2 booking gap boundary",
+      "status": "passed"
+    },
+    {
+      "name": "BV-GAP3 booking gap boundary",
+      "status": "passed"
+    },
+    {
+      "name": "BV-GAP4 booking gap boundary",
+      "status": "passed"
+    },
+    {
+      "name": "BV-GAP5 booking gap boundary",
+      "status": "passed"
+    },
+    {
+      "name": "BV-GAP6 booking gap boundary",
+      "status": "passed"
+    },
+    {
+      "name": "BV-GAP7 booking gap boundary",
+      "status": "passed"
+    },
+    {
+      "name": "BV-GAP8 booking gap boundary",
+      "status": "passed"
+    },
+    {
+      "name": "SQL-EMPTY-BOOKINGS empty reservation query result; SQL filtering is outside this unit test",
+      "status": "passed"
+    },
+    {
+      "name": "SQL-EMPTY-NEIGHBORS empty incompatible neighbor query result; compatibility SQL is outside this unit test",
+      "status": "passed"
+    },
+    {
+      "name": "BV-TIME-SECOND future noon is available one second before noon",
+      "status": "passed"
+    },
+    {
+      "name": "SQL receives the booking to exclude and chosen sport as parameters",
+      "status": "passed"
+    },
+    {
+      "name": "database rejection is propagated, not reported as free time",
+      "status": "passed"
+    },
+    {
+      "name": "default pool is replaceable and cannot accidentally access a real database",
+      "status": "passed"
+    },
+    {
+      "name": "pool boundary fails closed without an explicit test double",
+      "status": "passed"
+    },
+    {
+      "name": "lock keys are sorted, duplicate free and include both sides of adjacency",
+      "status": "passed"
+    },
+    {
+      "name": "unrelated links are not added to a target and empty target set is allowed",
+      "status": "passed"
+    },
+    {
+      "name": "locking takes shared configuration lock first then sorted day keys",
+      "status": "passed"
+    },
+    {
+      "name": "empty target set still coordinates configuration and takes no day locks",
+      "status": "passed"
+    },
+    {
+      "name": "neighbor query supports default sport and exclusion parameters",
+      "status": "passed"
+    },
+    {
+      "name": "occupied preferred time returns the nearest free slot",
+      "status": "passed"
+    },
+    {
+      "name": "exact matches take priority and an invalid preferred time is rejected",
+      "status": "passed"
+    },
+    {
+      "name": "nearest alternatives include up to three distinct times with all eligible courts",
+      "status": "passed"
+    },
+    {
+      "name": "JSON round trip, malformed data and protection from overwriting",
+      "status": "passed"
+    },
+    {
+      "name": "interactive flow survives missing input and supports manual entry, search and save",
+      "status": "passed"
+    },
+    {
+      "name": "interactive JSON import runs both algorithms and handles EOF",
+      "status": "passed"
+    },
+    {
+      "name": "algorithm selection invalidates the old result and changes the next search",
+      "status": "passed"
+    },
+    {
+      "name": "scan: rejects missing request",
+      "status": "passed"
+    },
+    {
+      "name": "scan: rejects blank sport",
+      "status": "passed"
+    },
+    {
+      "name": "scan: rejects missing bookings array",
+      "status": "passed"
+    },
+    {
+      "name": "scan: rejects closing before midnight boundary is exceeded",
+      "status": "passed"
+    },
+    {
+      "name": "scan: rejects zero-length workday",
+      "status": "passed"
+    },
+    {
+      "name": "scan: rejects zero court ID",
+      "status": "passed"
+    },
+    {
+      "name": "scan: rejects invalid court type",
+      "status": "passed"
+    },
+    {
+      "name": "scan: rejects empty sports",
+      "status": "passed"
+    },
+    {
+      "name": "scan: rejects duplicate sports",
+      "status": "passed"
+    },
+    {
+      "name": "scan: rejects whitespace sport in catalog",
+      "status": "passed"
+    },
+    {
+      "name": "scan: rejects booking without sport",
+      "status": "passed"
+    },
+    {
+      "name": "scan: rejects short booking",
+      "status": "passed"
+    },
+    {
+      "name": "scan: rejects negative interval start",
+      "status": "passed"
+    },
+    {
+      "name": "scan: rejects empty technical block",
+      "status": "passed"
+    },
+    {
+      "name": "scan: rejects invalid block status",
+      "status": "passed"
+    },
+    {
+      "name": "scan: rejects duplicate adjacency in reverse order",
+      "status": "passed"
+    },
+    {
+      "name": "scan: rejects wrong pair length",
+      "status": "passed"
+    },
+    {
+      "name": "scan: a 30-minute technical block is valid and affects only its date",
+      "status": "passed"
+    },
+    {
+      "name": "masks: rejects missing request",
+      "status": "passed"
+    },
+    {
+      "name": "masks: rejects blank sport",
+      "status": "passed"
+    },
+    {
+      "name": "masks: rejects missing bookings array",
+      "status": "passed"
+    },
+    {
+      "name": "masks: rejects closing before midnight boundary is exceeded",
+      "status": "passed"
+    },
+    {
+      "name": "masks: rejects zero-length workday",
+      "status": "passed"
+    },
+    {
+      "name": "masks: rejects zero court ID",
+      "status": "passed"
+    },
+    {
+      "name": "masks: rejects invalid court type",
+      "status": "passed"
+    },
+    {
+      "name": "masks: rejects empty sports",
+      "status": "passed"
+    },
+    {
+      "name": "masks: rejects duplicate sports",
+      "status": "passed"
+    },
+    {
+      "name": "masks: rejects whitespace sport in catalog",
+      "status": "passed"
+    },
+    {
+      "name": "masks: rejects booking without sport",
+      "status": "passed"
+    },
+    {
+      "name": "masks: rejects short booking",
+      "status": "passed"
+    },
+    {
+      "name": "masks: rejects negative interval start",
+      "status": "passed"
+    },
+    {
+      "name": "masks: rejects empty technical block",
+      "status": "passed"
+    },
+    {
+      "name": "masks: rejects invalid block status",
+      "status": "passed"
+    },
+    {
+      "name": "masks: rejects duplicate adjacency in reverse order",
+      "status": "passed"
+    },
+    {
+      "name": "masks: rejects wrong pair length",
+      "status": "passed"
+    },
+    {
+      "name": "masks: a 30-minute technical block is valid and affects only its date",
+      "status": "passed"
+    },
+    {
+      "name": "scan: tomorrow can start at midnight",
+      "status": "passed"
+    },
+    {
+      "name": "masks: tomorrow can start at midnight",
+      "status": "passed"
+    },
+    {
+      "name": "merging preserves every test ID, expected result and technique",
+      "status": "passed"
+    },
+    {
+      "name": "type-aware keys do not merge null, undefined, string, NaN and infinities",
+      "status": "passed"
+    },
+    {
+      "name": "contradictory expectations are rejected",
+      "status": "passed"
+    },
+    {
+      "name": "ST01 [statement] date=не дата duration=120",
+      "status": "passed"
+    },
+    {
+      "name": "ST02+BR05+BV-DT6 [statement,branch,boundary] date=2027-01-04 duration=120",
+      "status": "passed"
+    },
+    {
+      "name": "ST03+BR08+EQ-D2+BV-D7 [statement,branch,equivalence,boundary] date=2026-11-25 duration=30",
+      "status": "passed"
+    },
+    {
+      "name": "ST04+BR11+EQ-D1+BV-DT3 [statement,branch,equivalence,boundary] date=2026-11-25 duration=120",
+      "status": "passed"
+    },
+    {
+      "name": "BR01 [branch] date=20261125 duration=120",
+      "status": "passed"
+    },
+    {
+      "name": "BR02 [branch] date=25.11.2026 duration=120",
+      "status": "passed"
+    },
+    {
+      "name": "BR03+EQ-DT5 [branch,equivalence] date=2026-11-31 duration=120",
+      "status": "passed"
+    },
+    {
+      "name": "BR04+EQ-DT3+BV-DT1 [branch,equivalence,boundary] date=2026-11-23 duration=120",
+      "status": "passed"
+    },
+    {
+      "name": "BR06+EQ-D6 [branch,equivalence] date=2026-11-25 duration=120",
+      "status": "passed"
+    },
+    {
+      "name": "BR07+EQ-D5 [branch,equivalence] date=2026-11-25 duration=90.5",
+      "status": "passed"
+    },
+    {
+      "name": "BR09+EQ-D3+BV-D10 [branch,equivalence,boundary] date=2026-11-25 duration=330",
+      "status": "passed"
+    },
+    {
+      "name": "BR10+EQ-D4 [branch,equivalence] date=2026-11-25 duration=75",
+      "status": "passed"
+    },
+    {
+      "name": "EQ-DT1+BV-DT2 [equivalence,boundary] date=2026-11-24 duration=120",
+      "status": "passed"
+    },
+    {
+      "name": "EQ-DT2 [equivalence] date=2026-12-10 duration=120",
+      "status": "passed"
+    },
+    {
+      "name": "EQ-DT4 [equivalence] date=2027-01-10 duration=120",
+      "status": "passed"
+    },
+    {
+      "name": "EQ-DT6 [equivalence] date=24.11.2026 duration=120",
+      "status": "passed"
+    },
+    {
+      "name": "EQ-DT7 [equivalence] date= duration=120",
+      "status": "passed"
+    },
+    {
+      "name": "BV-D1 [boundary] date=2026-11-25 duration=59",
+      "status": "passed"
+    },
+    {
+      "name": "BV-D2 [boundary] date=2026-11-25 duration=60",
+      "status": "passed"
+    },
+    {
+      "name": "BV-D3 [boundary] date=2026-11-25 duration=61",
+      "status": "passed"
+    },
+    {
+      "name": "BV-D4 [boundary] date=2026-11-25 duration=299",
+      "status": "passed"
+    },
+    {
+      "name": "BV-D5 [boundary] date=2026-11-25 duration=300",
+      "status": "passed"
+    },
+    {
+      "name": "BV-D6 [boundary] date=2026-11-25 duration=301",
+      "status": "passed"
+    },
+    {
+      "name": "BV-D8 [boundary] date=2026-11-25 duration=90",
+      "status": "passed"
+    },
+    {
+      "name": "BV-D9 [boundary] date=2026-11-25 duration=270",
+      "status": "passed"
+    },
+    {
+      "name": "BV-DT4 [boundary] date=2027-01-02 duration=120",
+      "status": "passed"
+    },
+    {
+      "name": "BV-DT5 [boundary] date=2027-01-03 duration=120",
+      "status": "passed"
+    },
+    {
+      "name": "EX-null [robustness] date=null duration=120",
+      "status": "passed"
+    },
+    {
+      "name": "EX-undefined [robustness] date=undefined duration=120",
+      "status": "passed"
+    },
+    {
+      "name": "EX-NaN [robustness] date=2026-11-25 duration=NaN",
+      "status": "passed"
+    },
+    {
+      "name": "EX-infinity [robustness] date=2026-11-25 duration=Infinity",
+      "status": "passed"
+    },
+    {
+      "name": "default current date is controlled by the test clock",
+      "status": "passed"
+    },
+    {
+      "name": "all supported duration choices are accepted",
+      "status": "passed"
+    },
+    {
+      "name": "formatTime preserves hours, leading zeroes and half hours",
+      "status": "passed"
+    },
+    {
+      "name": "scan: reject malformed stored date 20261125",
+      "status": "passed"
+    },
+    {
+      "name": "scan: reject malformed stored date 25.11.2026",
+      "status": "passed"
+    },
+    {
+      "name": "scan: reject malformed stored date 2026-11-31",
+      "status": "passed"
+    },
+    {
+      "name": "masks: reject malformed stored date 20261125",
+      "status": "passed"
+    },
+    {
+      "name": "masks: reject malformed stored date 25.11.2026",
+      "status": "passed"
+    },
+    {
+      "name": "masks: reject malformed stored date 2026-11-31",
+      "status": "passed"
+    },
+    {
+      "name": "assumeTrue: Moscow time zone is available before checking the clock",
+      "status": "passed"
+    },
+    {
+      "name": "assumeFalse: an opt-out can disable the console stream scenario",
+      "status": "passed"
+    }
+  ],
+  "summary": {
+    "success": true,
+    "counts": {
+      "tests": 226,
+      "failed": 0,
+      "passed": 226,
+      "cancelled": 0,
+      "skipped": 0,
+      "todo": 0,
+      "topLevel": 226,
+      "suites": 0
+    },
+    "duration_ms": 622.0195
+  },
+  "coverage": {
+    "workingDirectory": "/local-workspace/Documents/ChatGPT/диплом/МТПО_Лабораторная_1",
+    "files": [
+      {
+        "path": "/local-workspace/Documents/ChatGPT/диплом/МТПО_Лабораторная_1/src/booking.ts",
+        "totalLineCount": 75,
+        "totalBranchCount": 48,
+        "totalFunctionCount": 14,
+        "coveredLineCount": 75,
+        "coveredBranchCount": 48,
+        "coveredFunctionCount": 14,
+        "coveredLinePercent": 100,
+        "coveredBranchPercent": 100,
+        "coveredFunctionPercent": 100,
+        "functions": [
+          {
+            "name": "formatTime",
+            "count": 59944,
+            "line": 10
+          },
+          {
+            "name": "",
+            "count": 119888,
+            "line": 11
+          },
+          {
+            "name": "scheduleError",
+            "count": 656,
+            "line": 14
+          },
+          {
+            "name": "bookingLockKeys",
+            "count": 5,
+            "line": 32
+          },
+          {
+            "name": "lockBookingDays",
+            "count": 2,
+            "line": 37
+          },
+          {
+            "name": "incompatibleNeighborBookings",
+            "count": 159,
+            "line": 41
+          },
+          {
+            "name": "availableSlots",
+            "count": 3885,
+            "line": 51
+          },
+          {
+            "name": "",
+            "count": 4341,
+            "line": 69
+          },
+          {
+            "name": "",
+            "count": 2435,
+            "line": 72
+          },
+          {
+            "name": "",
+            "count": 726,
+            "line": 72
+          },
+          {
+            "name": "",
+            "count": 5,
+            "line": 33
+          },
+          {
+            "name": "",
+            "count": 5,
+            "line": 35
+          },
+          {
+            "name": "",
+            "count": 6,
+            "line": 35
+          },
+          {
+            "name": "",
+            "count": 4,
+            "line": 35
+          }
+        ],
+        "branches": [
+          {
+            "line": 1,
+            "count": 10
+          },
+          {
+            "line": 10,
+            "count": 59944
+          },
+          {
+            "line": 11,
+            "count": 119888
+          },
+          {
+            "line": 14,
+            "count": 656
+          },
+          {
+            "line": 19,
+            "count": 586
+          },
+          {
+            "line": 19,
+            "count": 14
+          },
+          {
+            "line": 21,
+            "count": 582
+          },
+          {
+            "line": 24,
+            "count": 4
+          },
+          {
+            "line": 24,
+            "count": 578
+          },
+          {
+            "line": 25,
+            "count": 575
+          },
+          {
+            "line": 25,
+            "count": 570
+          },
+          {
+            "line": 25,
+            "count": 566
+          },
+          {
+            "line": 25,
+            "count": 562
+          },
+          {
+            "line": 25,
+            "count": 21
+          },
+          {
+            "line": 27,
+            "count": 557
+          },
+          {
+            "line": 15,
+            "count": 39
+          },
+          {
+            "line": 16,
+            "count": 35
+          },
+          {
+            "line": 16,
+            "count": 7
+          },
+          {
+            "line": 18,
+            "count": 39
+          },
+          {
+            "line": 18,
+            "count": 35
+          },
+          {
+            "line": 32,
+            "count": 5
+          },
+          {
+            "line": 37,
+            "count": 2
+          },
+          {
+            "line": 41,
+            "count": 159
+          },
+          {
+            "line": 51,
+            "count": 161
+          },
+          {
+            "line": 66,
+            "count": 3885
+          },
+          {
+            "line": 72,
+            "count": 2706
+          },
+          {
+            "line": 72,
+            "count": 2231
+          },
+          {
+            "line": 72,
+            "count": 2122
+          },
+          {
+            "line": 73,
+            "count": 3885
+          },
+          {
+            "line": 55,
+            "count": 27
+          },
+          {
+            "line": 56,
+            "count": 2
+          },
+          {
+            "line": 56,
+            "count": 25
+          },
+          {
+            "line": 67,
+            "count": 4
+          },
+          {
+            "line": 67,
+            "count": 2
+          },
+          {
+            "line": 67,
+            "count": 374
+          },
+          {
+            "line": 69,
+            "count": 4341
+          },
+          {
+            "line": 70,
+            "count": 2278
+          },
+          {
+            "line": 70,
+            "count": 3426
+          },
+          {
+            "line": 70,
+            "count": 3280
+          },
+          {
+            "line": 72,
+            "count": 2435
+          },
+          {
+            "line": 72,
+            "count": 1211
+          },
+          {
+            "line": 72,
+            "count": 726
+          },
+          {
+            "line": 72,
+            "count": 323
+          },
+          {
+            "line": 33,
+            "count": 5
+          },
+          {
+            "line": 35,
+            "count": 5
+          },
+          {
+            "line": 35,
+            "count": 6
+          },
+          {
+            "line": 35,
+            "count": 4
+          },
+          {
+            "line": 35,
+            "count": 4
+          }
+        ],
+        "lines": [
+          {
+            "line": 1,
+            "count": 10
+          },
+          {
+            "line": 2,
+            "count": 10
+          },
+          {
+            "line": 3,
+            "count": 10
+          },
+          {
+            "line": 4,
+            "count": 10
+          },
+          {
+            "line": 5,
+            "count": 10
+          },
+          {
+            "line": 6,
+            "count": 10
+          },
+          {
+            "line": 7,
+            "count": 10
+          },
+          {
+            "line": 8,
+            "count": 10
+          },
+          {
+            "line": 9,
+            "count": 10
+          },
+          {
+            "line": 10,
+            "count": 10
+          },
+          {
+            "line": 11,
+            "count": 59944
+          },
+          {
+            "line": 12,
+            "count": 59944
+          },
+          {
+            "line": 13,
+            "count": 10
+          },
+          {
+            "line": 14,
+            "count": 10
+          },
+          {
+            "line": 15,
+            "count": 656
+          },
+          {
+            "line": 16,
+            "count": 656
+          },
+          {
+            "line": 17,
+            "count": 656
+          },
+          {
+            "line": 18,
+            "count": 656
+          },
+          {
+            "line": 19,
+            "count": 656
+          },
+          {
+            "line": 20,
+            "count": 14
+          },
+          {
+            "line": 21,
+            "count": 14
+          },
+          {
+            "line": 22,
+            "count": 582
+          },
+          {
+            "line": 23,
+            "count": 582
+          },
+          {
+            "line": 24,
+            "count": 656
+          },
+          {
+            "line": 25,
+            "count": 656
+          },
+          {
+            "line": 26,
+            "count": 21
+          },
+          {
+            "line": 27,
+            "count": 21
+          },
+          {
+            "line": 28,
+            "count": 557
+          },
+          {
+            "line": 29,
+            "count": 656
+          },
+          {
+            "line": 30,
+            "count": 10
+          },
+          {
+            "line": 31,
+            "count": 10
+          },
+          {
+            "line": 32,
+            "count": 10
+          },
+          {
+            "line": 33,
+            "count": 5
+          },
+          {
+            "line": 34,
+            "count": 5
+          },
+          {
+            "line": 35,
+            "count": 5
+          },
+          {
+            "line": 36,
+            "count": 5
+          },
+          {
+            "line": 37,
+            "count": 10
+          },
+          {
+            "line": 38,
+            "count": 2
+          },
+          {
+            "line": 39,
+            "count": 2
+          },
+          {
+            "line": 40,
+            "count": 2
+          },
+          {
+            "line": 41,
+            "count": 10
+          },
+          {
+            "line": 42,
+            "count": 159
+          },
+          {
+            "line": 43,
+            "count": 159
+          },
+          {
+            "line": 44,
+            "count": 159
+          },
+          {
+            "line": 45,
+            "count": 159
+          },
+          {
+            "line": 46,
+            "count": 159
+          },
+          {
+            "line": 47,
+            "count": 159
+          },
+          {
+            "line": 48,
+            "count": 159
+          },
+          {
+            "line": 49,
+            "count": 159
+          },
+          {
+            "line": 50,
+            "count": 10
+          },
+          {
+            "line": 51,
+            "count": 10
+          },
+          {
+            "line": 52,
+            "count": 161
+          },
+          {
+            "line": 53,
+            "count": 161
+          },
+          {
+            "line": 54,
+            "count": 161
+          },
+          {
+            "line": 55,
+            "count": 161
+          },
+          {
+            "line": 56,
+            "count": 161
+          },
+          {
+            "line": 57,
+            "count": 25
+          },
+          {
+            "line": 58,
+            "count": 25
+          },
+          {
+            "line": 59,
+            "count": 25
+          },
+          {
+            "line": 60,
+            "count": 25
+          },
+          {
+            "line": 61,
+            "count": 25
+          },
+          {
+            "line": 62,
+            "count": 25
+          },
+          {
+            "line": 63,
+            "count": 25
+          },
+          {
+            "line": 64,
+            "count": 25
+          },
+          {
+            "line": 65,
+            "count": 25
+          },
+          {
+            "line": 66,
+            "count": 161
+          },
+          {
+            "line": 67,
+            "count": 3885
+          },
+          {
+            "line": 68,
+            "count": 374
+          },
+          {
+            "line": 69,
+            "count": 374
+          },
+          {
+            "line": 70,
+            "count": 374
+          },
+          {
+            "line": 71,
+            "count": 374
+          },
+          {
+            "line": 72,
+            "count": 3885
+          },
+          {
+            "line": 73,
+            "count": 3885
+          },
+          {
+            "line": 74,
+            "count": 3885
+          },
+          {
+            "line": 75,
+            "count": 161
+          }
+        ]
+      },
+      {
+        "path": "/local-workspace/Documents/ChatGPT/диплом/МТПО_Лабораторная_1/src/slot-search.mjs",
+        "totalLineCount": 98,
+        "totalBranchCount": 125,
+        "totalFunctionCount": 26,
+        "coveredLineCount": 98,
+        "coveredBranchCount": 125,
+        "coveredFunctionCount": 26,
+        "coveredLinePercent": 100,
+        "coveredBranchPercent": 100,
+        "coveredFunctionPercent": 100,
+        "functions": [
+          {
+            "name": "object",
+            "count": 12388,
+            "line": 3
+          },
+          {
+            "name": "word",
+            "count": 26559,
+            "line": 4
+          },
+          {
+            "name": "minute",
+            "count": 14560,
+            "line": 5
+          },
+          {
+            "name": "requireValue",
+            "count": 34002,
+            "line": 6
+          },
+          {
+            "name": "validDate",
+            "count": 6695,
+            "line": 7
+          },
+          {
+            "name": "prepare",
+            "count": 6691,
+            "line": 11
+          },
+          {
+            "name": "",
+            "count": 1631,
+            "line": 33
+          },
+          {
+            "name": "",
+            "count": 7127,
+            "line": 34
+          },
+          {
+            "name": "",
+            "count": 2172,
+            "line": 37
+          },
+          {
+            "name": "",
+            "count": 2212,
+            "line": 37
+          },
+          {
+            "name": "",
+            "count": 5283,
+            "line": 38
+          },
+          {
+            "name": "",
+            "count": 1392,
+            "line": 38
+          },
+          {
+            "name": "compatible",
+            "count": 4235,
+            "line": 41
+          },
+          {
+            "name": "",
+            "count": 14861,
+            "line": 42
+          },
+          {
+            "name": "overlap",
+            "count": 53738,
+            "line": 44
+          },
+          {
+            "name": "findAvailableScan",
+            "count": 27066,
+            "line": 47
+          },
+          {
+            "name": "",
+            "count": 7055,
+            "line": 51
+          },
+          {
+            "name": "",
+            "count": 2096,
+            "line": 51
+          },
+          {
+            "name": "",
+            "count": 7055,
+            "line": 52
+          },
+          {
+            "name": "",
+            "count": 30851,
+            "line": 52
+          },
+          {
+            "name": "",
+            "count": 31019,
+            "line": 57
+          },
+          {
+            "name": "",
+            "count": 7032,
+            "line": 58
+          },
+          {
+            "name": "",
+            "count": 15687,
+            "line": 59
+          },
+          {
+            "name": "byCourt",
+            "count": 2056,
+            "line": 65
+          },
+          {
+            "name": "intervalMask",
+            "count": 3127,
+            "line": 68
+          },
+          {
+            "name": "findAvailableMasks",
+            "count": 27090,
+            "line": 71
+          }
+        ],
+        "branches": [
+          {
+            "line": 1,
+            "count": 8
+          },
+          {
+            "line": 3,
+            "count": 12388
+          },
+          {
+            "line": 3,
+            "count": 12104
+          },
+          {
+            "line": 3,
+            "count": 160
+          },
+          {
+            "line": 3,
+            "count": 158
+          },
+          {
+            "line": 4,
+            "count": 26559
+          },
+          {
+            "line": 5,
+            "count": 14560
+          },
+          {
+            "line": 5,
+            "count": 92
+          },
+          {
+            "line": 5,
+            "count": 90
+          },
+          {
+            "line": 6,
+            "count": 34002
+          },
+          {
+            "line": 6,
+            "count": 78
+          },
+          {
+            "line": 7,
+            "count": 6695
+          },
+          {
+            "line": 8,
+            "count": 4
+          },
+          {
+            "line": 8,
+            "count": 4
+          },
+          {
+            "line": 8,
+            "count": 2
+          },
+          {
+            "line": 11,
+            "count": 622
+          },
+          {
+            "line": 12,
+            "count": 558
+          },
+          {
+            "line": 13,
+            "count": 594
+          },
+          {
+            "line": 16,
+            "count": 574
+          },
+          {
+            "line": 18,
+            "count": 570
+          },
+          {
+            "line": 18,
+            "count": 534
+          },
+          {
+            "line": 18,
+            "count": 564
+          },
+          {
+            "line": 19,
+            "count": 2348
+          },
+          {
+            "line": 19,
+            "count": 562
+          },
+          {
+            "line": 21,
+            "count": 2205
+          },
+          {
+            "line": 23,
+            "count": 2158
+          },
+          {
+            "line": 24,
+            "count": 550
+          },
+          {
+            "line": 25,
+            "count": 1126
+          },
+          {
+            "line": 25,
+            "count": 6691
+          },
+          {
+            "line": 26,
+            "count": 6664
+          },
+          {
+            "line": 26,
+            "count": 6674
+          },
+          {
+            "line": 26,
+            "count": 5278
+          },
+          {
+            "line": 26,
+            "count": 1396
+          },
+          {
+            "line": 27,
+            "count": 5276
+          },
+          {
+            "line": 27,
+            "count": 1394
+          },
+          {
+            "line": 28,
+            "count": 5274
+          },
+          {
+            "line": 29,
+            "count": 534
+          },
+          {
+            "line": 31,
+            "count": 1632
+          },
+          {
+            "line": 32,
+            "count": 1624
+          },
+          {
+            "line": 34,
+            "count": 1626
+          },
+          {
+            "line": 35,
+            "count": 526
+          },
+          {
+            "line": 39,
+            "count": 6
+          },
+          {
+            "line": 39,
+            "count": 520
+          },
+          {
+            "line": 22,
+            "count": 30
+          },
+          {
+            "line": 22,
+            "count": 28
+          },
+          {
+            "line": 23,
+            "count": 28
+          },
+          {
+            "line": 23,
+            "count": 26
+          },
+          {
+            "line": 23,
+            "count": 24
+          },
+          {
+            "line": 33,
+            "count": 1631
+          },
+          {
+            "line": 34,
+            "count": 7127
+          },
+          {
+            "line": 37,
+            "count": 2172
+          },
+          {
+            "line": 37,
+            "count": 2212
+          },
+          {
+            "line": 38,
+            "count": 5283
+          },
+          {
+            "line": 38,
+            "count": 3906
+          },
+          {
+            "line": 38,
+            "count": 1392
+          },
+          {
+            "line": 38,
+            "count": 926
+          },
+          {
+            "line": 41,
+            "count": 4235
+          },
+          {
+            "line": 42,
+            "count": 14861
+          },
+          {
+            "line": 42,
+            "count": 6632
+          },
+          {
+            "line": 42,
+            "count": 2498
+          },
+          {
+            "line": 42,
+            "count": 8226
+          },
+          {
+            "line": 42,
+            "count": 3032
+          },
+          {
+            "line": 44,
+            "count": 53738
+          },
+          {
+            "line": 44,
+            "count": 29291
+          },
+          {
+            "line": 47,
+            "count": 309
+          },
+          {
+            "line": 48,
+            "count": 1
+          },
+          {
+            "line": 48,
+            "count": 260
+          },
+          {
+            "line": 50,
+            "count": 1073
+          },
+          {
+            "line": 54,
+            "count": 27066
+          },
+          {
+            "line": 55,
+            "count": 4
+          },
+          {
+            "line": 55,
+            "count": 27043
+          },
+          {
+            "line": 57,
+            "count": 8763
+          },
+          {
+            "line": 57,
+            "count": 18292
+          },
+          {
+            "line": 58,
+            "count": 1073
+          },
+          {
+            "line": 58,
+            "count": 17224
+          },
+          {
+            "line": 59,
+            "count": 3309
+          },
+          {
+            "line": 59,
+            "count": 13915
+          },
+          {
+            "line": 61,
+            "count": 27066
+          },
+          {
+            "line": 62,
+            "count": 262
+          },
+          {
+            "line": 48,
+            "count": 2
+          },
+          {
+            "line": 57,
+            "count": 1
+          },
+          {
+            "line": 51,
+            "count": 7055
+          },
+          {
+            "line": 51,
+            "count": 2096
+          },
+          {
+            "line": 52,
+            "count": 7055
+          },
+          {
+            "line": 52,
+            "count": 30851
+          },
+          {
+            "line": 53,
+            "count": 5115
+          },
+          {
+            "line": 53,
+            "count": 29906
+          },
+          {
+            "line": 53,
+            "count": 5468
+          },
+          {
+            "line": 53,
+            "count": 2117
+          },
+          {
+            "line": 57,
+            "count": 31019
+          },
+          {
+            "line": 57,
+            "count": 24139
+          },
+          {
+            "line": 57,
+            "count": 23129
+          },
+          {
+            "line": 57,
+            "count": 2
+          },
+          {
+            "line": 58,
+            "count": 7032
+          },
+          {
+            "line": 59,
+            "count": 15687
+          },
+          {
+            "line": 65,
+            "count": 546
+          },
+          {
+            "line": 66,
+            "count": 2056
+          },
+          {
+            "line": 66,
+            "count": 1133
+          },
+          {
+            "line": 68,
+            "count": 3127
+          },
+          {
+            "line": 71,
+            "count": 313
+          },
+          {
+            "line": 72,
+            "count": 1
+          },
+          {
+            "line": 72,
+            "count": 262
+          },
+          {
+            "line": 74,
+            "count": 811
+          },
+          {
+            "line": 74,
+            "count": 1626
+          },
+          {
+            "line": 74,
+            "count": 1020
+          },
+          {
+            "line": 74,
+            "count": 260
+          },
+          {
+            "line": 77,
+            "count": 1079
+          },
+          {
+            "line": 79,
+            "count": 331
+          },
+          {
+            "line": 79,
+            "count": 1589
+          },
+          {
+            "line": 83,
+            "count": 682
+          },
+          {
+            "line": 83,
+            "count": 464
+          },
+          {
+            "line": 84,
+            "count": 51
+          },
+          {
+            "line": 84,
+            "count": 1622
+          },
+          {
+            "line": 85,
+            "count": 813
+          },
+          {
+            "line": 86,
+            "count": 483
+          },
+          {
+            "line": 86,
+            "count": 2118
+          },
+          {
+            "line": 87,
+            "count": 1071
+          },
+          {
+            "line": 90,
+            "count": 27090
+          },
+          {
+            "line": 91,
+            "count": 27043
+          },
+          {
+            "line": 91,
+            "count": 2345
+          },
+          {
+            "line": 91,
+            "count": 24724
+          },
+          {
+            "line": 94,
+            "count": 13921
+          },
+          {
+            "line": 96,
+            "count": 262
+          },
+          {
+            "line": 91,
+            "count": 2
+          },
+          {
+            "line": 74,
+            "count": 2
+          }
+        ],
+        "lines": [
+          {
+            "line": 1,
+            "count": 8
+          },
+          {
+            "line": 2,
+            "count": 8
+          },
+          {
+            "line": 3,
+            "count": 8
+          },
+          {
+            "line": 4,
+            "count": 8
+          },
+          {
+            "line": 5,
+            "count": 8
+          },
+          {
+            "line": 6,
+            "count": 34002
+          },
+          {
+            "line": 7,
+            "count": 6695
+          },
+          {
+            "line": 8,
+            "count": 6695
+          },
+          {
+            "line": 9,
+            "count": 6695
+          },
+          {
+            "line": 10,
+            "count": 6695
+          },
+          {
+            "line": 11,
+            "count": 622
+          },
+          {
+            "line": 12,
+            "count": 622
+          },
+          {
+            "line": 13,
+            "count": 622
+          },
+          {
+            "line": 14,
+            "count": 622
+          },
+          {
+            "line": 15,
+            "count": 622
+          },
+          {
+            "line": 16,
+            "count": 622
+          },
+          {
+            "line": 17,
+            "count": 622
+          },
+          {
+            "line": 18,
+            "count": 622
+          },
+          {
+            "line": 19,
+            "count": 622
+          },
+          {
+            "line": 20,
+            "count": 562
+          },
+          {
+            "line": 21,
+            "count": 622
+          },
+          {
+            "line": 22,
+            "count": 2205
+          },
+          {
+            "line": 23,
+            "count": 2205
+          },
+          {
+            "line": 24,
+            "count": 2205
+          },
+          {
+            "line": 25,
+            "count": 622
+          },
+          {
+            "line": 26,
+            "count": 6691
+          },
+          {
+            "line": 27,
+            "count": 6691
+          },
+          {
+            "line": 28,
+            "count": 6691
+          },
+          {
+            "line": 29,
+            "count": 6691
+          },
+          {
+            "line": 30,
+            "count": 534
+          },
+          {
+            "line": 31,
+            "count": 622
+          },
+          {
+            "line": 32,
+            "count": 1632
+          },
+          {
+            "line": 33,
+            "count": 1632
+          },
+          {
+            "line": 34,
+            "count": 1632
+          },
+          {
+            "line": 35,
+            "count": 1632
+          },
+          {
+            "line": 36,
+            "count": 526
+          },
+          {
+            "line": 37,
+            "count": 526
+          },
+          {
+            "line": 38,
+            "count": 526
+          },
+          {
+            "line": 39,
+            "count": 622
+          },
+          {
+            "line": 40,
+            "count": 622
+          },
+          {
+            "line": 41,
+            "count": 4235
+          },
+          {
+            "line": 42,
+            "count": 4235
+          },
+          {
+            "line": 43,
+            "count": 4235
+          },
+          {
+            "line": 44,
+            "count": 8
+          },
+          {
+            "line": 45,
+            "count": 8
+          },
+          {
+            "line": 46,
+            "count": 8
+          },
+          {
+            "line": 47,
+            "count": 8
+          },
+          {
+            "line": 48,
+            "count": 309
+          },
+          {
+            "line": 49,
+            "count": 2
+          },
+          {
+            "line": 50,
+            "count": 2
+          },
+          {
+            "line": 51,
+            "count": 2
+          },
+          {
+            "line": 52,
+            "count": 2
+          },
+          {
+            "line": 53,
+            "count": 2
+          },
+          {
+            "line": 54,
+            "count": 2
+          },
+          {
+            "line": 55,
+            "count": 2
+          },
+          {
+            "line": 56,
+            "count": 2
+          },
+          {
+            "line": 57,
+            "count": 2
+          },
+          {
+            "line": 58,
+            "count": 2
+          },
+          {
+            "line": 59,
+            "count": 2
+          },
+          {
+            "line": 60,
+            "count": 2
+          },
+          {
+            "line": 61,
+            "count": 2
+          },
+          {
+            "line": 62,
+            "count": 2
+          },
+          {
+            "line": 63,
+            "count": 262
+          },
+          {
+            "line": 64,
+            "count": 309
+          },
+          {
+            "line": 65,
+            "count": 546
+          },
+          {
+            "line": 66,
+            "count": 546
+          },
+          {
+            "line": 67,
+            "count": 546
+          },
+          {
+            "line": 68,
+            "count": 3127
+          },
+          {
+            "line": 69,
+            "count": 8
+          },
+          {
+            "line": 70,
+            "count": 8
+          },
+          {
+            "line": 71,
+            "count": 8
+          },
+          {
+            "line": 72,
+            "count": 313
+          },
+          {
+            "line": 73,
+            "count": 262
+          },
+          {
+            "line": 74,
+            "count": 313
+          },
+          {
+            "line": 75,
+            "count": 2
+          },
+          {
+            "line": 76,
+            "count": 2
+          },
+          {
+            "line": 77,
+            "count": 2
+          },
+          {
+            "line": 78,
+            "count": 2
+          },
+          {
+            "line": 79,
+            "count": 2
+          },
+          {
+            "line": 80,
+            "count": 2
+          },
+          {
+            "line": 81,
+            "count": 2
+          },
+          {
+            "line": 82,
+            "count": 2
+          },
+          {
+            "line": 83,
+            "count": 2
+          },
+          {
+            "line": 84,
+            "count": 2
+          },
+          {
+            "line": 85,
+            "count": 2
+          },
+          {
+            "line": 86,
+            "count": 2
+          },
+          {
+            "line": 87,
+            "count": 2
+          },
+          {
+            "line": 88,
+            "count": 2
+          },
+          {
+            "line": 89,
+            "count": 2
+          },
+          {
+            "line": 90,
+            "count": 2
+          },
+          {
+            "line": 91,
+            "count": 2
+          },
+          {
+            "line": 92,
+            "count": 2
+          },
+          {
+            "line": 93,
+            "count": 2
+          },
+          {
+            "line": 94,
+            "count": 2
+          },
+          {
+            "line": 95,
+            "count": 2
+          },
+          {
+            "line": 96,
+            "count": 2
+          },
+          {
+            "line": 97,
+            "count": 262
+          },
+          {
+            "line": 98,
+            "count": 313
+          }
+        ]
+      }
+    ],
+    "totals": {
+      "totalLineCount": 173,
+      "totalBranchCount": 173,
+      "totalFunctionCount": 40,
+      "coveredLineCount": 173,
+      "coveredBranchCount": 173,
+      "coveredFunctionCount": 40,
+      "coveredLinePercent": 100,
+      "coveredBranchPercent": 100,
+      "coveredFunctionPercent": 100
+    },
+    "thresholds": {
+      "line": 0,
+      "branch": 0,
+      "function": 0
+    }
+  }
+}

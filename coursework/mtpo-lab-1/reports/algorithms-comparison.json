@@ -1,0 +1,108 @@
+{
+  "node": "v24.22.1",
+  "platform": "darwin",
+  "architecture": "arm64",
+  "generatedSchedules": 200,
+  "allAlgorithmsAgree": true,
+  "benchmark": {
+    "repetitions": 5,
+    "warmup": 1,
+    "rows": [
+      {
+        "courts": 1,
+        "bookings": 6,
+        "adjacencyEdges": 0,
+        "resultSlots": 11,
+        "scanMedianMs": 0.014415999999982887,
+        "masksMedianMs": 0.01412500000003547,
+        "scanSamplesMs": [
+          0.015792000000033113,
+          0.014625000000023647,
+          0.014415999999982887,
+          0.01362499999999045,
+          0.013583999999980279
+        ],
+        "masksSamplesMs": [
+          0.017249999999989996,
+          0.027209000000027572,
+          0.01412500000003547,
+          0.01362499999999045,
+          0.013708999999948901
+        ]
+      },
+      {
+        "courts": 7,
+        "bookings": 42,
+        "adjacencyEdges": 3,
+        "resultSlots": 77,
+        "scanMedianMs": 0.0791250000000332,
+        "masksMedianMs": 0.07095799999996188,
+        "scanSamplesMs": [
+          0.08029200000004266,
+          0.0791250000000332,
+          0.07829199999997627,
+          0.08162500000003092,
+          0.07762500000001182
+        ],
+        "masksSamplesMs": [
+          0.07095799999996188,
+          0.16241700000000492,
+          0.06900000000001683,
+          0.06887499999999136,
+          0.07287499999995362
+        ]
+      },
+      {
+        "courts": 50,
+        "bookings": 300,
+        "adjacencyEdges": 25,
+        "resultSlots": 550,
+        "scanMedianMs": 1.226500000000044,
+        "masksMedianMs": 0.43608299999999645,
+        "scanSamplesMs": [
+          1.2712080000000014,
+          1.669584000000043,
+          1.226500000000044,
+          1.2030000000000314,
+          1.1687499999999886
+        ],
+        "masksSamplesMs": [
+          0.8835839999999848,
+          0.5110000000000241,
+          0.37737499999997226,
+          0.3724589999999921,
+          0.43608299999999645
+        ]
+      },
+      {
+        "courts": 200,
+        "bookings": 1200,
+        "adjacencyEdges": 100,
+        "resultSlots": 2200,
+        "scanMedianMs": 40.63375000000008,
+        "masksMedianMs": 1.516208000000006,
+        "scanSamplesMs": [
+          39.73283299999997,
+          39.82179199999996,
+          40.95712500000002,
+          40.63375000000008,
+          41.151040999999964
+        ],
+        "masksSamplesMs": [
+          1.516208000000006,
+          1.512958000000026,
+          1.4635829999999714,
+          1.6339999999999009,
+          1.7300000000000182
+        ]
+      }
+    ],
+    "limitations": [
+      "Synthetic in-memory inputs; not a web-server or database load test.",
+      "Input validation and index construction are included.",
+      "Wall time fluctuates; no pass threshold is based on performance.",
+      "No claim about production latency or memory allocation."
+    ]
+  },
+  "sourceHash": "938c03830f41b1edb6d34a404a039176764cdc8804e982e53e878abb4359255f"
+}

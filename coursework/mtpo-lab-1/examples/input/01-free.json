@@ -1,0 +1,24 @@
+{
+  "now": "2026-11-24T12:00:00+03:00",
+  "request": {
+    "sportId": "badminton",
+    "date": "2026-11-25",
+    "duration": 60
+  },
+  "openingHours": {
+    "opensAt": 480,
+    "closesAt": 600
+  },
+  "courts": [
+    {
+      "id": 1,
+      "name": "Бадминтон №1",
+      "sports": [
+        "badminton"
+      ]
+    }
+  ],
+  "bookings": [],
+  "blocks": [],
+  "adjacency": []
+}

@@ -1,0 +1,86 @@
+✔ AV01 hours absent (1.400625ms)
+✔ AV02 working window shorter than duration (0.143208ms)
+✔ AV03 past and exactly current starts skipped (0.192917ms)
+✔ AV04 overlap rejected, touching end allowed (0.093792ms)
+✔ AV05 thirty minute gap after booking (0.074875ms)
+✔ AV06 thirty minute gap before booking (0.080334ms)
+✔ AV07 incompatible neighbor overlaps (0.097375ms)
+✔ AV08 technical block overlaps (0.082333ms)
+✔ AV09 free day (0.081625ms)
+✔ AV10 touching before existing booking (0.067334ms)
+✔ BV-OPEN-BEFORE before opening unavailable (0.108ms)
+✔ BV-OPEN-AT exact opening available (0.104959ms)
+✔ BV-CLOSE-AT exact closing available (0.074542ms)
+✔ BV-CLOSE-AFTER after closing unavailable (0.08225ms)
+✔ BV-GAP1 booking gap boundary (0.084333ms)
+✔ BV-GAP2 booking gap boundary (0.076292ms)
+✔ BV-GAP3 booking gap boundary (0.070917ms)
+✔ BV-GAP4 booking gap boundary (0.078792ms)
+✔ BV-GAP5 booking gap boundary (0.078583ms)
+✔ BV-GAP6 booking gap boundary (0.071791ms)
+✔ BV-GAP7 booking gap boundary (0.066ms)
+✔ BV-GAP8 booking gap boundary (0.070667ms)
+✔ SQL-EMPTY-BOOKINGS empty reservation query result; SQL filtering is outside this unit test (0.078583ms)
+✔ SQL-EMPTY-NEIGHBORS empty incompatible neighbor query result; compatibility SQL is outside this unit test (0.066333ms)
+✔ BV-TIME-SECOND future noon is available one second before noon (0.11725ms)
+✔ SQL receives the booking to exclude and chosen sport as parameters (0.158833ms)
+✔ database rejection is propagated, not reported as free time (0.239125ms)
+✔ default pool is replaceable and cannot accidentally access a real database (0.1205ms)
+✔ pool boundary fails closed without an explicit test double (0.039667ms)
+✔ lock keys are sorted, duplicate free and include both sides of adjacency (0.100583ms)
+✔ unrelated links are not added to a target and empty target set is allowed (0.607417ms)
+✔ locking takes shared configuration lock first then sorted day keys (0.150833ms)
+✔ empty target set still coordinates configuration and takes no day locks (0.042416ms)
+✔ neighbor query supports default sport and exclusion parameters (0.048583ms)
+✔ ST01 [statement] date=не дата duration=120 (0.736583ms)
+✔ ST02+BR05+BV-DT6 [statement,branch,boundary] date=2027-01-04 duration=120 (0.185958ms)
+✔ ST03+BR08+EQ-D2+BV-D7 [statement,branch,equivalence,boundary] date=2026-11-25 duration=30 (0.0535ms)
+✔ ST04+BR11+EQ-D1+BV-DT3 [statement,branch,equivalence,boundary] date=2026-11-25 duration=120 (0.035708ms)
+✔ BR01 [branch] date=20261125 duration=120 (0.030375ms)
+✔ BR02 [branch] date=25.11.2026 duration=120 (0.026541ms)
+✔ BR03+EQ-DT5 [branch,equivalence] date=2026-11-31 duration=120 (0.028834ms)
+✔ BR04+EQ-DT3+BV-DT1 [branch,equivalence,boundary] date=2026-11-23 duration=120 (0.028292ms)
+✔ BR06+EQ-D6 [branch,equivalence] date=2026-11-25 duration=120 (0.041083ms)
+✔ BR07+EQ-D5 [branch,equivalence] date=2026-11-25 duration=90.5 (0.041833ms)
+✔ BR09+EQ-D3+BV-D10 [branch,equivalence,boundary] date=2026-11-25 duration=330 (0.032833ms)
+✔ BR10+EQ-D4 [branch,equivalence] date=2026-11-25 duration=75 (0.031875ms)
+✔ EQ-DT1+BV-DT2 [equivalence,boundary] date=2026-11-24 duration=120 (0.024875ms)
+✔ EQ-DT2 [equivalence] date=2026-12-10 duration=120 (0.030833ms)
+✔ EQ-DT4 [equivalence] date=2027-01-10 duration=120 (0.031625ms)
+✔ EQ-DT6 [equivalence] date=24.11.2026 duration=120 (0.02325ms)
+✔ EQ-DT7 [equivalence] date= duration=120 (0.028417ms)
+✔ BV-D1 [boundary] date=2026-11-25 duration=59 (0.0245ms)
+✔ BV-D2 [boundary] date=2026-11-25 duration=60 (0.021708ms)
+✔ BV-D3 [boundary] date=2026-11-25 duration=61 (0.020375ms)
+✔ BV-D4 [boundary] date=2026-11-25 duration=299 (0.020375ms)
+✔ BV-D5 [boundary] date=2026-11-25 duration=300 (0.020792ms)
+✔ BV-D6 [boundary] date=2026-11-25 duration=301 (0.023708ms)
+✔ BV-D8 [boundary] date=2026-11-25 duration=90 (0.027542ms)
+✔ BV-D9 [boundary] date=2026-11-25 duration=270 (0.022625ms)
+✔ BV-DT4 [boundary] date=2027-01-02 duration=120 (0.026708ms)
+✔ BV-DT5 [boundary] date=2027-01-03 duration=120 (0.029666ms)
+✔ EX-null [robustness] date=null duration=120 (0.020834ms)
+✔ EX-undefined [robustness] date=undefined duration=120 (0.05075ms)
+✔ EX-NaN [robustness] date=2026-11-25 duration=NaN (0.063833ms)
+✔ EX-infinity [robustness] date=2026-11-25 duration=Infinity (0.045875ms)
+✔ default current date is controlled by the test clock (0.340333ms)
+✔ all supported duration choices are accepted (0.061792ms)
+✔ formatTime preserves hours, leading zeroes and half hours (0.497792ms)
+ℹ tests 68
+ℹ suites 0
+ℹ pass 68
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 133.285291
+ℹ start of coverage report
+ℹ ------------------------------------------------------------
+ℹ file        | line % | branch % | funcs % | uncovered lines
+ℹ ------------------------------------------------------------
+ℹ src         |        |          |         | 
+ℹ  booking.ts | 100.00 |   100.00 |  100.00 | 
+ℹ ------------------------------------------------------------
+ℹ all files   | 100.00 |   100.00 |  100.00 | 
+ℹ ------------------------------------------------------------
+ℹ end of coverage report

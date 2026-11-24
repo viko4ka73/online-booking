@@ -1,0 +1,7 @@
+{
+  "originalFile": "server/src/booking.ts",
+  "originalSha256": "302b5c0ed875b7d11eda2d1cddc46157ae7b0cfe2e56bd87544baeeb65f5a132",
+  "snapshotSha256": "2e93c54b62ce5260c38abae6a73ab2d19c293d46ba03f7172e56630f6dceabfc",
+  "adaptation": "Only the runtime database import is changed from ./db to ./db.ts. Algorithm bodies are unchanged. The local database module never connects to PostgreSQL.",
+  "approach": "Tests for existing diploma code, not a historical claim of TDD."
+}

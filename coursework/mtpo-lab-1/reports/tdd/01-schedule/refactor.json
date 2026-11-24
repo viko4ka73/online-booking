@@ -1,0 +1,10 @@
+{
+  "phase": "refactor",
+  "recordedAt": "2026-11-24T19:36:40.646Z",
+  "nodeVersion": "v24.22.1",
+  "exitCode": 0,
+  "sourceHash": "938c03830f41b1edb6d34a404a039176764cdc8804e982e53e878abb4359255f",
+  "testHash": "842fc75a7bef3fe58fc3512975578157008d6e28cf60fedadb3c34ced07fef10",
+  "fixtureHash": "d2979dee19ce8afbea189bc99bf5d70d927f86b006ec428897a81b4655f9b694",
+  "command": "node --test tests/algorithms.test.mjs"
+}

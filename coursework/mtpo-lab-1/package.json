@@ -1,0 +1,22 @@
+{
+  "name": "igraem-mtpo-lab1",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "test": "node scripts/run-tests.mjs",
+    "test:coverage": "node scripts/run-tests.mjs --coverage",
+    "test:compare": "node scripts/compare-techniques.mjs",
+    "test:algorithms": "node --test tests/algorithms.test.mjs",
+    "compare:algorithms": "node scripts/compare-algorithms.mjs",
+    "start": "node src/console.mjs",
+    "test:console": "node --test tests/console.test.mjs",
+    "test:mutation": "stryker run",
+    "test:mutation:summary": "node scripts/summarize-mutation.mjs"
+  },
+  "devDependencies": {
+    "@stryker-mutator/core": "10.1.1"
+  }
+}

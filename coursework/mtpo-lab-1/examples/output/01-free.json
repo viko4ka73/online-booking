@@ -1,0 +1,25 @@
+{
+  "request": {
+    "sportId": "badminton",
+    "date": "2026-11-25",
+    "duration": 60
+  },
+  "algorithmsAgree": true,
+  "slots": [
+    {
+      "courtId": 1,
+      "start": "08:00",
+      "end": "09:00"
+    },
+    {
+      "courtId": 1,
+      "start": "08:30",
+      "end": "09:30"
+    },
+    {
+      "courtId": 1,
+      "start": "09:00",
+      "end": "10:00"
+    }
+  ]
+}

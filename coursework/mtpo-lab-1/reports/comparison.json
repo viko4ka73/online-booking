@@ -1,0 +1,850 @@
+{
+  "nodeVersion": "v26.13.0",
+  "fixedClock": "2026-11-24T09:00:00.000Z",
+  "coverageItems": [
+    [
+      "K01",
+      "Дата не является строкой"
+    ],
+    [
+      "K02",
+      "Неверный формат даты"
+    ],
+    [
+      "K03",
+      "Несуществующая календарная дата"
+    ],
+    [
+      "K04",
+      "Прошедшая дата"
+    ],
+    [
+      "K05",
+      "Дата за горизонтом 40 дней"
+    ],
+    [
+      "K06",
+      "Длительность не является числом"
+    ],
+    [
+      "K07",
+      "Числовая длительность не является целой"
+    ],
+    [
+      "K08",
+      "Длительность меньше 60"
+    ],
+    [
+      "K09",
+      "Длительность больше 300"
+    ],
+    [
+      "K10",
+      "Нарушение шага внутри диапазона"
+    ],
+    [
+      "K11",
+      "Допустимая сегодняшняя дата"
+    ],
+    [
+      "K12",
+      "Допустимая будущая дата"
+    ],
+    [
+      "K13",
+      "Допустимый минимум 60 минут"
+    ],
+    [
+      "K14",
+      "Допустимый максимум 300 минут"
+    ],
+    [
+      "K15",
+      "Допустимая последняя дата +40 дней"
+    ]
+  ],
+  "rows": [
+    {
+      "specificationItems": {
+        "ids": [
+          "K02",
+          "K05",
+          "K08",
+          "K12"
+        ],
+        "covered": 4,
+        "total": 15,
+        "percent": 26.666666666666668
+      },
+      "profile": "statement",
+      "validationCases": 4,
+      "totalTests": 4,
+      "passed": 4,
+      "scope": {
+        "function": "scheduleError",
+        "firstLine": 14,
+        "lastLine": 29
+      },
+      "lines": {
+        "covered": 16,
+        "total": 16,
+        "percent": 100
+      },
+      "v8Branches": {
+        "covered": 13,
+        "total": 13,
+        "percent": 100
+      },
+      "outerDecisions": {
+        "covered": 6,
+        "total": 6,
+        "percent": 100
+      },
+      "wholeModule": {
+        "totalLineCount": 75,
+        "totalBranchCount": 14,
+        "totalFunctionCount": 6,
+        "coveredLineCount": 34,
+        "coveredBranchCount": 14,
+        "coveredFunctionCount": 1,
+        "coveredLinePercent": 45.33333333333333,
+        "coveredBranchPercent": 100,
+        "coveredFunctionPercent": 16.666666666666664
+      }
+    },
+    {
+      "specificationItems": {
+        "ids": [
+          "K01",
+          "K02",
+          "K03",
+          "K04",
+          "K05",
+          "K06",
+          "K07",
+          "K08",
+          "K09",
+          "K10",
+          "K12"
+        ],
+        "covered": 11,
+        "total": 15,
+        "percent": 73.33333333333333
+      },
+      "profile": "branch",
+      "validationCases": 11,
+      "totalTests": 11,
+      "passed": 11,
+      "scope": {
+        "function": "scheduleError",
+        "firstLine": 14,
+        "lastLine": 29
+      },
+      "lines": {
+        "covered": 16,
+        "total": 16,
+        "percent": 100
+      },
+      "v8Branches": {
+        "covered": 17,
+        "total": 17,
+        "percent": 100
+      },
+      "outerDecisions": {
+        "covered": 6,
+        "total": 6,
+        "percent": 100
+      },
+      "wholeModule": {
+        "totalLineCount": 75,
+        "totalBranchCount": 18,
+        "totalFunctionCount": 6,
+        "coveredLineCount": 34,
+        "coveredBranchCount": 18,
+        "coveredFunctionCount": 1,
+        "coveredLinePercent": 45.33333333333333,
+        "coveredBranchPercent": 100,
+        "coveredFunctionPercent": 16.666666666666664
+      }
+    },
+    {
+      "specificationItems": {
+        "ids": [
+          "K02",
+          "K03",
+          "K04",
+          "K05",
+          "K06",
+          "K07",
+          "K08",
+          "K09",
+          "K10",
+          "K11",
+          "K12"
+        ],
+        "covered": 11,
+        "total": 15,
+        "percent": 73.33333333333333
+      },
+      "profile": "equivalence",
+      "validationCases": 13,
+      "totalTests": 13,
+      "passed": 13,
+      "scope": {
+        "function": "scheduleError",
+        "firstLine": 14,
+        "lastLine": 29
+      },
+      "lines": {
+        "covered": 16,
+        "total": 16,
+        "percent": 100
+      },
+      "v8Branches": {
+        "covered": 15,
+        "total": 15,
+        "percent": 100
+      },
+      "outerDecisions": {
+        "covered": 6,
+        "total": 6,
+        "percent": 100
+      },
+      "wholeModule": {
+        "totalLineCount": 75,
+        "totalBranchCount": 16,
+        "totalFunctionCount": 6,
+        "coveredLineCount": 34,
+        "coveredBranchCount": 16,
+        "coveredFunctionCount": 1,
+        "coveredLinePercent": 45.33333333333333,
+        "coveredBranchPercent": 100,
+        "coveredFunctionPercent": 16.666666666666664
+      }
+    },
+    {
+      "specificationItems": {
+        "ids": [
+          "K04",
+          "K05",
+          "K08",
+          "K09",
+          "K10",
+          "K11",
+          "K12",
+          "K13",
+          "K14",
+          "K15"
+        ],
+        "covered": 10,
+        "total": 15,
+        "percent": 66.66666666666667
+      },
+      "profile": "boundary",
+      "validationCases": 16,
+      "totalTests": 16,
+      "passed": 16,
+      "scope": {
+        "function": "scheduleError",
+        "firstLine": 14,
+        "lastLine": 29
+      },
+      "lines": {
+        "covered": 16,
+        "total": 16,
+        "percent": 100
+      },
+      "v8Branches": {
+        "covered": 10,
+        "total": 11,
+        "percent": 90.9090909090909
+      },
+      "outerDecisions": {
+        "covered": 6,
+        "total": 6,
+        "percent": 100
+      },
+      "wholeModule": {
+        "totalLineCount": 75,
+        "totalBranchCount": 12,
+        "totalFunctionCount": 6,
+        "coveredLineCount": 34,
+        "coveredBranchCount": 11,
+        "coveredFunctionCount": 1,
+        "coveredLinePercent": 45.33333333333333,
+        "coveredBranchPercent": 91.66666666666666,
+        "coveredFunctionPercent": 16.666666666666664
+      }
+    },
+    {
+      "specificationItems": {
+        "ids": [
+          "K01",
+          "K02",
+          "K03",
+          "K04",
+          "K05",
+          "K06",
+          "K07",
+          "K08",
+          "K09",
+          "K10",
+          "K11",
+          "K12",
+          "K13",
+          "K14",
+          "K15"
+        ],
+        "covered": 15,
+        "total": 15,
+        "percent": 100
+      },
+      "profile": "original",
+      "validationCases": 48,
+      "totalTests": 85,
+      "passed": 85,
+      "scope": {
+        "function": "scheduleError",
+        "firstLine": 14,
+        "lastLine": 29
+      },
+      "lines": {
+        "covered": 16,
+        "total": 16,
+        "percent": 100
+      },
+      "v8Branches": {
+        "covered": 17,
+        "total": 17,
+        "percent": 100
+      },
+      "outerDecisions": {
+        "covered": 6,
+        "total": 6,
+        "percent": 100
+      },
+      "wholeModule": {
+        "totalLineCount": 75,
+        "totalBranchCount": 48,
+        "totalFunctionCount": 14,
+        "coveredLineCount": 75,
+        "coveredBranchCount": 48,
+        "coveredFunctionCount": 14,
+        "coveredLinePercent": 100,
+        "coveredBranchPercent": 100,
+        "coveredFunctionPercent": 100
+      }
+    },
+    {
+      "specificationItems": {
+        "ids": [
+          "K01",
+          "K02",
+          "K03",
+          "K04",
+          "K05",
+          "K06",
+          "K07",
+          "K08",
+          "K09",
+          "K10",
+          "K11",
+          "K12",
+          "K13",
+          "K14",
+          "K15"
+        ],
+        "covered": 15,
+        "total": 15,
+        "percent": 100
+      },
+      "profile": "optimized",
+      "validationCases": 31,
+      "totalTests": 68,
+      "passed": 68,
+      "scope": {
+        "function": "scheduleError",
+        "firstLine": 14,
+        "lastLine": 29
+      },
+      "lines": {
+        "covered": 16,
+        "total": 16,
+        "percent": 100
+      },
+      "v8Branches": {
+        "covered": 17,
+        "total": 17,
+        "percent": 100
+      },
+      "outerDecisions": {
+        "covered": 6,
+        "total": 6,
+        "percent": 100
+      },
+      "wholeModule": {
+        "totalLineCount": 75,
+        "totalBranchCount": 48,
+        "totalFunctionCount": 14,
+        "coveredLineCount": 75,
+        "coveredBranchCount": 48,
+        "coveredFunctionCount": 14,
+        "coveredLinePercent": 100,
+        "coveredBranchPercent": 100,
+        "coveredFunctionPercent": 100
+      }
+    }
+  ],
+  "optimization": {
+    "originalCases": 48,
+    "uniqueCases": 31,
+    "removed": 17,
+    "sourceIdsPreserved": 48
+  },
+  "traceability": [
+    {
+      "date": "не дата",
+      "duration": 120,
+      "expected": "Выберите сегодняшнюю или будущую дату.",
+      "ids": [
+        "ST01"
+      ],
+      "techniques": [
+        "statement"
+      ],
+      "dateType": "string",
+      "durationType": "number"
+    },
+    {
+      "date": "2027-01-04",
+      "duration": 120,
+      "expected": "Запись доступна не более чем на 40 дней вперёд.",
+      "ids": [
+        "ST02",
+        "BR05",
+        "BV-DT6"
+      ],
+      "techniques": [
+        "statement",
+        "branch",
+        "boundary"
+      ],
+      "dateType": "string",
+      "durationType": "number"
+    },
+    {
+      "date": "2026-11-25",
+      "duration": 30,
+      "expected": "Выберите длительность от 1 до 5 часов с шагом 30 минут.",
+      "ids": [
+        "ST03",
+        "BR08",
+        "EQ-D2",
+        "BV-D7"
+      ],
+      "techniques": [
+        "statement",
+        "branch",
+        "equivalence",
+        "boundary"
+      ],
+      "dateType": "string",
+      "durationType": "number"
+    },
+    {
+      "date": "2026-11-25",
+      "duration": 120,
+      "expected": null,
+      "ids": [
+        "ST04",
+        "BR11",
+        "EQ-D1",
+        "BV-DT3"
+      ],
+      "techniques": [
+        "statement",
+        "branch",
+        "equivalence",
+        "boundary"
+      ],
+      "dateType": "string",
+      "durationType": "number"
+    },
+    {
+      "date": "20261125",
+      "duration": 120,
+      "expected": "Выберите сегодняшнюю или будущую дату.",
+      "ids": [
+        "BR01"
+      ],
+      "techniques": [
+        "branch"
+      ],
+      "dateType": "number",
+      "durationType": "number"
+    },
+    {
+      "date": "25.11.2026",
+      "duration": 120,
+      "expected": "Выберите сегодняшнюю или будущую дату.",
+      "ids": [
+        "BR02"
+      ],
+      "techniques": [
+        "branch"
+      ],
+      "dateType": "string",
+      "durationType": "number"
+    },
+    {
+      "date": "2026-11-31",
+      "duration": 120,
+      "expected": "Выберите сегодняшнюю или будущую дату.",
+      "ids": [
+        "BR03",
+        "EQ-DT5"
+      ],
+      "techniques": [
+        "branch",
+        "equivalence"
+      ],
+      "dateType": "string",
+      "durationType": "number"
+    },
+    {
+      "date": "2026-11-23",
+      "duration": 120,
+      "expected": "Выберите сегодняшнюю или будущую дату.",
+      "ids": [
+        "BR04",
+        "EQ-DT3",
+        "BV-DT1"
+      ],
+      "techniques": [
+        "branch",
+        "equivalence",
+        "boundary"
+      ],
+      "dateType": "string",
+      "durationType": "number"
+    },
+    {
+      "date": "2026-11-25",
+      "duration": "120",
+      "expected": "Выберите длительность от 1 до 5 часов с шагом 30 минут.",
+      "ids": [
+        "BR06",
+        "EQ-D6"
+      ],
+      "techniques": [
+        "branch",
+        "equivalence"
+      ],
+      "dateType": "string",
+      "durationType": "string"
+    },
+    {
+      "date": "2026-11-25",
+      "duration": 90.5,
+      "expected": "Выберите длительность от 1 до 5 часов с шагом 30 минут.",
+      "ids": [
+        "BR07",
+        "EQ-D5"
+      ],
+      "techniques": [
+        "branch",
+        "equivalence"
+      ],
+      "dateType": "string",
+      "durationType": "number"
+    },
+    {
+      "date": "2026-11-25",
+      "duration": 330,
+      "expected": "Выберите длительность от 1 до 5 часов с шагом 30 минут.",
+      "ids": [
+        "BR09",
+        "EQ-D3",
+        "BV-D10"
+      ],
+      "techniques": [
+        "branch",
+        "equivalence",
+        "boundary"
+      ],
+      "dateType": "string",
+      "durationType": "number"
+    },
+    {
+      "date": "2026-11-25",
+      "duration": 75,
+      "expected": "Выберите длительность от 1 до 5 часов с шагом 30 минут.",
+      "ids": [
+        "BR10",
+        "EQ-D4"
+      ],
+      "techniques": [
+        "branch",
+        "equivalence"
+      ],
+      "dateType": "string",
+      "durationType": "number"
+    },
+    {
+      "date": "2026-11-24",
+      "duration": 120,
+      "expected": null,
+      "ids": [
+        "EQ-DT1",
+        "BV-DT2"
+      ],
+      "techniques": [
+        "equivalence",
+        "boundary"
+      ],
+      "dateType": "string",
+      "durationType": "number"
+    },
+    {
+      "date": "2026-12-10",
+      "duration": 120,
+      "expected": null,
+      "ids": [
+        "EQ-DT2"
+      ],
+      "techniques": [
+        "equivalence"
+      ],
+      "dateType": "string",
+      "durationType": "number"
+    },
+    {
+      "date": "2027-01-10",
+      "duration": 120,
+      "expected": "Запись доступна не более чем на 40 дней вперёд.",
+      "ids": [
+        "EQ-DT4"
+      ],
+      "techniques": [
+        "equivalence"
+      ],
+      "dateType": "string",
+      "durationType": "number"
+    },
+    {
+      "date": "24.11.2026",
+      "duration": 120,
+      "expected": "Выберите сегодняшнюю или будущую дату.",
+      "ids": [
+        "EQ-DT6"
+      ],
+      "techniques": [
+        "equivalence"
+      ],
+      "dateType": "string",
+      "durationType": "number"
+    },
+    {
+      "date": "",
+      "duration": 120,
+      "expected": "Выберите сегодняшнюю или будущую дату.",
+      "ids": [
+        "EQ-DT7"
+      ],
+      "techniques": [
+        "equivalence"
+      ],
+      "dateType": "string",
+      "durationType": "number"
+    },
+    {
+      "date": "2026-11-25",
+      "duration": 59,
+      "expected": "Выберите длительность от 1 до 5 часов с шагом 30 минут.",
+      "ids": [
+        "BV-D1"
+      ],
+      "techniques": [
+        "boundary"
+      ],
+      "dateType": "string",
+      "durationType": "number"
+    },
+    {
+      "date": "2026-11-25",
+      "duration": 60,
+      "expected": null,
+      "ids": [
+        "BV-D2"
+      ],
+      "techniques": [
+        "boundary"
+      ],
+      "dateType": "string",
+      "durationType": "number"
+    },
+    {
+      "date": "2026-11-25",
+      "duration": 61,
+      "expected": "Выберите длительность от 1 до 5 часов с шагом 30 минут.",
+      "ids": [
+        "BV-D3"
+      ],
+      "techniques": [
+        "boundary"
+      ],
+      "dateType": "string",
+      "durationType": "number"
+    },
+    {
+      "date": "2026-11-25",
+      "duration": 299,
+      "expected": "Выберите длительность от 1 до 5 часов с шагом 30 минут.",
+      "ids": [
+        "BV-D4"
+      ],
+      "techniques": [
+        "boundary"
+      ],
+      "dateType": "string",
+      "durationType": "number"
+    },
+    {
+      "date": "2026-11-25",
+      "duration": 300,
+      "expected": null,
+      "ids": [
+        "BV-D5"
+      ],
+      "techniques": [
+        "boundary"
+      ],
+      "dateType": "string",
+      "durationType": "number"
+    },
+    {
+      "date": "2026-11-25",
+      "duration": 301,
+      "expected": "Выберите длительность от 1 до 5 часов с шагом 30 минут.",
+      "ids": [
+        "BV-D6"
+      ],
+      "techniques": [
+        "boundary"
+      ],
+      "dateType": "string",
+      "durationType": "number"
+    },
+    {
+      "date": "2026-11-25",
+      "duration": 90,
+      "expected": null,
+      "ids": [
+        "BV-D8"
+      ],
+      "techniques": [
+        "boundary"
+      ],
+      "dateType": "string",
+      "durationType": "number"
+    },
+    {
+      "date": "2026-11-25",
+      "duration": 270,
+      "expected": null,
+      "ids": [
+        "BV-D9"
+      ],
+      "techniques": [
+        "boundary"
+      ],
+      "dateType": "string",
+      "durationType": "number"
+    },
+    {
+      "date": "2027-01-02",
+      "duration": 120,
+      "expected": null,
+      "ids": [
+        "BV-DT4"
+      ],
+      "techniques": [
+        "boundary"
+      ],
+      "dateType": "string",
+      "durationType": "number"
+    },
+    {
+      "date": "2027-01-03",
+      "duration": 120,
+      "expected": null,
+      "ids": [
+        "BV-DT5"
+      ],
+      "techniques": [
+        "boundary"
+      ],
+      "dateType": "string",
+      "durationType": "number"
+    },
+    {
+      "date": "null",
+      "duration": 120,
+      "expected": "Выберите сегодняшнюю или будущую дату.",
+      "ids": [
+        "EX-null"
+      ],
+      "techniques": [
+        "robustness"
+      ],
+      "dateType": "object",
+      "durationType": "number"
+    },
+    {
+      "date": "undefined",
+      "duration": 120,
+      "expected": "Выберите сегодняшнюю или будущую дату.",
+      "ids": [
+        "EX-undefined"
+      ],
+      "techniques": [
+        "robustness"
+      ],
+      "dateType": "undefined",
+      "durationType": "number"
+    },
+    {
+      "date": "2026-11-25",
+      "duration": "NaN",
+      "expected": "Выберите длительность от 1 до 5 часов с шагом 30 минут.",
+      "ids": [
+        "EX-NaN"
+      ],
+      "techniques": [
+        "robustness"
+      ],
+      "dateType": "string",
+      "durationType": "number"
+    },
+    {
+      "date": "2026-11-25",
+      "duration": "Infinity",
+      "expected": "Выберите длительность от 1 до 5 часов с шагом 30 минут.",
+      "ids": [
+        "EX-infinity"
+      ],
+      "techniques": [
+        "robustness"
+      ],
+      "dateType": "string",
+      "durationType": "number"
+    }
+  ],
+  "limitations": [
+    "V8 line and branch counts are tool-specific and are not AST statement coverage or MCDC.",
+    "Profiles are compared on scheduleError only; original/optimized full runs additionally include availability tests.",
+    "The snapshot uses database doubles. SQL semantics and concurrency were not tested.",
+    "No work-time hours were measured; effort estimates are qualitative.",
+    "Observed V8 branch denominators differ across separate profile runs. Do not rank techniques by their V8 percentages; compare the fixed 15 specification items and the 6 outer decision outcomes."
+  ]
+}

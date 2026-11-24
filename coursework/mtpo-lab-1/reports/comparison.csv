@@ -1,0 +1,7 @@
+﻿profile;validation_cases;total_tests;passed;function_lines_covered;function_lines_total;function_lines_percent;v8_branches_covered;v8_branches_total;v8_branches_percent;outer_decisions_covered;outer_decisions_total;spec_items_covered;spec_items_total;spec_items_percent
+statement;4;4;4;16;16;100.00;13;13;100.00;6;6;4;15;26.67
+branch;11;11;11;16;16;100.00;17;17;100.00;6;6;11;15;73.33
+equivalence;13;13;13;16;16;100.00;15;15;100.00;6;6;11;15;73.33
+boundary;16;16;16;16;16;100.00;10;11;90.91;6;6;10;15;66.67
+original;48;85;85;16;16;100.00;17;17;100.00;6;6;15;15;100.00
+optimized;31;68;68;16;16;100.00;17;17;100.00;6;6;15;15;100.00

@@ -1,0 +1,961 @@
+{
+  "nodeVersion": "v26.13.0",
+  "executedAt": "2026-11-24T19:47:52.776Z",
+  "tests": [
+    {
+      "name": "AV01 hours absent",
+      "status": "passed"
+    },
+    {
+      "name": "AV02 working window shorter than duration",
+      "status": "passed"
+    },
+    {
+      "name": "AV03 past and exactly current starts skipped",
+      "status": "passed"
+    },
+    {
+      "name": "AV04 overlap rejected, touching end allowed",
+      "status": "passed"
+    },
+    {
+      "name": "AV05 thirty minute gap after booking",
+      "status": "passed"
+    },
+    {
+      "name": "AV06 thirty minute gap before booking",
+      "status": "passed"
+    },
+    {
+      "name": "AV07 incompatible neighbor overlaps",
+      "status": "passed"
+    },
+    {
+      "name": "AV08 technical block overlaps",
+      "status": "passed"
+    },
+    {
+      "name": "AV09 free day",
+      "status": "passed"
+    },
+    {
+      "name": "AV10 touching before existing booking",
+      "status": "passed"
+    },
+    {
+      "name": "BV-OPEN-BEFORE before opening unavailable",
+      "status": "passed"
+    },
+    {
+      "name": "BV-OPEN-AT exact opening available",
+      "status": "passed"
+    },
+    {
+      "name": "BV-CLOSE-AT exact closing available",
+      "status": "passed"
+    },
+    {
+      "name": "BV-CLOSE-AFTER after closing unavailable",
+      "status": "passed"
+    },
+    {
+      "name": "BV-GAP1 booking gap boundary",
+      "status": "passed"
+    },
+    {
+      "name": "BV-GAP2 booking gap boundary",
+      "status": "passed"
+    },
+    {
+      "name": "BV-GAP3 booking gap boundary",
+      "status": "passed"
+    },
+    {
+      "name": "BV-GAP4 booking gap boundary",
+      "status": "passed"
+    },
+    {
+      "name": "BV-GAP5 booking gap boundary",
+      "status": "passed"
+    },
+    {
+      "name": "BV-GAP6 booking gap boundary",
+      "status": "passed"
+    },
+    {
+      "name": "BV-GAP7 booking gap boundary",
+      "status": "passed"
+    },
+    {
+      "name": "BV-GAP8 booking gap boundary",
+      "status": "passed"
+    },
+    {
+      "name": "SQL-EMPTY-BOOKINGS empty reservation query result; SQL filtering is outside this unit test",
+      "status": "passed"
+    },
+    {
+      "name": "SQL-EMPTY-NEIGHBORS empty incompatible neighbor query result; compatibility SQL is outside this unit test",
+      "status": "passed"
+    },
+    {
+      "name": "BV-TIME-SECOND future noon is available one second before noon",
+      "status": "passed"
+    },
+    {
+      "name": "SQL receives the booking to exclude and chosen sport as parameters",
+      "status": "passed"
+    },
+    {
+      "name": "database rejection is propagated, not reported as free time",
+      "status": "passed"
+    },
+    {
+      "name": "default pool is replaceable and cannot accidentally access a real database",
+      "status": "passed"
+    },
+    {
+      "name": "pool boundary fails closed without an explicit test double",
+      "status": "passed"
+    },
+    {
+      "name": "lock keys are sorted, duplicate free and include both sides of adjacency",
+      "status": "passed"
+    },
+    {
+      "name": "unrelated links are not added to a target and empty target set is allowed",
+      "status": "passed"
+    },
+    {
+      "name": "locking takes shared configuration lock first then sorted day keys",
+      "status": "passed"
+    },
+    {
+      "name": "empty target set still coordinates configuration and takes no day locks",
+      "status": "passed"
+    },
+    {
+      "name": "neighbor query supports default sport and exclusion parameters",
+      "status": "passed"
+    },
+    {
+      "name": "ST01 [statement] date=не дата duration=120",
+      "status": "passed"
+    },
+    {
+      "name": "ST02 [statement] date=2027-01-04 duration=120",
+      "status": "passed"
+    },
+    {
+      "name": "ST03 [statement] date=2026-11-25 duration=30",
+      "status": "passed"
+    },
+    {
+      "name": "ST04 [statement] date=2026-11-25 duration=120",
+      "status": "passed"
+    },
+    {
+      "name": "BR01 [branch] date=20261125 duration=120",
+      "status": "passed"
+    },
+    {
+      "name": "BR02 [branch] date=25.11.2026 duration=120",
+      "status": "passed"
+    },
+    {
+      "name": "BR03 [branch] date=2026-11-31 duration=120",
+      "status": "passed"
+    },
+    {
+      "name": "BR04 [branch] date=2026-11-23 duration=120",
+      "status": "passed"
+    },
+    {
+      "name": "BR05 [branch] date=2027-01-04 duration=120",
+      "status": "passed"
+    },
+    {
+      "name": "BR06 [branch] date=2026-11-25 duration=120",
+      "status": "passed"
+    },
+    {
+      "name": "BR07 [branch] date=2026-11-25 duration=90.5",
+      "status": "passed"
+    },
+    {
+      "name": "BR08 [branch] date=2026-11-25 duration=30",
+      "status": "passed"
+    },
+    {
+      "name": "BR09 [branch] date=2026-11-25 duration=330",
+      "status": "passed"
+    },
+    {
+      "name": "BR10 [branch] date=2026-11-25 duration=75",
+      "status": "passed"
+    },
+    {
+      "name": "BR11 [branch] date=2026-11-25 duration=120",
+      "status": "passed"
+    },
+    {
+      "name": "EQ-D1 [equivalence] date=2026-11-25 duration=120",
+      "status": "passed"
+    },
+    {
+      "name": "EQ-D2 [equivalence] date=2026-11-25 duration=30",
+      "status": "passed"
+    },
+    {
+      "name": "EQ-D3 [equivalence] date=2026-11-25 duration=330",
+      "status": "passed"
+    },
+    {
+      "name": "EQ-D4 [equivalence] date=2026-11-25 duration=75",
+      "status": "passed"
+    },
+    {
+      "name": "EQ-D5 [equivalence] date=2026-11-25 duration=90.5",
+      "status": "passed"
+    },
+    {
+      "name": "EQ-D6 [equivalence] date=2026-11-25 duration=120",
+      "status": "passed"
+    },
+    {
+      "name": "EQ-DT1 [equivalence] date=2026-11-24 duration=120",
+      "status": "passed"
+    },
+    {
+      "name": "EQ-DT2 [equivalence] date=2026-12-10 duration=120",
+      "status": "passed"
+    },
+    {
+      "name": "EQ-DT3 [equivalence] date=2026-11-23 duration=120",
+      "status": "passed"
+    },
+    {
+      "name": "EQ-DT4 [equivalence] date=2027-01-10 duration=120",
+      "status": "passed"
+    },
+    {
+      "name": "EQ-DT5 [equivalence] date=2026-11-31 duration=120",
+      "status": "passed"
+    },
+    {
+      "name": "EQ-DT6 [equivalence] date=24.11.2026 duration=120",
+      "status": "passed"
+    },
+    {
+      "name": "EQ-DT7 [equivalence] date= duration=120",
+      "status": "passed"
+    },
+    {
+      "name": "BV-D1 [boundary] date=2026-11-25 duration=59",
+      "status": "passed"
+    },
+    {
+      "name": "BV-D2 [boundary] date=2026-11-25 duration=60",
+      "status": "passed"
+    },
+    {
+      "name": "BV-D3 [boundary] date=2026-11-25 duration=61",
+      "status": "passed"
+    },
+    {
+      "name": "BV-D4 [boundary] date=2026-11-25 duration=299",
+      "status": "passed"
+    },
+    {
+      "name": "BV-D5 [boundary] date=2026-11-25 duration=300",
+      "status": "passed"
+    },
+    {
+      "name": "BV-D6 [boundary] date=2026-11-25 duration=301",
+      "status": "passed"
+    },
+    {
+      "name": "BV-D7 [boundary] date=2026-11-25 duration=30",
+      "status": "passed"
+    },
+    {
+      "name": "BV-D8 [boundary] date=2026-11-25 duration=90",
+      "status": "passed"
+    },
+    {
+      "name": "BV-D9 [boundary] date=2026-11-25 duration=270",
+      "status": "passed"
+    },
+    {
+      "name": "BV-D10 [boundary] date=2026-11-25 duration=330",
+      "status": "passed"
+    },
+    {
+      "name": "BV-DT1 [boundary] date=2026-11-23 duration=120",
+      "status": "passed"
+    },
+    {
+      "name": "BV-DT2 [boundary] date=2026-11-24 duration=120",
+      "status": "passed"
+    },
+    {
+      "name": "BV-DT3 [boundary] date=2026-11-25 duration=120",
+      "status": "passed"
+    },
+    {
+      "name": "BV-DT4 [boundary] date=2027-01-02 duration=120",
+      "status": "passed"
+    },
+    {
+      "name": "BV-DT5 [boundary] date=2027-01-03 duration=120",
+      "status": "passed"
+    },
+    {
+      "name": "BV-DT6 [boundary] date=2027-01-04 duration=120",
+      "status": "passed"
+    },
+    {
+      "name": "EX-null [robustness] date=null duration=120",
+      "status": "passed"
+    },
+    {
+      "name": "EX-undefined [robustness] date=undefined duration=120",
+      "status": "passed"
+    },
+    {
+      "name": "EX-NaN [robustness] date=2026-11-25 duration=NaN",
+      "status": "passed"
+    },
+    {
+      "name": "EX-infinity [robustness] date=2026-11-25 duration=Infinity",
+      "status": "passed"
+    },
+    {
+      "name": "default current date is controlled by the test clock",
+      "status": "passed"
+    },
+    {
+      "name": "all supported duration choices are accepted",
+      "status": "passed"
+    },
+    {
+      "name": "formatTime preserves hours, leading zeroes and half hours",
+      "status": "passed"
+    }
+  ],
+  "summary": {
+    "success": true,
+    "counts": {
+      "tests": 85,
+      "failed": 0,
+      "passed": 85,
+      "cancelled": 0,
+      "skipped": 0,
+      "todo": 0,
+      "topLevel": 85,
+      "suites": 0
+    },
+    "duration_ms": 131.689083
+  },
+  "coverage": {
+    "workingDirectory": "/local-workspace/Documents/ChatGPT/диплом/МТПО_Лабораторная_1",
+    "files": [
+      {
+        "path": "/local-workspace/Documents/ChatGPT/диплом/МТПО_Лабораторная_1/src/booking.ts",
+        "totalLineCount": 75,
+        "totalBranchCount": 48,
+        "totalFunctionCount": 14,
+        "coveredLineCount": 75,
+        "coveredBranchCount": 48,
+        "coveredFunctionCount": 14,
+        "coveredLinePercent": 100,
+        "coveredBranchPercent": 100,
+        "coveredFunctionPercent": 100,
+        "functions": [
+          {
+            "name": "formatTime",
+            "count": 658,
+            "line": 10
+          },
+          {
+            "name": "",
+            "count": 1316,
+            "line": 11
+          },
+          {
+            "name": "scheduleError",
+            "count": 59,
+            "line": 14
+          },
+          {
+            "name": "bookingLockKeys",
+            "count": 5,
+            "line": 32
+          },
+          {
+            "name": "lockBookingDays",
+            "count": 2,
+            "line": 37
+          },
+          {
+            "name": "incompatibleNeighborBookings",
+            "count": 26,
+            "line": 41
+          },
+          {
+            "name": "availableSlots",
+            "count": 376,
+            "line": 51
+          },
+          {
+            "name": "",
+            "count": 5,
+            "line": 33
+          },
+          {
+            "name": "",
+            "count": 5,
+            "line": 35
+          },
+          {
+            "name": "",
+            "count": 6,
+            "line": 35
+          },
+          {
+            "name": "",
+            "count": 4,
+            "line": 35
+          },
+          {
+            "name": "",
+            "count": 238,
+            "line": 69
+          },
+          {
+            "name": "",
+            "count": 3,
+            "line": 72
+          },
+          {
+            "name": "",
+            "count": 3,
+            "line": 72
+          }
+        ],
+        "branches": [
+          {
+            "line": 1,
+            "count": 2
+          },
+          {
+            "line": 10,
+            "count": 658
+          },
+          {
+            "line": 11,
+            "count": 1316
+          },
+          {
+            "line": 14,
+            "count": 59
+          },
+          {
+            "line": 15,
+            "count": 56
+          },
+          {
+            "line": 16,
+            "count": 52
+          },
+          {
+            "line": 16,
+            "count": 7
+          },
+          {
+            "line": 18,
+            "count": 56
+          },
+          {
+            "line": 18,
+            "count": 52
+          },
+          {
+            "line": 19,
+            "count": 50
+          },
+          {
+            "line": 19,
+            "count": 13
+          },
+          {
+            "line": 21,
+            "count": 46
+          },
+          {
+            "line": 24,
+            "count": 4
+          },
+          {
+            "line": 24,
+            "count": 42
+          },
+          {
+            "line": 25,
+            "count": 40
+          },
+          {
+            "line": 25,
+            "count": 36
+          },
+          {
+            "line": 25,
+            "count": 31
+          },
+          {
+            "line": 25,
+            "count": 27
+          },
+          {
+            "line": 25,
+            "count": 19
+          },
+          {
+            "line": 27,
+            "count": 23
+          },
+          {
+            "line": 32,
+            "count": 5
+          },
+          {
+            "line": 37,
+            "count": 2
+          },
+          {
+            "line": 41,
+            "count": 26
+          },
+          {
+            "line": 51,
+            "count": 28
+          },
+          {
+            "line": 55,
+            "count": 27
+          },
+          {
+            "line": 56,
+            "count": 2
+          },
+          {
+            "line": 56,
+            "count": 25
+          },
+          {
+            "line": 66,
+            "count": 376
+          },
+          {
+            "line": 67,
+            "count": 4
+          },
+          {
+            "line": 67,
+            "count": 2
+          },
+          {
+            "line": 67,
+            "count": 374
+          },
+          {
+            "line": 72,
+            "count": 330
+          },
+          {
+            "line": 72,
+            "count": 328
+          },
+          {
+            "line": 72,
+            "count": 326
+          },
+          {
+            "line": 73,
+            "count": 376
+          },
+          {
+            "line": 33,
+            "count": 5
+          },
+          {
+            "line": 35,
+            "count": 5
+          },
+          {
+            "line": 35,
+            "count": 6
+          },
+          {
+            "line": 35,
+            "count": 4
+          },
+          {
+            "line": 35,
+            "count": 4
+          },
+          {
+            "line": 69,
+            "count": 238
+          },
+          {
+            "line": 70,
+            "count": 116
+          },
+          {
+            "line": 70,
+            "count": 212
+          },
+          {
+            "line": 70,
+            "count": 203
+          },
+          {
+            "line": 72,
+            "count": 3
+          },
+          {
+            "line": 72,
+            "count": 2
+          },
+          {
+            "line": 72,
+            "count": 3
+          },
+          {
+            "line": 72,
+            "count": 2
+          }
+        ],
+        "lines": [
+          {
+            "line": 1,
+            "count": 2
+          },
+          {
+            "line": 2,
+            "count": 2
+          },
+          {
+            "line": 3,
+            "count": 2
+          },
+          {
+            "line": 4,
+            "count": 2
+          },
+          {
+            "line": 5,
+            "count": 2
+          },
+          {
+            "line": 6,
+            "count": 2
+          },
+          {
+            "line": 7,
+            "count": 2
+          },
+          {
+            "line": 8,
+            "count": 2
+          },
+          {
+            "line": 9,
+            "count": 2
+          },
+          {
+            "line": 10,
+            "count": 2
+          },
+          {
+            "line": 11,
+            "count": 658
+          },
+          {
+            "line": 12,
+            "count": 658
+          },
+          {
+            "line": 13,
+            "count": 2
+          },
+          {
+            "line": 14,
+            "count": 2
+          },
+          {
+            "line": 15,
+            "count": 59
+          },
+          {
+            "line": 16,
+            "count": 59
+          },
+          {
+            "line": 17,
+            "count": 59
+          },
+          {
+            "line": 18,
+            "count": 59
+          },
+          {
+            "line": 19,
+            "count": 59
+          },
+          {
+            "line": 20,
+            "count": 13
+          },
+          {
+            "line": 21,
+            "count": 13
+          },
+          {
+            "line": 22,
+            "count": 46
+          },
+          {
+            "line": 23,
+            "count": 46
+          },
+          {
+            "line": 24,
+            "count": 59
+          },
+          {
+            "line": 25,
+            "count": 59
+          },
+          {
+            "line": 26,
+            "count": 19
+          },
+          {
+            "line": 27,
+            "count": 19
+          },
+          {
+            "line": 28,
+            "count": 23
+          },
+          {
+            "line": 29,
+            "count": 59
+          },
+          {
+            "line": 30,
+            "count": 2
+          },
+          {
+            "line": 31,
+            "count": 2
+          },
+          {
+            "line": 32,
+            "count": 2
+          },
+          {
+            "line": 33,
+            "count": 5
+          },
+          {
+            "line": 34,
+            "count": 5
+          },
+          {
+            "line": 35,
+            "count": 5
+          },
+          {
+            "line": 36,
+            "count": 5
+          },
+          {
+            "line": 37,
+            "count": 2
+          },
+          {
+            "line": 38,
+            "count": 2
+          },
+          {
+            "line": 39,
+            "count": 2
+          },
+          {
+            "line": 40,
+            "count": 2
+          },
+          {
+            "line": 41,
+            "count": 2
+          },
+          {
+            "line": 42,
+            "count": 26
+          },
+          {
+            "line": 43,
+            "count": 26
+          },
+          {
+            "line": 44,
+            "count": 26
+          },
+          {
+            "line": 45,
+            "count": 26
+          },
+          {
+            "line": 46,
+            "count": 26
+          },
+          {
+            "line": 47,
+            "count": 26
+          },
+          {
+            "line": 48,
+            "count": 26
+          },
+          {
+            "line": 49,
+            "count": 26
+          },
+          {
+            "line": 50,
+            "count": 2
+          },
+          {
+            "line": 51,
+            "count": 2
+          },
+          {
+            "line": 52,
+            "count": 28
+          },
+          {
+            "line": 53,
+            "count": 28
+          },
+          {
+            "line": 54,
+            "count": 28
+          },
+          {
+            "line": 55,
+            "count": 28
+          },
+          {
+            "line": 56,
+            "count": 28
+          },
+          {
+            "line": 57,
+            "count": 25
+          },
+          {
+            "line": 58,
+            "count": 25
+          },
+          {
+            "line": 59,
+            "count": 25
+          },
+          {
+            "line": 60,
+            "count": 25
+          },
+          {
+            "line": 61,
+            "count": 25
+          },
+          {
+            "line": 62,
+            "count": 25
+          },
+          {
+            "line": 63,
+            "count": 25
+          },
+          {
+            "line": 64,
+            "count": 25
+          },
+          {
+            "line": 65,
+            "count": 25
+          },
+          {
+            "line": 66,
+            "count": 28
+          },
+          {
+            "line": 67,
+            "count": 376
+          },
+          {
+            "line": 68,
+            "count": 374
+          },
+          {
+            "line": 69,
+            "count": 374
+          },
+          {
+            "line": 70,
+            "count": 374
+          },
+          {
+            "line": 71,
+            "count": 374
+          },
+          {
+            "line": 72,
+            "count": 376
+          },
+          {
+            "line": 73,
+            "count": 376
+          },
+          {
+            "line": 74,
+            "count": 376
+          },
+          {
+            "line": 75,
+            "count": 28
+          }
+        ]
+      }
+    ],
+    "totals": {
+      "totalLineCount": 75,
+      "totalBranchCount": 48,
+      "totalFunctionCount": 14,
+      "coveredLineCount": 75,
+      "coveredBranchCount": 48,
+      "coveredFunctionCount": 14,
+      "coveredLinePercent": 100,
+      "coveredBranchPercent": 100,
+      "coveredFunctionPercent": 100
+    },
+    "thresholds": {
+      "line": 0,
+      "branch": 0,
+      "function": 0
+    }
+  }
+}

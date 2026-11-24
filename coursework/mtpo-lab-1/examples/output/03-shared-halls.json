@@ -1,0 +1,15 @@
+{
+  "request": {
+    "sportId": "basketball",
+    "date": "2026-11-25",
+    "duration": 60
+  },
+  "algorithmsAgree": true,
+  "slots": [
+    {
+      "courtId": 7,
+      "start": "14:00",
+      "end": "15:00"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "now": "2026-11-24T12:00:00+03:00",
+  "request": {
+    "sportId": "badminton",
+    "date": "2026-11-25",
+    "duration": 60
+  },
+  "algorithm": "both",
+  "algorithmsAgree": true,
+  "preferredStart": "08:00",
+  "slots": [
+    {
+      "courtId": 1,
+      "start": "09:00",
+      "end": "10:00"
+    }
+  ],
+  "matches": [],
+  "alternatives": [
+    {
+      "courtId": 1,
+      "start": "09:00",
+      "end": "10:00",
+      "offsetMinutes": 60
+    }
+  ]
+}

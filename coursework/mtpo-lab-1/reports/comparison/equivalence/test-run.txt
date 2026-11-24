@@ -1,0 +1,31 @@
+✔ EQ-D1 [equivalence] date=2026-11-25 duration=120 (0.85025ms)
+✔ EQ-D2 [equivalence] date=2026-11-25 duration=30 (0.109208ms)
+✔ EQ-D3 [equivalence] date=2026-11-25 duration=330 (0.05ms)
+✔ EQ-D4 [equivalence] date=2026-11-25 duration=75 (0.033167ms)
+✔ EQ-D5 [equivalence] date=2026-11-25 duration=90.5 (0.029792ms)
+✔ EQ-D6 [equivalence] date=2026-11-25 duration=120 (0.033667ms)
+✔ EQ-DT1 [equivalence] date=2026-11-24 duration=120 (0.029375ms)
+✔ EQ-DT2 [equivalence] date=2026-12-10 duration=120 (0.029833ms)
+✔ EQ-DT3 [equivalence] date=2026-11-23 duration=120 (0.03425ms)
+✔ EQ-DT4 [equivalence] date=2027-01-10 duration=120 (0.029583ms)
+✔ EQ-DT5 [equivalence] date=2026-11-31 duration=120 (0.022709ms)
+✔ EQ-DT6 [equivalence] date=24.11.2026 duration=120 (0.020792ms)
+✔ EQ-DT7 [equivalence] date= duration=120 (0.019792ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 111.767333
+ℹ start of coverage report
+ℹ --------------------------------------------------------------------------
+ℹ file        | line % | branch % | funcs % | uncovered lines
+ℹ --------------------------------------------------------------------------
+ℹ src         |        |          |         | 
+ℹ  booking.ts |  45.33 |   100.00 |   16.67 | 11-12 33-36 38-40 42-49 52-75
+ℹ --------------------------------------------------------------------------
+ℹ all files   |  45.33 |   100.00 |   16.67 | 
+ℹ --------------------------------------------------------------------------
+ℹ end of coverage report

@@ -1,0 +1,53 @@
+{
+  "now": "2026-11-24T12:00:00+03:00",
+  "request": {
+    "sportId": "basketball",
+    "date": "2026-11-25",
+    "duration": 60
+  },
+  "openingHours": {
+    "opensAt": 840,
+    "closesAt": 900
+  },
+  "courts": [
+    {
+      "id": 6,
+      "sports": [
+        "tennis",
+        "football",
+        "basketball"
+      ]
+    },
+    {
+      "id": 7,
+      "sports": [
+        "tennis",
+        "football",
+        "basketball"
+      ]
+    }
+  ],
+  "bookings": [
+    {
+      "courtId": 6,
+      "date": "2026-11-25",
+      "startMinute": 840,
+      "endMinute": 900,
+      "sportId": "football",
+      "status": "active"
+    }
+  ],
+  "blocks": [],
+  "adjacency": [
+    {
+      "courtA": 6,
+      "courtB": 7,
+      "allowedPairs": [
+        [
+          "football",
+          "basketball"
+        ]
+      ]
+    }
+  ]
+}

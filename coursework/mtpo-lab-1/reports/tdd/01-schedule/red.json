@@ -1,0 +1,10 @@
+{
+  "phase": "red",
+  "recordedAt": "2026-11-24T19:35:09.495Z",
+  "nodeVersion": "v24.22.1",
+  "exitCode": 1,
+  "sourceHash": "d49cb6945e331c5fd99020dcdb2d55065270718b6d70cce04174a7ef54ec2eb7",
+  "testHash": "842fc75a7bef3fe58fc3512975578157008d6e28cf60fedadb3c34ced07fef10",
+  "fixtureHash": "d2979dee19ce8afbea189bc99bf5d70d927f86b006ec428897a81b4655f9b694",
+  "command": "node --test tests/algorithms.test.mjs"
+}

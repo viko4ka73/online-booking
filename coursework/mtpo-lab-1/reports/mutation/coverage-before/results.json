@@ -1,0 +1,1457 @@
+{
+  "nodeVersion": "v26.13.0",
+  "executedAt": "2026-11-24T19:54:14.239Z",
+  "tests": [
+    {
+      "name": "scan: FREE",
+      "status": "passed"
+    },
+    {
+      "name": "scan: CLOSED",
+      "status": "passed"
+    },
+    {
+      "name": "scan: TOO-SHORT",
+      "status": "passed"
+    },
+    {
+      "name": "scan: OTHER-SPORT",
+      "status": "passed"
+    },
+    {
+      "name": "scan: NO-COURTS",
+      "status": "passed"
+    },
+    {
+      "name": "scan: TODAY",
+      "status": "passed"
+    },
+    {
+      "name": "scan: SECOND-BEFORE",
+      "status": "passed"
+    },
+    {
+      "name": "scan: MOSCOW-MIDNIGHT",
+      "status": "passed"
+    },
+    {
+      "name": "scan: OWN-OVERLAP",
+      "status": "passed"
+    },
+    {
+      "name": "scan: TOUCH-BEFORE",
+      "status": "passed"
+    },
+    {
+      "name": "scan: GAP-AFTER",
+      "status": "passed"
+    },
+    {
+      "name": "scan: GAP-BEFORE",
+      "status": "passed"
+    },
+    {
+      "name": "scan: CANCELED",
+      "status": "passed"
+    },
+    {
+      "name": "scan: OTHER-DAY",
+      "status": "passed"
+    },
+    {
+      "name": "scan: BLOCK",
+      "status": "passed"
+    },
+    {
+      "name": "scan: RELEASED",
+      "status": "passed"
+    },
+    {
+      "name": "scan: BLOCK-NO-GAP-RULE",
+      "status": "passed"
+    },
+    {
+      "name": "scan: UNIVERSAL",
+      "status": "passed"
+    },
+    {
+      "name": "scan: NUMERIC-ORDER",
+      "status": "passed"
+    },
+    {
+      "name": "scan: FULL-FIVE-HOURS",
+      "status": "passed"
+    },
+    {
+      "name": "scan: NINETY-MINUTES",
+      "status": "passed"
+    },
+    {
+      "name": "scan: CLOSING-MIDNIGHT",
+      "status": "passed"
+    },
+    {
+      "name": "scan: LAST-DAY",
+      "status": "passed"
+    },
+    {
+      "name": "scan: NEIGHBOR-INCOMPATIBLE",
+      "status": "passed"
+    },
+    {
+      "name": "scan: NEIGHBOR-REVERSE",
+      "status": "passed"
+    },
+    {
+      "name": "scan: NEIGHBOR-COMPATIBLE",
+      "status": "passed"
+    },
+    {
+      "name": "scan: NEIGHBOR-DIRECTION",
+      "status": "passed"
+    },
+    {
+      "name": "scan: NEIGHBOR-DIRECTION-REVERSE",
+      "status": "passed"
+    },
+    {
+      "name": "scan: NEIGHBOR-EMPTY-PAIRS",
+      "status": "passed"
+    },
+    {
+      "name": "scan: NEIGHBOR-NO-GAP-RULE",
+      "status": "passed"
+    },
+    {
+      "name": "scan: NEIGHBOR-TECHNICAL-NOT-SHARED",
+      "status": "passed"
+    },
+    {
+      "name": "scan: reject INVALID-DATE",
+      "status": "passed"
+    },
+    {
+      "name": "scan: reject PAST-DATE",
+      "status": "passed"
+    },
+    {
+      "name": "scan: reject HORIZON",
+      "status": "passed"
+    },
+    {
+      "name": "scan: reject SHORT",
+      "status": "passed"
+    },
+    {
+      "name": "scan: reject LONG",
+      "status": "passed"
+    },
+    {
+      "name": "scan: reject FRACTION",
+      "status": "passed"
+    },
+    {
+      "name": "scan: reject STEP",
+      "status": "passed"
+    },
+    {
+      "name": "scan: reject TYPE",
+      "status": "passed"
+    },
+    {
+      "name": "scan: reject BAD-CLOCK",
+      "status": "passed"
+    },
+    {
+      "name": "scan: reject CLOCK-ZONE-MISSING",
+      "status": "passed"
+    },
+    {
+      "name": "scan: reject BAD-HOURS",
+      "status": "passed"
+    },
+    {
+      "name": "scan: reject HOURS-STEP",
+      "status": "passed"
+    },
+    {
+      "name": "scan: reject DUPLICATE-ID",
+      "status": "passed"
+    },
+    {
+      "name": "scan: reject UNKNOWN-RESOURCE",
+      "status": "passed"
+    },
+    {
+      "name": "scan: reject BAD-INTERVAL",
+      "status": "passed"
+    },
+    {
+      "name": "scan: reject BAD-STATUS",
+      "status": "passed"
+    },
+    {
+      "name": "scan: reject SELF-ADJACENCY",
+      "status": "passed"
+    },
+    {
+      "name": "scan: reject UNKNOWN-NEIGHBOR",
+      "status": "passed"
+    },
+    {
+      "name": "scan: reject null input",
+      "status": "passed"
+    },
+    {
+      "name": "masks: FREE",
+      "status": "passed"
+    },
+    {
+      "name": "masks: CLOSED",
+      "status": "passed"
+    },
+    {
+      "name": "masks: TOO-SHORT",
+      "status": "passed"
+    },
+    {
+      "name": "masks: OTHER-SPORT",
+      "status": "passed"
+    },
+    {
+      "name": "masks: NO-COURTS",
+      "status": "passed"
+    },
+    {
+      "name": "masks: TODAY",
+      "status": "passed"
+    },
+    {
+      "name": "masks: SECOND-BEFORE",
+      "status": "passed"
+    },
+    {
+      "name": "masks: MOSCOW-MIDNIGHT",
+      "status": "passed"
+    },
+    {
+      "name": "masks: OWN-OVERLAP",
+      "status": "passed"
+    },
+    {
+      "name": "masks: TOUCH-BEFORE",
+      "status": "passed"
+    },
+    {
+      "name": "masks: GAP-AFTER",
+      "status": "passed"
+    },
+    {
+      "name": "masks: GAP-BEFORE",
+      "status": "passed"
+    },
+    {
+      "name": "masks: CANCELED",
+      "status": "passed"
+    },
+    {
+      "name": "masks: OTHER-DAY",
+      "status": "passed"
+    },
+    {
+      "name": "masks: BLOCK",
+      "status": "passed"
+    },
+    {
+      "name": "masks: RELEASED",
+      "status": "passed"
+    },
+    {
+      "name": "masks: BLOCK-NO-GAP-RULE",
+      "status": "passed"
+    },
+    {
+      "name": "masks: UNIVERSAL",
+      "status": "passed"
+    },
+    {
+      "name": "masks: NUMERIC-ORDER",
+      "status": "passed"
+    },
+    {
+      "name": "masks: FULL-FIVE-HOURS",
+      "status": "passed"
+    },
+    {
+      "name": "masks: NINETY-MINUTES",
+      "status": "passed"
+    },
+    {
+      "name": "masks: CLOSING-MIDNIGHT",
+      "status": "passed"
+    },
+    {
+      "name": "masks: LAST-DAY",
+      "status": "passed"
+    },
+    {
+      "name": "masks: NEIGHBOR-INCOMPATIBLE",
+      "status": "passed"
+    },
+    {
+      "name": "masks: NEIGHBOR-REVERSE",
+      "status": "passed"
+    },
+    {
+      "name": "masks: NEIGHBOR-COMPATIBLE",
+      "status": "passed"
+    },
+    {
+      "name": "masks: NEIGHBOR-DIRECTION",
+      "status": "passed"
+    },
+    {
+      "name": "masks: NEIGHBOR-DIRECTION-REVERSE",
+      "status": "passed"
+    },
+    {
+      "name": "masks: NEIGHBOR-EMPTY-PAIRS",
+      "status": "passed"
+    },
+    {
+      "name": "masks: NEIGHBOR-NO-GAP-RULE",
+      "status": "passed"
+    },
+    {
+      "name": "masks: NEIGHBOR-TECHNICAL-NOT-SHARED",
+      "status": "passed"
+    },
+    {
+      "name": "masks: reject INVALID-DATE",
+      "status": "passed"
+    },
+    {
+      "name": "masks: reject PAST-DATE",
+      "status": "passed"
+    },
+    {
+      "name": "masks: reject HORIZON",
+      "status": "passed"
+    },
+    {
+      "name": "masks: reject SHORT",
+      "status": "passed"
+    },
+    {
+      "name": "masks: reject LONG",
+      "status": "passed"
+    },
+    {
+      "name": "masks: reject FRACTION",
+      "status": "passed"
+    },
+    {
+      "name": "masks: reject STEP",
+      "status": "passed"
+    },
+    {
+      "name": "masks: reject TYPE",
+      "status": "passed"
+    },
+    {
+      "name": "masks: reject BAD-CLOCK",
+      "status": "passed"
+    },
+    {
+      "name": "masks: reject CLOCK-ZONE-MISSING",
+      "status": "passed"
+    },
+    {
+      "name": "masks: reject BAD-HOURS",
+      "status": "passed"
+    },
+    {
+      "name": "masks: reject HOURS-STEP",
+      "status": "passed"
+    },
+    {
+      "name": "masks: reject DUPLICATE-ID",
+      "status": "passed"
+    },
+    {
+      "name": "masks: reject UNKNOWN-RESOURCE",
+      "status": "passed"
+    },
+    {
+      "name": "masks: reject BAD-INTERVAL",
+      "status": "passed"
+    },
+    {
+      "name": "masks: reject BAD-STATUS",
+      "status": "passed"
+    },
+    {
+      "name": "masks: reject SELF-ADJACENCY",
+      "status": "passed"
+    },
+    {
+      "name": "masks: reject UNKNOWN-NEIGHBOR",
+      "status": "passed"
+    },
+    {
+      "name": "masks: reject null input",
+      "status": "passed"
+    },
+    {
+      "name": "two algorithms agree on 200 deterministic generated schedules",
+      "status": "passed"
+    },
+    {
+      "name": "both algorithms agree with the diploma module on 30 prepared schedules",
+      "status": "passed"
+    },
+    {
+      "name": "scan: reject malformed stored date 20261125",
+      "status": "passed"
+    },
+    {
+      "name": "scan: reject malformed stored date 25.11.2026",
+      "status": "passed"
+    },
+    {
+      "name": "scan: reject malformed stored date 2026-11-31",
+      "status": "passed"
+    },
+    {
+      "name": "masks: reject malformed stored date 20261125",
+      "status": "passed"
+    },
+    {
+      "name": "masks: reject malformed stored date 25.11.2026",
+      "status": "passed"
+    },
+    {
+      "name": "masks: reject malformed stored date 2026-11-31",
+      "status": "passed"
+    }
+  ],
+  "summary": {
+    "success": true,
+    "counts": {
+      "tests": 108,
+      "failed": 0,
+      "passed": 108,
+      "cancelled": 0,
+      "skipped": 0,
+      "todo": 0,
+      "topLevel": 108,
+      "suites": 0
+    },
+    "duration_ms": 962.3615
+  },
+  "coverage": {
+    "workingDirectory": "/local-workspace/Documents/ChatGPT/диплом/МТПО_Лабораторная_1",
+    "files": [
+      {
+        "path": "/local-workspace/Documents/ChatGPT/диплом/МТПО_Лабораторная_1/src/slot-search.mjs",
+        "totalLineCount": 98,
+        "totalBranchCount": 111,
+        "totalFunctionCount": 26,
+        "coveredLineCount": 98,
+        "coveredBranchCount": 111,
+        "coveredFunctionCount": 26,
+        "coveredLinePercent": 100,
+        "coveredBranchPercent": 100,
+        "coveredFunctionPercent": 100,
+        "functions": [
+          {
+            "name": "object",
+            "count": 12136,
+            "line": 3
+          },
+          {
+            "name": "word",
+            "count": 26422,
+            "line": 4
+          },
+          {
+            "name": "minute",
+            "count": 14408,
+            "line": 5
+          },
+          {
+            "name": "requireValue",
+            "count": 33304,
+            "line": 6
+          },
+          {
+            "name": "validDate",
+            "count": 6670,
+            "line": 7
+          },
+          {
+            "name": "prepare",
+            "count": 6666,
+            "line": 11
+          },
+          {
+            "name": "",
+            "count": 1622,
+            "line": 33
+          },
+          {
+            "name": "",
+            "count": 7122,
+            "line": 34
+          },
+          {
+            "name": "",
+            "count": 2146,
+            "line": 37
+          },
+          {
+            "name": "",
+            "count": 2208,
+            "line": 37
+          },
+          {
+            "name": "",
+            "count": 5272,
+            "line": 38
+          },
+          {
+            "name": "",
+            "count": 1388,
+            "line": 38
+          },
+          {
+            "name": "compatible",
+            "count": 4232,
+            "line": 41
+          },
+          {
+            "name": "",
+            "count": 14858,
+            "line": 42
+          },
+          {
+            "name": "overlap",
+            "count": 53728,
+            "line": 44
+          },
+          {
+            "name": "findAvailableScan",
+            "count": 27044,
+            "line": 47
+          },
+          {
+            "name": "",
+            "count": 7051,
+            "line": 51
+          },
+          {
+            "name": "",
+            "count": 2095,
+            "line": 51
+          },
+          {
+            "name": "",
+            "count": 7051,
+            "line": 52
+          },
+          {
+            "name": "",
+            "count": 30849,
+            "line": 52
+          },
+          {
+            "name": "",
+            "count": 31012,
+            "line": 57
+          },
+          {
+            "name": "",
+            "count": 7029,
+            "line": 58
+          },
+          {
+            "name": "",
+            "count": 15687,
+            "line": 59
+          },
+          {
+            "name": "byCourt",
+            "count": 2047,
+            "line": 65
+          },
+          {
+            "name": "intervalMask",
+            "count": 3118,
+            "line": 68
+          },
+          {
+            "name": "findAvailableMasks",
+            "count": 27044,
+            "line": 71
+          }
+        ],
+        "branches": [
+          {
+            "line": 1,
+            "count": 2
+          },
+          {
+            "line": 3,
+            "count": 12136
+          },
+          {
+            "line": 3,
+            "count": 12104
+          },
+          {
+            "line": 4,
+            "count": 26422
+          },
+          {
+            "line": 5,
+            "count": 14408
+          },
+          {
+            "line": 6,
+            "count": 33304
+          },
+          {
+            "line": 6,
+            "count": 44
+          },
+          {
+            "line": 7,
+            "count": 6670
+          },
+          {
+            "line": 8,
+            "count": 4
+          },
+          {
+            "line": 8,
+            "count": 4
+          },
+          {
+            "line": 8,
+            "count": 2
+          },
+          {
+            "line": 11,
+            "count": 566
+          },
+          {
+            "line": 12,
+            "count": 558
+          },
+          {
+            "line": 13,
+            "count": 558
+          },
+          {
+            "line": 16,
+            "count": 538
+          },
+          {
+            "line": 18,
+            "count": 536
+          },
+          {
+            "line": 18,
+            "count": 534
+          },
+          {
+            "line": 18,
+            "count": 532
+          },
+          {
+            "line": 19,
+            "count": 2160
+          },
+          {
+            "line": 19,
+            "count": 534
+          },
+          {
+            "line": 21,
+            "count": 2160
+          },
+          {
+            "line": 23,
+            "count": 2158
+          },
+          {
+            "line": 24,
+            "count": 532
+          },
+          {
+            "line": 25,
+            "count": 1060
+          },
+          {
+            "line": 25,
+            "count": 6666
+          },
+          {
+            "line": 26,
+            "count": 6664
+          },
+          {
+            "line": 26,
+            "count": 6662
+          },
+          {
+            "line": 26,
+            "count": 5274
+          },
+          {
+            "line": 26,
+            "count": 1388
+          },
+          {
+            "line": 27,
+            "count": 5274
+          },
+          {
+            "line": 27,
+            "count": 1388
+          },
+          {
+            "line": 28,
+            "count": 5272
+          },
+          {
+            "line": 29,
+            "count": 526
+          },
+          {
+            "line": 31,
+            "count": 1626
+          },
+          {
+            "line": 32,
+            "count": 1624
+          },
+          {
+            "line": 34,
+            "count": 1622
+          },
+          {
+            "line": 35,
+            "count": 522
+          },
+          {
+            "line": 39,
+            "count": 6
+          },
+          {
+            "line": 39,
+            "count": 516
+          },
+          {
+            "line": 33,
+            "count": 1622
+          },
+          {
+            "line": 34,
+            "count": 7122
+          },
+          {
+            "line": 37,
+            "count": 2146
+          },
+          {
+            "line": 37,
+            "count": 2208
+          },
+          {
+            "line": 38,
+            "count": 5272
+          },
+          {
+            "line": 38,
+            "count": 3906
+          },
+          {
+            "line": 38,
+            "count": 1388
+          },
+          {
+            "line": 38,
+            "count": 926
+          },
+          {
+            "line": 41,
+            "count": 4232
+          },
+          {
+            "line": 42,
+            "count": 14858
+          },
+          {
+            "line": 42,
+            "count": 6632
+          },
+          {
+            "line": 42,
+            "count": 2498
+          },
+          {
+            "line": 42,
+            "count": 8226
+          },
+          {
+            "line": 42,
+            "count": 3032
+          },
+          {
+            "line": 44,
+            "count": 53728
+          },
+          {
+            "line": 44,
+            "count": 29286
+          },
+          {
+            "line": 47,
+            "count": 283
+          },
+          {
+            "line": 48,
+            "count": 1
+          },
+          {
+            "line": 48,
+            "count": 260
+          },
+          {
+            "line": 50,
+            "count": 1071
+          },
+          {
+            "line": 54,
+            "count": 27044
+          },
+          {
+            "line": 55,
+            "count": 3
+          },
+          {
+            "line": 55,
+            "count": 27041
+          },
+          {
+            "line": 57,
+            "count": 8759
+          },
+          {
+            "line": 57,
+            "count": 18282
+          },
+          {
+            "line": 58,
+            "count": 1072
+          },
+          {
+            "line": 58,
+            "count": 17210
+          },
+          {
+            "line": 59,
+            "count": 3309
+          },
+          {
+            "line": 59,
+            "count": 13901
+          },
+          {
+            "line": 61,
+            "count": 27044
+          },
+          {
+            "line": 62,
+            "count": 260
+          },
+          {
+            "line": 51,
+            "count": 7051
+          },
+          {
+            "line": 51,
+            "count": 2095
+          },
+          {
+            "line": 52,
+            "count": 7051
+          },
+          {
+            "line": 52,
+            "count": 30849
+          },
+          {
+            "line": 53,
+            "count": 5114
+          },
+          {
+            "line": 53,
+            "count": 29906
+          },
+          {
+            "line": 53,
+            "count": 5467
+          },
+          {
+            "line": 53,
+            "count": 2116
+          },
+          {
+            "line": 57,
+            "count": 31012
+          },
+          {
+            "line": 57,
+            "count": 24139
+          },
+          {
+            "line": 57,
+            "count": 23129
+          },
+          {
+            "line": 58,
+            "count": 7029
+          },
+          {
+            "line": 59,
+            "count": 15687
+          },
+          {
+            "line": 65,
+            "count": 520
+          },
+          {
+            "line": 66,
+            "count": 2047
+          },
+          {
+            "line": 66,
+            "count": 1133
+          },
+          {
+            "line": 68,
+            "count": 3118
+          },
+          {
+            "line": 71,
+            "count": 283
+          },
+          {
+            "line": 72,
+            "count": 1
+          },
+          {
+            "line": 72,
+            "count": 260
+          },
+          {
+            "line": 74,
+            "count": 811
+          },
+          {
+            "line": 74,
+            "count": 1622
+          },
+          {
+            "line": 74,
+            "count": 1020
+          },
+          {
+            "line": 74,
+            "count": 260
+          },
+          {
+            "line": 77,
+            "count": 1071
+          },
+          {
+            "line": 79,
+            "count": 328
+          },
+          {
+            "line": 79,
+            "count": 1584
+          },
+          {
+            "line": 83,
+            "count": 681
+          },
+          {
+            "line": 83,
+            "count": 463
+          },
+          {
+            "line": 84,
+            "count": 51
+          },
+          {
+            "line": 84,
+            "count": 1622
+          },
+          {
+            "line": 85,
+            "count": 811
+          },
+          {
+            "line": 86,
+            "count": 481
+          },
+          {
+            "line": 86,
+            "count": 2116
+          },
+          {
+            "line": 87,
+            "count": 1071
+          },
+          {
+            "line": 90,
+            "count": 27044
+          },
+          {
+            "line": 91,
+            "count": 27041
+          },
+          {
+            "line": 91,
+            "count": 2340
+          },
+          {
+            "line": 91,
+            "count": 24704
+          },
+          {
+            "line": 94,
+            "count": 13901
+          },
+          {
+            "line": 96,
+            "count": 260
+          }
+        ],
+        "lines": [
+          {
+            "line": 1,
+            "count": 2
+          },
+          {
+            "line": 2,
+            "count": 2
+          },
+          {
+            "line": 3,
+            "count": 2
+          },
+          {
+            "line": 4,
+            "count": 2
+          },
+          {
+            "line": 5,
+            "count": 2
+          },
+          {
+            "line": 6,
+            "count": 33304
+          },
+          {
+            "line": 7,
+            "count": 6670
+          },
+          {
+            "line": 8,
+            "count": 6670
+          },
+          {
+            "line": 9,
+            "count": 6670
+          },
+          {
+            "line": 10,
+            "count": 6670
+          },
+          {
+            "line": 11,
+            "count": 566
+          },
+          {
+            "line": 12,
+            "count": 566
+          },
+          {
+            "line": 13,
+            "count": 566
+          },
+          {
+            "line": 14,
+            "count": 566
+          },
+          {
+            "line": 15,
+            "count": 566
+          },
+          {
+            "line": 16,
+            "count": 566
+          },
+          {
+            "line": 17,
+            "count": 566
+          },
+          {
+            "line": 18,
+            "count": 566
+          },
+          {
+            "line": 19,
+            "count": 566
+          },
+          {
+            "line": 20,
+            "count": 534
+          },
+          {
+            "line": 21,
+            "count": 566
+          },
+          {
+            "line": 22,
+            "count": 2160
+          },
+          {
+            "line": 23,
+            "count": 2160
+          },
+          {
+            "line": 24,
+            "count": 2160
+          },
+          {
+            "line": 25,
+            "count": 566
+          },
+          {
+            "line": 26,
+            "count": 6666
+          },
+          {
+            "line": 27,
+            "count": 6666
+          },
+          {
+            "line": 28,
+            "count": 6666
+          },
+          {
+            "line": 29,
+            "count": 6666
+          },
+          {
+            "line": 30,
+            "count": 526
+          },
+          {
+            "line": 31,
+            "count": 566
+          },
+          {
+            "line": 32,
+            "count": 1626
+          },
+          {
+            "line": 33,
+            "count": 1626
+          },
+          {
+            "line": 34,
+            "count": 1626
+          },
+          {
+            "line": 35,
+            "count": 1626
+          },
+          {
+            "line": 36,
+            "count": 522
+          },
+          {
+            "line": 37,
+            "count": 522
+          },
+          {
+            "line": 38,
+            "count": 522
+          },
+          {
+            "line": 39,
+            "count": 566
+          },
+          {
+            "line": 40,
+            "count": 566
+          },
+          {
+            "line": 41,
+            "count": 4232
+          },
+          {
+            "line": 42,
+            "count": 4232
+          },
+          {
+            "line": 43,
+            "count": 4232
+          },
+          {
+            "line": 44,
+            "count": 2
+          },
+          {
+            "line": 45,
+            "count": 2
+          },
+          {
+            "line": 46,
+            "count": 2
+          },
+          {
+            "line": 47,
+            "count": 2
+          },
+          {
+            "line": 48,
+            "count": 283
+          },
+          {
+            "line": 49,
+            "count": 260
+          },
+          {
+            "line": 50,
+            "count": 283
+          },
+          {
+            "line": 51,
+            "count": 1071
+          },
+          {
+            "line": 52,
+            "count": 1071
+          },
+          {
+            "line": 53,
+            "count": 1071
+          },
+          {
+            "line": 54,
+            "count": 1071
+          },
+          {
+            "line": 55,
+            "count": 27044
+          },
+          {
+            "line": 56,
+            "count": 27041
+          },
+          {
+            "line": 57,
+            "count": 27044
+          },
+          {
+            "line": 58,
+            "count": 27044
+          },
+          {
+            "line": 59,
+            "count": 27044
+          },
+          {
+            "line": 60,
+            "count": 13901
+          },
+          {
+            "line": 61,
+            "count": 13901
+          },
+          {
+            "line": 62,
+            "count": 27044
+          },
+          {
+            "line": 63,
+            "count": 260
+          },
+          {
+            "line": 64,
+            "count": 283
+          },
+          {
+            "line": 65,
+            "count": 520
+          },
+          {
+            "line": 66,
+            "count": 520
+          },
+          {
+            "line": 67,
+            "count": 520
+          },
+          {
+            "line": 68,
+            "count": 3118
+          },
+          {
+            "line": 69,
+            "count": 2
+          },
+          {
+            "line": 70,
+            "count": 2
+          },
+          {
+            "line": 71,
+            "count": 2
+          },
+          {
+            "line": 72,
+            "count": 283
+          },
+          {
+            "line": 73,
+            "count": 260
+          },
+          {
+            "line": 74,
+            "count": 283
+          },
+          {
+            "line": 75,
+            "count": 260
+          },
+          {
+            "line": 76,
+            "count": 260
+          },
+          {
+            "line": 77,
+            "count": 283
+          },
+          {
+            "line": 78,
+            "count": 1071
+          },
+          {
+            "line": 79,
+            "count": 1071
+          },
+          {
+            "line": 80,
+            "count": 1584
+          },
+          {
+            "line": 81,
+            "count": 1584
+          },
+          {
+            "line": 82,
+            "count": 1584
+          },
+          {
+            "line": 83,
+            "count": 1071
+          },
+          {
+            "line": 84,
+            "count": 1071
+          },
+          {
+            "line": 85,
+            "count": 1622
+          },
+          {
+            "line": 86,
+            "count": 1622
+          },
+          {
+            "line": 87,
+            "count": 2116
+          },
+          {
+            "line": 88,
+            "count": 2116
+          },
+          {
+            "line": 89,
+            "count": 1622
+          },
+          {
+            "line": 90,
+            "count": 1071
+          },
+          {
+            "line": 91,
+            "count": 27044
+          },
+          {
+            "line": 92,
+            "count": 24704
+          },
+          {
+            "line": 93,
+            "count": 24704
+          },
+          {
+            "line": 94,
+            "count": 27044
+          },
+          {
+            "line": 95,
+            "count": 27044
+          },
+          {
+            "line": 96,
+            "count": 1071
+          },
+          {
+            "line": 97,
+            "count": 260
+          },
+          {
+            "line": 98,
+            "count": 283
+          }
+        ]
+      }
+    ],
+    "totals": {
+      "totalLineCount": 98,
+      "totalBranchCount": 111,
+      "totalFunctionCount": 26,
+      "coveredLineCount": 98,
+      "coveredBranchCount": 111,
+      "coveredFunctionCount": 26,
+      "coveredLinePercent": 100,
+      "coveredBranchPercent": 100,
+      "coveredFunctionPercent": 100
+    },
+    "thresholds": {
+      "line": 0,
+      "branch": 0,
+      "function": 0
+    }
+  }
+}

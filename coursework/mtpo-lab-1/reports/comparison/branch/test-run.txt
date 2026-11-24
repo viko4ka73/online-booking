@@ -1,0 +1,29 @@
+✔ BR01 [branch] date=20261125 duration=120 (0.767334ms)
+✔ BR02 [branch] date=25.11.2026 duration=120 (0.071417ms)
+✔ BR03 [branch] date=2026-11-31 duration=120 (0.11075ms)
+✔ BR04 [branch] date=2026-11-23 duration=120 (0.030542ms)
+✔ BR05 [branch] date=2027-01-04 duration=120 (0.032584ms)
+✔ BR06 [branch] date=2026-11-25 duration=120 (0.033666ms)
+✔ BR07 [branch] date=2026-11-25 duration=90.5 (0.03225ms)
+✔ BR08 [branch] date=2026-11-25 duration=30 (0.027208ms)
+✔ BR09 [branch] date=2026-11-25 duration=330 (0.031667ms)
+✔ BR10 [branch] date=2026-11-25 duration=75 (0.025333ms)
+✔ BR11 [branch] date=2026-11-25 duration=120 (0.022667ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 104.854834
+ℹ start of coverage report
+ℹ --------------------------------------------------------------------------
+ℹ file        | line % | branch % | funcs % | uncovered lines
+ℹ --------------------------------------------------------------------------
+ℹ src         |        |          |         | 
+ℹ  booking.ts |  45.33 |   100.00 |   16.67 | 11-12 33-36 38-40 42-49 52-75
+ℹ --------------------------------------------------------------------------
+ℹ all files   |  45.33 |   100.00 |   16.67 | 
+ℹ --------------------------------------------------------------------------
+ℹ end of coverage report

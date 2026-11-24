@@ -1,0 +1,338 @@
+[
+  {
+    "id": "ST01",
+    "technique": "statement",
+    "date": "не дата",
+    "duration": 120,
+    "expected": "Выберите сегодняшнюю или будущую дату."
+  },
+  {
+    "id": "ST02",
+    "technique": "statement",
+    "date": "2027-01-04",
+    "duration": 120,
+    "expected": "Запись доступна не более чем на 40 дней вперёд."
+  },
+  {
+    "id": "ST03",
+    "technique": "statement",
+    "date": "2026-11-25",
+    "duration": 30,
+    "expected": "Выберите длительность от 1 до 5 часов с шагом 30 минут."
+  },
+  {
+    "id": "ST04",
+    "technique": "statement",
+    "date": "2026-11-25",
+    "duration": 120,
+    "expected": null
+  },
+  {
+    "id": "BR01",
+    "technique": "branch",
+    "date": 20261125,
+    "duration": 120,
+    "expected": "Выберите сегодняшнюю или будущую дату."
+  },
+  {
+    "id": "BR02",
+    "technique": "branch",
+    "date": "25.11.2026",
+    "duration": 120,
+    "expected": "Выберите сегодняшнюю или будущую дату."
+  },
+  {
+    "id": "BR03",
+    "technique": "branch",
+    "date": "2026-11-31",
+    "duration": 120,
+    "expected": "Выберите сегодняшнюю или будущую дату."
+  },
+  {
+    "id": "BR04",
+    "technique": "branch",
+    "date": "2026-11-23",
+    "duration": 120,
+    "expected": "Выберите сегодняшнюю или будущую дату."
+  },
+  {
+    "id": "BR05",
+    "technique": "branch",
+    "date": "2027-01-04",
+    "duration": 120,
+    "expected": "Запись доступна не более чем на 40 дней вперёд."
+  },
+  {
+    "id": "BR06",
+    "technique": "branch",
+    "date": "2026-11-25",
+    "duration": "120",
+    "expected": "Выберите длительность от 1 до 5 часов с шагом 30 минут."
+  },
+  {
+    "id": "BR07",
+    "technique": "branch",
+    "date": "2026-11-25",
+    "duration": 90.5,
+    "expected": "Выберите длительность от 1 до 5 часов с шагом 30 минут."
+  },
+  {
+    "id": "BR08",
+    "technique": "branch",
+    "date": "2026-11-25",
+    "duration": 30,
+    "expected": "Выберите длительность от 1 до 5 часов с шагом 30 минут."
+  },
+  {
+    "id": "BR09",
+    "technique": "branch",
+    "date": "2026-11-25",
+    "duration": 330,
+    "expected": "Выберите длительность от 1 до 5 часов с шагом 30 минут."
+  },
+  {
+    "id": "BR10",
+    "technique": "branch",
+    "date": "2026-11-25",
+    "duration": 75,
+    "expected": "Выберите длительность от 1 до 5 часов с шагом 30 минут."
+  },
+  {
+    "id": "BR11",
+    "technique": "branch",
+    "date": "2026-11-25",
+    "duration": 120,
+    "expected": null
+  },
+  {
+    "id": "EQ-D1",
+    "technique": "equivalence",
+    "date": "2026-11-25",
+    "duration": 120,
+    "expected": null
+  },
+  {
+    "id": "EQ-D2",
+    "technique": "equivalence",
+    "date": "2026-11-25",
+    "duration": 30,
+    "expected": "Выберите длительность от 1 до 5 часов с шагом 30 минут."
+  },
+  {
+    "id": "EQ-D3",
+    "technique": "equivalence",
+    "date": "2026-11-25",
+    "duration": 330,
+    "expected": "Выберите длительность от 1 до 5 часов с шагом 30 минут."
+  },
+  {
+    "id": "EQ-D4",
+    "technique": "equivalence",
+    "date": "2026-11-25",
+    "duration": 75,
+    "expected": "Выберите длительность от 1 до 5 часов с шагом 30 минут."
+  },
+  {
+    "id": "EQ-D5",
+    "technique": "equivalence",
+    "date": "2026-11-25",
+    "duration": 90.5,
+    "expected": "Выберите длительность от 1 до 5 часов с шагом 30 минут."
+  },
+  {
+    "id": "EQ-D6",
+    "technique": "equivalence",
+    "date": "2026-11-25",
+    "duration": "120",
+    "expected": "Выберите длительность от 1 до 5 часов с шагом 30 минут."
+  },
+  {
+    "id": "EQ-DT1",
+    "technique": "equivalence",
+    "date": "2026-11-24",
+    "duration": 120,
+    "expected": null
+  },
+  {
+    "id": "EQ-DT2",
+    "technique": "equivalence",
+    "date": "2026-12-10",
+    "duration": 120,
+    "expected": null
+  },
+  {
+    "id": "EQ-DT3",
+    "technique": "equivalence",
+    "date": "2026-11-23",
+    "duration": 120,
+    "expected": "Выберите сегодняшнюю или будущую дату."
+  },
+  {
+    "id": "EQ-DT4",
+    "technique": "equivalence",
+    "date": "2027-01-10",
+    "duration": 120,
+    "expected": "Запись доступна не более чем на 40 дней вперёд."
+  },
+  {
+    "id": "EQ-DT5",
+    "technique": "equivalence",
+    "date": "2026-11-31",
+    "duration": 120,
+    "expected": "Выберите сегодняшнюю или будущую дату."
+  },
+  {
+    "id": "EQ-DT6",
+    "technique": "equivalence",
+    "date": "24.11.2026",
+    "duration": 120,
+    "expected": "Выберите сегодняшнюю или будущую дату."
+  },
+  {
+    "id": "EQ-DT7",
+    "technique": "equivalence",
+    "date": "",
+    "duration": 120,
+    "expected": "Выберите сегодняшнюю или будущую дату."
+  },
+  {
+    "id": "BV-D1",
+    "technique": "boundary",
+    "date": "2026-11-25",
+    "duration": 59,
+    "expected": "Выберите длительность от 1 до 5 часов с шагом 30 минут."
+  },
+  {
+    "id": "BV-D2",
+    "technique": "boundary",
+    "date": "2026-11-25",
+    "duration": 60,
+    "expected": null
+  },
+  {
+    "id": "BV-D3",
+    "technique": "boundary",
+    "date": "2026-11-25",
+    "duration": 61,
+    "expected": "Выберите длительность от 1 до 5 часов с шагом 30 минут."
+  },
+  {
+    "id": "BV-D4",
+    "technique": "boundary",
+    "date": "2026-11-25",
+    "duration": 299,
+    "expected": "Выберите длительность от 1 до 5 часов с шагом 30 минут."
+  },
+  {
+    "id": "BV-D5",
+    "technique": "boundary",
+    "date": "2026-11-25",
+    "duration": 300,
+    "expected": null
+  },
+  {
+    "id": "BV-D6",
+    "technique": "boundary",
+    "date": "2026-11-25",
+    "duration": 301,
+    "expected": "Выберите длительность от 1 до 5 часов с шагом 30 минут."
+  },
+  {
+    "id": "BV-D7",
+    "technique": "boundary",
+    "date": "2026-11-25",
+    "duration": 30,
+    "expected": "Выберите длительность от 1 до 5 часов с шагом 30 минут."
+  },
+  {
+    "id": "BV-D8",
+    "technique": "boundary",
+    "date": "2026-11-25",
+    "duration": 90,
+    "expected": null
+  },
+  {
+    "id": "BV-D9",
+    "technique": "boundary",
+    "date": "2026-11-25",
+    "duration": 270,
+    "expected": null
+  },
+  {
+    "id": "BV-D10",
+    "technique": "boundary",
+    "date": "2026-11-25",
+    "duration": 330,
+    "expected": "Выберите длительность от 1 до 5 часов с шагом 30 минут."
+  },
+  {
+    "id": "BV-DT1",
+    "technique": "boundary",
+    "date": "2026-11-23",
+    "duration": 120,
+    "expected": "Выберите сегодняшнюю или будущую дату."
+  },
+  {
+    "id": "BV-DT2",
+    "technique": "boundary",
+    "date": "2026-11-24",
+    "duration": 120,
+    "expected": null
+  },
+  {
+    "id": "BV-DT3",
+    "technique": "boundary",
+    "date": "2026-11-25",
+    "duration": 120,
+    "expected": null
+  },
+  {
+    "id": "BV-DT4",
+    "technique": "boundary",
+    "date": "2027-01-02",
+    "duration": 120,
+    "expected": null
+  },
+  {
+    "id": "BV-DT5",
+    "technique": "boundary",
+    "date": "2027-01-03",
+    "duration": 120,
+    "expected": null
+  },
+  {
+    "id": "BV-DT6",
+    "technique": "boundary",
+    "date": "2027-01-04",
+    "duration": 120,
+    "expected": "Запись доступна не более чем на 40 дней вперёд."
+  },
+  {
+    "id": "EX-null",
+    "technique": "robustness",
+    "date": null,
+    "duration": 120,
+    "expected": "Выберите сегодняшнюю или будущую дату."
+  },
+  {
+    "id": "EX-undefined",
+    "technique": "robustness",
+    "date": "undefined",
+    "duration": 120,
+    "expected": "Выберите сегодняшнюю или будущую дату."
+  },
+  {
+    "id": "EX-NaN",
+    "technique": "robustness",
+    "date": "2026-11-25",
+    "duration": "NaN",
+    "expected": "Выберите длительность от 1 до 5 часов с шагом 30 минут."
+  },
+  {
+    "id": "EX-infinity",
+    "technique": "robustness",
+    "date": "2026-11-25",
+    "duration": "Infinity",
+    "expected": "Выберите длительность от 1 до 5 часов с шагом 30 минут."
+  }
+]

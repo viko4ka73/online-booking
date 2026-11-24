@@ -1,0 +1,2204 @@
+✖ scan: FREE (1.046417ms)
+✖ scan: CLOSED (0.044667ms)
+✖ scan: TOO-SHORT (0.034417ms)
+✖ scan: OTHER-SPORT (0.032709ms)
+✖ scan: NO-COURTS (0.035125ms)
+✖ scan: TODAY (0.030125ms)
+✖ scan: SECOND-BEFORE (0.028167ms)
+✖ scan: MOSCOW-MIDNIGHT (0.023084ms)
+✖ scan: OWN-OVERLAP (0.039792ms)
+✖ scan: TOUCH-BEFORE (0.067459ms)
+✖ scan: GAP-AFTER (0.039667ms)
+✖ scan: GAP-BEFORE (0.0295ms)
+✖ scan: CANCELED (0.022625ms)
+✖ scan: OTHER-DAY (0.01925ms)
+✖ scan: BLOCK (0.017542ms)
+✖ scan: RELEASED (0.01875ms)
+✖ scan: BLOCK-NO-GAP-RULE (0.020167ms)
+✖ scan: UNIVERSAL (0.018584ms)
+✖ scan: NUMERIC-ORDER (0.019ms)
+✖ scan: FULL-FIVE-HOURS (0.017792ms)
+✖ scan: NINETY-MINUTES (0.04125ms)
+✖ scan: CLOSING-MIDNIGHT (0.033292ms)
+✖ scan: LAST-DAY (0.026417ms)
+✖ scan: NEIGHBOR-INCOMPATIBLE (0.028875ms)
+✖ scan: NEIGHBOR-REVERSE (0.027625ms)
+✖ scan: NEIGHBOR-COMPATIBLE (0.026292ms)
+✖ scan: NEIGHBOR-DIRECTION (0.026792ms)
+✖ scan: NEIGHBOR-DIRECTION-REVERSE (0.026333ms)
+✖ scan: NEIGHBOR-EMPTY-PAIRS (0.025792ms)
+✖ scan: NEIGHBOR-NO-GAP-RULE (0.0255ms)
+✖ scan: NEIGHBOR-TECHNICAL-NOT-SHARED (0.024833ms)
+✖ scan: reject INVALID-DATE (1.198791ms)
+✖ scan: reject PAST-DATE (0.093291ms)
+✖ scan: reject HORIZON (0.283167ms)
+✖ scan: reject SHORT (0.200375ms)
+✖ scan: reject LONG (0.427875ms)
+✖ scan: reject FRACTION (0.077792ms)
+✖ scan: reject STEP (0.068625ms)
+✖ scan: reject TYPE (0.058667ms)
+✖ scan: reject BAD-CLOCK (0.062542ms)
+✖ scan: reject CLOCK-ZONE-MISSING (0.060125ms)
+✖ scan: reject BAD-HOURS (0.056083ms)
+✖ scan: reject HOURS-STEP (0.0495ms)
+✖ scan: reject DUPLICATE-ID (0.054125ms)
+✖ scan: reject UNKNOWN-RESOURCE (0.05125ms)
+✖ scan: reject BAD-INTERVAL (0.051ms)
+✖ scan: reject BAD-STATUS (0.054708ms)
+✖ scan: reject SELF-ADJACENCY (0.055042ms)
+✖ scan: reject UNKNOWN-NEIGHBOR (0.347417ms)
+✖ scan: reject null input (0.084834ms)
+✖ masks: FREE (0.043583ms)
+✖ masks: CLOSED (0.028708ms)
+✖ masks: TOO-SHORT (0.026459ms)
+✖ masks: OTHER-SPORT (0.025583ms)
+✖ masks: NO-COURTS (0.026416ms)
+✖ masks: TODAY (0.027125ms)
+✖ masks: SECOND-BEFORE (0.023542ms)
+✖ masks: MOSCOW-MIDNIGHT (0.0235ms)
+✖ masks: OWN-OVERLAP (0.023875ms)
+✖ masks: TOUCH-BEFORE (0.029792ms)
+✖ masks: GAP-AFTER (0.02375ms)
+✖ masks: GAP-BEFORE (0.023291ms)
+✖ masks: CANCELED (0.023ms)
+✖ masks: OTHER-DAY (0.023042ms)
+✖ masks: BLOCK (0.02325ms)
+✖ masks: RELEASED (0.023167ms)
+✖ masks: BLOCK-NO-GAP-RULE (0.106625ms)
+✖ masks: UNIVERSAL (0.029458ms)
+✖ masks: NUMERIC-ORDER (0.0245ms)
+✖ masks: FULL-FIVE-HOURS (0.022958ms)
+✖ masks: NINETY-MINUTES (0.0225ms)
+✖ masks: CLOSING-MIDNIGHT (0.022333ms)
+✖ masks: LAST-DAY (0.02225ms)
+✖ masks: NEIGHBOR-INCOMPATIBLE (0.024334ms)
+✖ masks: NEIGHBOR-REVERSE (0.025625ms)
+✖ masks: NEIGHBOR-COMPATIBLE (0.031125ms)
+✖ masks: NEIGHBOR-DIRECTION (0.025709ms)
+✖ masks: NEIGHBOR-DIRECTION-REVERSE (0.024292ms)
+✖ masks: NEIGHBOR-EMPTY-PAIRS (0.028ms)
+✖ masks: NEIGHBOR-NO-GAP-RULE (0.023917ms)
+✖ masks: NEIGHBOR-TECHNICAL-NOT-SHARED (0.023875ms)
+✖ masks: reject INVALID-DATE (0.048084ms)
+✖ masks: reject PAST-DATE (0.043875ms)
+✖ masks: reject HORIZON (0.044458ms)
+✖ masks: reject SHORT (0.042458ms)
+✖ masks: reject LONG (0.044292ms)
+✖ masks: reject FRACTION (0.042875ms)
+✖ masks: reject STEP (0.041292ms)
+✖ masks: reject TYPE (0.041041ms)
+✖ masks: reject BAD-CLOCK (0.041583ms)
+✖ masks: reject CLOCK-ZONE-MISSING (0.041958ms)
+✖ masks: reject BAD-HOURS (0.04025ms)
+✖ masks: reject HOURS-STEP (0.040375ms)
+✖ masks: reject DUPLICATE-ID (0.041708ms)
+✖ masks: reject UNKNOWN-RESOURCE (0.042084ms)
+✖ masks: reject BAD-INTERVAL (0.040375ms)
+✖ masks: reject BAD-STATUS (0.040541ms)
+✖ masks: reject SELF-ADJACENCY (0.040583ms)
+✖ masks: reject UNKNOWN-NEIGHBOR (0.0415ms)
+✖ masks: reject null input (0.040375ms)
+✖ two algorithms agree on 200 deterministic generated schedules (0.148125ms)
+✖ both algorithms agree with the diploma module on 30 prepared schedules (1.587958ms)
+ℹ tests 102
+ℹ suites 0
+ℹ pass 0
+ℹ fail 102
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 160.125958
+
+✖ failing tests:
+
+test at tests/algorithms.test.mjs:7:47
+✖ scan: FREE (1.046417ms)
+  Error: Not implemented: interval scan
+      at findAvailableScan (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:2:48)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17)
+
+test at tests/algorithms.test.mjs:7:47
+✖ scan: CLOSED (0.044667ms)
+  Error: Not implemented: interval scan
+      at findAvailableScan (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:2:48)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3)
+
+test at tests/algorithms.test.mjs:7:47
+✖ scan: TOO-SHORT (0.034417ms)
+  Error: Not implemented: interval scan
+      at findAvailableScan (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:2:48)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/algorithms.test.mjs:7:47
+✖ scan: OTHER-SPORT (0.032709ms)
+  Error: Not implemented: interval scan
+      at findAvailableScan (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:2:48)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/algorithms.test.mjs:7:47
+✖ scan: NO-COURTS (0.035125ms)
+  Error: Not implemented: interval scan
+      at findAvailableScan (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:2:48)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/algorithms.test.mjs:7:47
+✖ scan: TODAY (0.030125ms)
+  Error: Not implemented: interval scan
+      at findAvailableScan (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:2:48)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/algorithms.test.mjs:7:47
+✖ scan: SECOND-BEFORE (0.028167ms)
+  Error: Not implemented: interval scan
+      at findAvailableScan (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:2:48)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/algorithms.test.mjs:7:47
+✖ scan: MOSCOW-MIDNIGHT (0.023084ms)
+  Error: Not implemented: interval scan
+      at findAvailableScan (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:2:48)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/algorithms.test.mjs:7:47
+✖ scan: OWN-OVERLAP (0.039792ms)
+  Error: Not implemented: interval scan
+      at findAvailableScan (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:2:48)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/algorithms.test.mjs:7:47
+✖ scan: TOUCH-BEFORE (0.067459ms)
+  Error: Not implemented: interval scan
+      at findAvailableScan (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:2:48)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/algorithms.test.mjs:7:47
+✖ scan: GAP-AFTER (0.039667ms)
+  Error: Not implemented: interval scan
+      at findAvailableScan (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:2:48)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/algorithms.test.mjs:7:47
+✖ scan: GAP-BEFORE (0.0295ms)
+  Error: Not implemented: interval scan
+      at findAvailableScan (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:2:48)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/algorithms.test.mjs:7:47
+✖ scan: CANCELED (0.022625ms)
+  Error: Not implemented: interval scan
+      at findAvailableScan (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:2:48)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/algorithms.test.mjs:7:47
+✖ scan: OTHER-DAY (0.01925ms)
+  Error: Not implemented: interval scan
+      at findAvailableScan (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:2:48)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/algorithms.test.mjs:7:47
+✖ scan: BLOCK (0.017542ms)
+  Error: Not implemented: interval scan
+      at findAvailableScan (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:2:48)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/algorithms.test.mjs:7:47
+✖ scan: RELEASED (0.01875ms)
+  Error: Not implemented: interval scan
+      at findAvailableScan (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:2:48)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/algorithms.test.mjs:7:47
+✖ scan: BLOCK-NO-GAP-RULE (0.020167ms)
+  Error: Not implemented: interval scan
+      at findAvailableScan (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:2:48)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/algorithms.test.mjs:7:47
+✖ scan: UNIVERSAL (0.018584ms)
+  Error: Not implemented: interval scan
+      at findAvailableScan (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:2:48)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/algorithms.test.mjs:7:47
+✖ scan: NUMERIC-ORDER (0.019ms)
+  Error: Not implemented: interval scan
+      at findAvailableScan (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:2:48)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/algorithms.test.mjs:7:47
+✖ scan: FULL-FIVE-HOURS (0.017792ms)
+  Error: Not implemented: interval scan
+      at findAvailableScan (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:2:48)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/algorithms.test.mjs:7:47
+✖ scan: NINETY-MINUTES (0.04125ms)
+  Error: Not implemented: interval scan
+      at findAvailableScan (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:2:48)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/algorithms.test.mjs:7:47
+✖ scan: CLOSING-MIDNIGHT (0.033292ms)
+  Error: Not implemented: interval scan
+      at findAvailableScan (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:2:48)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/algorithms.test.mjs:7:47
+✖ scan: LAST-DAY (0.026417ms)
+  Error: Not implemented: interval scan
+      at findAvailableScan (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:2:48)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/algorithms.test.mjs:7:47
+✖ scan: NEIGHBOR-INCOMPATIBLE (0.028875ms)
+  Error: Not implemented: interval scan
+      at findAvailableScan (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:2:48)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/algorithms.test.mjs:7:47
+✖ scan: NEIGHBOR-REVERSE (0.027625ms)
+  Error: Not implemented: interval scan
+      at findAvailableScan (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:2:48)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/algorithms.test.mjs:7:47
+✖ scan: NEIGHBOR-COMPATIBLE (0.026292ms)
+  Error: Not implemented: interval scan
+      at findAvailableScan (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:2:48)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/algorithms.test.mjs:7:47
+✖ scan: NEIGHBOR-DIRECTION (0.026792ms)
+  Error: Not implemented: interval scan
+      at findAvailableScan (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:2:48)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/algorithms.test.mjs:7:47
+✖ scan: NEIGHBOR-DIRECTION-REVERSE (0.026333ms)
+  Error: Not implemented: interval scan
+      at findAvailableScan (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:2:48)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/algorithms.test.mjs:7:47
+✖ scan: NEIGHBOR-EMPTY-PAIRS (0.025792ms)
+  Error: Not implemented: interval scan
+      at findAvailableScan (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:2:48)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/algorithms.test.mjs:7:47
+✖ scan: NEIGHBOR-NO-GAP-RULE (0.0255ms)
+  Error: Not implemented: interval scan
+      at findAvailableScan (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:2:48)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/algorithms.test.mjs:7:47
+✖ scan: NEIGHBOR-TECHNICAL-NOT-SHARED (0.024833ms)
+  Error: Not implemented: interval scan
+      at findAvailableScan (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:2:48)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/algorithms.test.mjs:19:35
+✖ scan: reject INVALID-DATE (1.198791ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    Comparison {
+  +   name: 'Error'
+  -   name: 'TypeError'
+    }
+  
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: Not implemented: interval scan
+        at findAvailableScan (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:2:48)
+        at assert.throws.name (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:86)
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1402:25)
+        at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+        at Test.postRun (node:internal/test_runner/test:1542:19)
+        at Test.run (node:internal/test_runner/test:1467:12),
+    expected: { name: 'TypeError' },
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/algorithms.test.mjs:19:35
+✖ scan: reject PAST-DATE (0.093291ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    Comparison {
+  +   name: 'Error'
+  -   name: 'TypeError'
+    }
+  
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: Not implemented: interval scan
+        at findAvailableScan (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:2:48)
+        at assert.throws.name (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:86)
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1402:25)
+        at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+        at Test.postRun (node:internal/test_runner/test:1542:19)
+        at Test.run (node:internal/test_runner/test:1467:12),
+    expected: { name: 'TypeError' },
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/algorithms.test.mjs:19:35
+✖ scan: reject HORIZON (0.283167ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    Comparison {
+  +   name: 'Error'
+  -   name: 'TypeError'
+    }
+  
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: Not implemented: interval scan
+        at findAvailableScan (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:2:48)
+        at assert.throws.name (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:86)
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1402:25)
+        at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+        at Test.postRun (node:internal/test_runner/test:1542:19)
+        at Test.run (node:internal/test_runner/test:1467:12),
+    expected: { name: 'TypeError' },
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/algorithms.test.mjs:19:35
+✖ scan: reject SHORT (0.200375ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    Comparison {
+  +   name: 'Error'
+  -   name: 'TypeError'
+    }
+  
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: Not implemented: interval scan
+        at findAvailableScan (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:2:48)
+        at assert.throws.name (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:86)
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1402:25)
+        at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+        at Test.postRun (node:internal/test_runner/test:1542:19)
+        at Test.run (node:internal/test_runner/test:1467:12),
+    expected: { name: 'TypeError' },
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/algorithms.test.mjs:19:35
+✖ scan: reject LONG (0.427875ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    Comparison {
+  +   name: 'Error'
+  -   name: 'TypeError'
+    }
+  
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: Not implemented: interval scan
+        at findAvailableScan (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:2:48)
+        at assert.throws.name (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:86)
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1402:25)
+        at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+        at Test.postRun (node:internal/test_runner/test:1542:19)
+        at Test.run (node:internal/test_runner/test:1467:12),
+    expected: { name: 'TypeError' },
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/algorithms.test.mjs:19:35
+✖ scan: reject FRACTION (0.077792ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    Comparison {
+  +   name: 'Error'
+  -   name: 'TypeError'
+    }
+  
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: Not implemented: interval scan
+        at findAvailableScan (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:2:48)
+        at assert.throws.name (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:86)
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1402:25)
+        at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+        at Test.postRun (node:internal/test_runner/test:1542:19)
+        at Test.run (node:internal/test_runner/test:1467:12),
+    expected: { name: 'TypeError' },
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/algorithms.test.mjs:19:35
+✖ scan: reject STEP (0.068625ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    Comparison {
+  +   name: 'Error'
+  -   name: 'TypeError'
+    }
+  
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: Not implemented: interval scan
+        at findAvailableScan (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:2:48)
+        at assert.throws.name (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:86)
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1402:25)
+        at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+        at Test.postRun (node:internal/test_runner/test:1542:19)
+        at Test.run (node:internal/test_runner/test:1467:12),
+    expected: { name: 'TypeError' },
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/algorithms.test.mjs:19:35
+✖ scan: reject TYPE (0.058667ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    Comparison {
+  +   name: 'Error'
+  -   name: 'TypeError'
+    }
+  
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: Not implemented: interval scan
+        at findAvailableScan (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:2:48)
+        at assert.throws.name (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:86)
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1402:25)
+        at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+        at Test.postRun (node:internal/test_runner/test:1542:19)
+        at Test.run (node:internal/test_runner/test:1467:12),
+    expected: { name: 'TypeError' },
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/algorithms.test.mjs:19:35
+✖ scan: reject BAD-CLOCK (0.062542ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    Comparison {
+  +   name: 'Error'
+  -   name: 'TypeError'
+    }
+  
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: Not implemented: interval scan
+        at findAvailableScan (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:2:48)
+        at assert.throws.name (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:86)
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1402:25)
+        at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+        at Test.postRun (node:internal/test_runner/test:1542:19)
+        at Test.run (node:internal/test_runner/test:1467:12),
+    expected: { name: 'TypeError' },
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/algorithms.test.mjs:19:35
+✖ scan: reject CLOCK-ZONE-MISSING (0.060125ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    Comparison {
+  +   name: 'Error'
+  -   name: 'TypeError'
+    }
+  
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: Not implemented: interval scan
+        at findAvailableScan (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:2:48)
+        at assert.throws.name (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:86)
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1402:25)
+        at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+        at Test.postRun (node:internal/test_runner/test:1542:19)
+        at Test.run (node:internal/test_runner/test:1467:12),
+    expected: { name: 'TypeError' },
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/algorithms.test.mjs:19:35
+✖ scan: reject BAD-HOURS (0.056083ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    Comparison {
+  +   name: 'Error'
+  -   name: 'TypeError'
+    }
+  
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: Not implemented: interval scan
+        at findAvailableScan (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:2:48)
+        at assert.throws.name (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:86)
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1402:25)
+        at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+        at Test.postRun (node:internal/test_runner/test:1542:19)
+        at Test.run (node:internal/test_runner/test:1467:12),
+    expected: { name: 'TypeError' },
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/algorithms.test.mjs:19:35
+✖ scan: reject HOURS-STEP (0.0495ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    Comparison {
+  +   name: 'Error'
+  -   name: 'TypeError'
+    }
+  
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: Not implemented: interval scan
+        at findAvailableScan (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:2:48)
+        at assert.throws.name (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:86)
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1402:25)
+        at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+        at Test.postRun (node:internal/test_runner/test:1542:19)
+        at Test.run (node:internal/test_runner/test:1467:12),
+    expected: { name: 'TypeError' },
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/algorithms.test.mjs:19:35
+✖ scan: reject DUPLICATE-ID (0.054125ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    Comparison {
+  +   name: 'Error'
+  -   name: 'TypeError'
+    }
+  
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: Not implemented: interval scan
+        at findAvailableScan (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:2:48)
+        at assert.throws.name (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:86)
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1402:25)
+        at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+        at Test.postRun (node:internal/test_runner/test:1542:19)
+        at Test.run (node:internal/test_runner/test:1467:12),
+    expected: { name: 'TypeError' },
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/algorithms.test.mjs:19:35
+✖ scan: reject UNKNOWN-RESOURCE (0.05125ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    Comparison {
+  +   name: 'Error'
+  -   name: 'TypeError'
+    }
+  
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: Not implemented: interval scan
+        at findAvailableScan (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:2:48)
+        at assert.throws.name (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:86)
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1402:25)
+        at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+        at Test.postRun (node:internal/test_runner/test:1542:19)
+        at Test.run (node:internal/test_runner/test:1467:12),
+    expected: { name: 'TypeError' },
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/algorithms.test.mjs:19:35
+✖ scan: reject BAD-INTERVAL (0.051ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    Comparison {
+  +   name: 'Error'
+  -   name: 'TypeError'
+    }
+  
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: Not implemented: interval scan
+        at findAvailableScan (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:2:48)
+        at assert.throws.name (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:86)
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1402:25)
+        at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+        at Test.postRun (node:internal/test_runner/test:1542:19)
+        at Test.run (node:internal/test_runner/test:1467:12),
+    expected: { name: 'TypeError' },
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/algorithms.test.mjs:19:35
+✖ scan: reject BAD-STATUS (0.054708ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    Comparison {
+  +   name: 'Error'
+  -   name: 'TypeError'
+    }
+  
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: Not implemented: interval scan
+        at findAvailableScan (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:2:48)
+        at assert.throws.name (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:86)
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1402:25)
+        at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+        at Test.postRun (node:internal/test_runner/test:1542:19)
+        at Test.run (node:internal/test_runner/test:1467:12),
+    expected: { name: 'TypeError' },
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/algorithms.test.mjs:19:35
+✖ scan: reject SELF-ADJACENCY (0.055042ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    Comparison {
+  +   name: 'Error'
+  -   name: 'TypeError'
+    }
+  
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: Not implemented: interval scan
+        at findAvailableScan (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:2:48)
+        at assert.throws.name (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:86)
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1402:25)
+        at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+        at Test.postRun (node:internal/test_runner/test:1542:19)
+        at Test.run (node:internal/test_runner/test:1467:12),
+    expected: { name: 'TypeError' },
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/algorithms.test.mjs:19:35
+✖ scan: reject UNKNOWN-NEIGHBOR (0.347417ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    Comparison {
+  +   name: 'Error'
+  -   name: 'TypeError'
+    }
+  
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: Not implemented: interval scan
+        at findAvailableScan (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:2:48)
+        at assert.throws.name (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:86)
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1402:25)
+        at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+        at Test.postRun (node:internal/test_runner/test:1542:19)
+        at Test.run (node:internal/test_runner/test:1467:12),
+    expected: { name: 'TypeError' },
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/algorithms.test.mjs:20:2
+✖ scan: reject null input (0.084834ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    Comparison {
+  +   name: 'Error'
+  -   name: 'TypeError'
+    }
+  
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:20:47)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: Not implemented: interval scan
+        at findAvailableScan (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:2:48)
+        at assert.throws.name (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:20:58)
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:20:47)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1402:25)
+        at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+        at Test.postRun (node:internal/test_runner/test:1542:19)
+        at Test.run (node:internal/test_runner/test:1467:12),
+    expected: { name: 'TypeError' },
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/algorithms.test.mjs:7:47
+✖ masks: FREE (0.043583ms)
+  Error: Not implemented: slot masks
+      at findAvailableMasks (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:3:49)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/algorithms.test.mjs:7:47
+✖ masks: CLOSED (0.028708ms)
+  Error: Not implemented: slot masks
+      at findAvailableMasks (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:3:49)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/algorithms.test.mjs:7:47
+✖ masks: TOO-SHORT (0.026459ms)
+  Error: Not implemented: slot masks
+      at findAvailableMasks (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:3:49)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/algorithms.test.mjs:7:47
+✖ masks: OTHER-SPORT (0.025583ms)
+  Error: Not implemented: slot masks
+      at findAvailableMasks (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:3:49)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/algorithms.test.mjs:7:47
+✖ masks: NO-COURTS (0.026416ms)
+  Error: Not implemented: slot masks
+      at findAvailableMasks (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:3:49)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/algorithms.test.mjs:7:47
+✖ masks: TODAY (0.027125ms)
+  Error: Not implemented: slot masks
+      at findAvailableMasks (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:3:49)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/algorithms.test.mjs:7:47
+✖ masks: SECOND-BEFORE (0.023542ms)
+  Error: Not implemented: slot masks
+      at findAvailableMasks (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:3:49)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/algorithms.test.mjs:7:47
+✖ masks: MOSCOW-MIDNIGHT (0.0235ms)
+  Error: Not implemented: slot masks
+      at findAvailableMasks (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:3:49)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/algorithms.test.mjs:7:47
+✖ masks: OWN-OVERLAP (0.023875ms)
+  Error: Not implemented: slot masks
+      at findAvailableMasks (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:3:49)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/algorithms.test.mjs:7:47
+✖ masks: TOUCH-BEFORE (0.029792ms)
+  Error: Not implemented: slot masks
+      at findAvailableMasks (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:3:49)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/algorithms.test.mjs:7:47
+✖ masks: GAP-AFTER (0.02375ms)
+  Error: Not implemented: slot masks
+      at findAvailableMasks (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:3:49)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/algorithms.test.mjs:7:47
+✖ masks: GAP-BEFORE (0.023291ms)
+  Error: Not implemented: slot masks
+      at findAvailableMasks (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:3:49)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/algorithms.test.mjs:7:47
+✖ masks: CANCELED (0.023ms)
+  Error: Not implemented: slot masks
+      at findAvailableMasks (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:3:49)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/algorithms.test.mjs:7:47
+✖ masks: OTHER-DAY (0.023042ms)
+  Error: Not implemented: slot masks
+      at findAvailableMasks (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:3:49)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/algorithms.test.mjs:7:47
+✖ masks: BLOCK (0.02325ms)
+  Error: Not implemented: slot masks
+      at findAvailableMasks (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:3:49)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/algorithms.test.mjs:7:47
+✖ masks: RELEASED (0.023167ms)
+  Error: Not implemented: slot masks
+      at findAvailableMasks (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:3:49)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/algorithms.test.mjs:7:47
+✖ masks: BLOCK-NO-GAP-RULE (0.106625ms)
+  Error: Not implemented: slot masks
+      at findAvailableMasks (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:3:49)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/algorithms.test.mjs:7:47
+✖ masks: UNIVERSAL (0.029458ms)
+  Error: Not implemented: slot masks
+      at findAvailableMasks (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:3:49)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/algorithms.test.mjs:7:47
+✖ masks: NUMERIC-ORDER (0.0245ms)
+  Error: Not implemented: slot masks
+      at findAvailableMasks (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:3:49)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/algorithms.test.mjs:7:47
+✖ masks: FULL-FIVE-HOURS (0.022958ms)
+  Error: Not implemented: slot masks
+      at findAvailableMasks (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:3:49)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/algorithms.test.mjs:7:47
+✖ masks: NINETY-MINUTES (0.0225ms)
+  Error: Not implemented: slot masks
+      at findAvailableMasks (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:3:49)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/algorithms.test.mjs:7:47
+✖ masks: CLOSING-MIDNIGHT (0.022333ms)
+  Error: Not implemented: slot masks
+      at findAvailableMasks (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:3:49)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/algorithms.test.mjs:7:47
+✖ masks: LAST-DAY (0.02225ms)
+  Error: Not implemented: slot masks
+      at findAvailableMasks (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:3:49)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/algorithms.test.mjs:7:47
+✖ masks: NEIGHBOR-INCOMPATIBLE (0.024334ms)
+  Error: Not implemented: slot masks
+      at findAvailableMasks (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:3:49)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/algorithms.test.mjs:7:47
+✖ masks: NEIGHBOR-REVERSE (0.025625ms)
+  Error: Not implemented: slot masks
+      at findAvailableMasks (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:3:49)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/algorithms.test.mjs:7:47
+✖ masks: NEIGHBOR-COMPATIBLE (0.031125ms)
+  Error: Not implemented: slot masks
+      at findAvailableMasks (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:3:49)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/algorithms.test.mjs:7:47
+✖ masks: NEIGHBOR-DIRECTION (0.025709ms)
+  Error: Not implemented: slot masks
+      at findAvailableMasks (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:3:49)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/algorithms.test.mjs:7:47
+✖ masks: NEIGHBOR-DIRECTION-REVERSE (0.024292ms)
+  Error: Not implemented: slot masks
+      at findAvailableMasks (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:3:49)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/algorithms.test.mjs:7:47
+✖ masks: NEIGHBOR-EMPTY-PAIRS (0.028ms)
+  Error: Not implemented: slot masks
+      at findAvailableMasks (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:3:49)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/algorithms.test.mjs:7:47
+✖ masks: NEIGHBOR-NO-GAP-RULE (0.023917ms)
+  Error: Not implemented: slot masks
+      at findAvailableMasks (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:3:49)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/algorithms.test.mjs:7:47
+✖ masks: NEIGHBOR-TECHNICAL-NOT-SHARED (0.023875ms)
+  Error: Not implemented: slot masks
+      at findAvailableMasks (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:3:49)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:8:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/algorithms.test.mjs:19:35
+✖ masks: reject INVALID-DATE (0.048084ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    Comparison {
+  +   name: 'Error'
+  -   name: 'TypeError'
+    }
+  
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: Not implemented: slot masks
+        at findAvailableMasks (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:3:49)
+        at assert.throws.name (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:86)
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1402:25)
+        at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+        at Test.postRun (node:internal/test_runner/test:1542:19)
+        at Test.run (node:internal/test_runner/test:1467:12),
+    expected: { name: 'TypeError' },
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/algorithms.test.mjs:19:35
+✖ masks: reject PAST-DATE (0.043875ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    Comparison {
+  +   name: 'Error'
+  -   name: 'TypeError'
+    }
+  
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: Not implemented: slot masks
+        at findAvailableMasks (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:3:49)
+        at assert.throws.name (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:86)
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1402:25)
+        at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+        at Test.postRun (node:internal/test_runner/test:1542:19)
+        at Test.run (node:internal/test_runner/test:1467:12),
+    expected: { name: 'TypeError' },
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/algorithms.test.mjs:19:35
+✖ masks: reject HORIZON (0.044458ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    Comparison {
+  +   name: 'Error'
+  -   name: 'TypeError'
+    }
+  
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: Not implemented: slot masks
+        at findAvailableMasks (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:3:49)
+        at assert.throws.name (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:86)
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1402:25)
+        at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+        at Test.postRun (node:internal/test_runner/test:1542:19)
+        at Test.run (node:internal/test_runner/test:1467:12),
+    expected: { name: 'TypeError' },
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/algorithms.test.mjs:19:35
+✖ masks: reject SHORT (0.042458ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    Comparison {
+  +   name: 'Error'
+  -   name: 'TypeError'
+    }
+  
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: Not implemented: slot masks
+        at findAvailableMasks (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:3:49)
+        at assert.throws.name (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:86)
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1402:25)
+        at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+        at Test.postRun (node:internal/test_runner/test:1542:19)
+        at Test.run (node:internal/test_runner/test:1467:12),
+    expected: { name: 'TypeError' },
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/algorithms.test.mjs:19:35
+✖ masks: reject LONG (0.044292ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    Comparison {
+  +   name: 'Error'
+  -   name: 'TypeError'
+    }
+  
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: Not implemented: slot masks
+        at findAvailableMasks (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:3:49)
+        at assert.throws.name (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:86)
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1402:25)
+        at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+        at Test.postRun (node:internal/test_runner/test:1542:19)
+        at Test.run (node:internal/test_runner/test:1467:12),
+    expected: { name: 'TypeError' },
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/algorithms.test.mjs:19:35
+✖ masks: reject FRACTION (0.042875ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    Comparison {
+  +   name: 'Error'
+  -   name: 'TypeError'
+    }
+  
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: Not implemented: slot masks
+        at findAvailableMasks (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:3:49)
+        at assert.throws.name (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:86)
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1402:25)
+        at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+        at Test.postRun (node:internal/test_runner/test:1542:19)
+        at Test.run (node:internal/test_runner/test:1467:12),
+    expected: { name: 'TypeError' },
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/algorithms.test.mjs:19:35
+✖ masks: reject STEP (0.041292ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    Comparison {
+  +   name: 'Error'
+  -   name: 'TypeError'
+    }
+  
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: Not implemented: slot masks
+        at findAvailableMasks (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:3:49)
+        at assert.throws.name (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:86)
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1402:25)
+        at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+        at Test.postRun (node:internal/test_runner/test:1542:19)
+        at Test.run (node:internal/test_runner/test:1467:12),
+    expected: { name: 'TypeError' },
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/algorithms.test.mjs:19:35
+✖ masks: reject TYPE (0.041041ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    Comparison {
+  +   name: 'Error'
+  -   name: 'TypeError'
+    }
+  
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: Not implemented: slot masks
+        at findAvailableMasks (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:3:49)
+        at assert.throws.name (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:86)
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1402:25)
+        at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+        at Test.postRun (node:internal/test_runner/test:1542:19)
+        at Test.run (node:internal/test_runner/test:1467:12),
+    expected: { name: 'TypeError' },
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/algorithms.test.mjs:19:35
+✖ masks: reject BAD-CLOCK (0.041583ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    Comparison {
+  +   name: 'Error'
+  -   name: 'TypeError'
+    }
+  
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: Not implemented: slot masks
+        at findAvailableMasks (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:3:49)
+        at assert.throws.name (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:86)
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1402:25)
+        at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+        at Test.postRun (node:internal/test_runner/test:1542:19)
+        at Test.run (node:internal/test_runner/test:1467:12),
+    expected: { name: 'TypeError' },
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/algorithms.test.mjs:19:35
+✖ masks: reject CLOCK-ZONE-MISSING (0.041958ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    Comparison {
+  +   name: 'Error'
+  -   name: 'TypeError'
+    }
+  
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: Not implemented: slot masks
+        at findAvailableMasks (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:3:49)
+        at assert.throws.name (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:86)
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1402:25)
+        at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+        at Test.postRun (node:internal/test_runner/test:1542:19)
+        at Test.run (node:internal/test_runner/test:1467:12),
+    expected: { name: 'TypeError' },
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/algorithms.test.mjs:19:35
+✖ masks: reject BAD-HOURS (0.04025ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    Comparison {
+  +   name: 'Error'
+  -   name: 'TypeError'
+    }
+  
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: Not implemented: slot masks
+        at findAvailableMasks (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:3:49)
+        at assert.throws.name (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:86)
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1402:25)
+        at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+        at Test.postRun (node:internal/test_runner/test:1542:19)
+        at Test.run (node:internal/test_runner/test:1467:12),
+    expected: { name: 'TypeError' },
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/algorithms.test.mjs:19:35
+✖ masks: reject HOURS-STEP (0.040375ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    Comparison {
+  +   name: 'Error'
+  -   name: 'TypeError'
+    }
+  
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: Not implemented: slot masks
+        at findAvailableMasks (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:3:49)
+        at assert.throws.name (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:86)
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1402:25)
+        at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+        at Test.postRun (node:internal/test_runner/test:1542:19)
+        at Test.run (node:internal/test_runner/test:1467:12),
+    expected: { name: 'TypeError' },
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/algorithms.test.mjs:19:35
+✖ masks: reject DUPLICATE-ID (0.041708ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    Comparison {
+  +   name: 'Error'
+  -   name: 'TypeError'
+    }
+  
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: Not implemented: slot masks
+        at findAvailableMasks (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:3:49)
+        at assert.throws.name (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:86)
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1402:25)
+        at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+        at Test.postRun (node:internal/test_runner/test:1542:19)
+        at Test.run (node:internal/test_runner/test:1467:12),
+    expected: { name: 'TypeError' },
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/algorithms.test.mjs:19:35
+✖ masks: reject UNKNOWN-RESOURCE (0.042084ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    Comparison {
+  +   name: 'Error'
+  -   name: 'TypeError'
+    }
+  
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: Not implemented: slot masks
+        at findAvailableMasks (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:3:49)
+        at assert.throws.name (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:86)
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1402:25)
+        at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+        at Test.postRun (node:internal/test_runner/test:1542:19)
+        at Test.run (node:internal/test_runner/test:1467:12),
+    expected: { name: 'TypeError' },
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/algorithms.test.mjs:19:35
+✖ masks: reject BAD-INTERVAL (0.040375ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    Comparison {
+  +   name: 'Error'
+  -   name: 'TypeError'
+    }
+  
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: Not implemented: slot masks
+        at findAvailableMasks (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:3:49)
+        at assert.throws.name (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:86)
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1402:25)
+        at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+        at Test.postRun (node:internal/test_runner/test:1542:19)
+        at Test.run (node:internal/test_runner/test:1467:12),
+    expected: { name: 'TypeError' },
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/algorithms.test.mjs:19:35
+✖ masks: reject BAD-STATUS (0.040541ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    Comparison {
+  +   name: 'Error'
+  -   name: 'TypeError'
+    }
+  
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: Not implemented: slot masks
+        at findAvailableMasks (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:3:49)
+        at assert.throws.name (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:86)
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1402:25)
+        at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+        at Test.postRun (node:internal/test_runner/test:1542:19)
+        at Test.run (node:internal/test_runner/test:1467:12),
+    expected: { name: 'TypeError' },
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/algorithms.test.mjs:19:35
+✖ masks: reject SELF-ADJACENCY (0.040583ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    Comparison {
+  +   name: 'Error'
+  -   name: 'TypeError'
+    }
+  
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: Not implemented: slot masks
+        at findAvailableMasks (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:3:49)
+        at assert.throws.name (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:86)
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1402:25)
+        at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+        at Test.postRun (node:internal/test_runner/test:1542:19)
+        at Test.run (node:internal/test_runner/test:1467:12),
+    expected: { name: 'TypeError' },
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/algorithms.test.mjs:19:35
+✖ masks: reject UNKNOWN-NEIGHBOR (0.0415ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    Comparison {
+  +   name: 'Error'
+  -   name: 'TypeError'
+    }
+  
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: Not implemented: slot masks
+        at findAvailableMasks (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:3:49)
+        at assert.throws.name (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:86)
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:19:75)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1402:25)
+        at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+        at Test.postRun (node:internal/test_runner/test:1542:19)
+        at Test.run (node:internal/test_runner/test:1467:12),
+    expected: { name: 'TypeError' },
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/algorithms.test.mjs:20:2
+✖ masks: reject null input (0.040375ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    Comparison {
+  +   name: 'Error'
+  -   name: 'TypeError'
+    }
+  
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:20:47)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: Not implemented: slot masks
+        at findAvailableMasks (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:3:49)
+        at assert.throws.name (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:20:58)
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:20:47)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1402:25)
+        at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+        at Test.postRun (node:internal/test_runner/test:1542:19)
+        at Test.run (node:internal/test_runner/test:1467:12),
+    expected: { name: 'TypeError' },
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/algorithms.test.mjs:22:1
+✖ two algorithms agree on 200 deterministic generated schedules (0.148125ms)
+  Error: Not implemented: slot masks
+      at findAvailableMasks (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:3:49)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:23:51)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests/algorithms.test.mjs:25:1
+✖ both algorithms agree with the diploma module on 30 prepared schedules (1.587958ms)
+  Error: Not implemented: interval scan
+      at findAvailableScan (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/src/slot-search.mjs:2:48)
+      at TestContext.<anonymous> (file:///local-workspace/Documents/ChatGPT/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%9C%D0%A2%D0%9F%D0%9E_%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_1/tests/algorithms.test.mjs:45:20)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)

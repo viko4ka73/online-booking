@@ -1,0 +1,76 @@
+{
+  "test": "scan: TOUCH-BEFORE",
+  "line": 44,
+  "results": [
+    {
+      "id": "292",
+      "mutatorName": "ConditionalExpression",
+      "original": "start<row.endMinute&&end>row.startMinute",
+      "replacement": "true",
+      "status": "Killed"
+    },
+    {
+      "id": "291",
+      "mutatorName": "ArrowFunction",
+      "original": "(start,end,row)=>start<row.endMinute&&end>row.startMinute",
+      "replacement": "() => undefined",
+      "status": "Survived"
+    },
+    {
+      "id": "293",
+      "mutatorName": "ConditionalExpression",
+      "original": "start<row.endMinute&&end>row.startMinute",
+      "replacement": "false",
+      "status": "Survived"
+    },
+    {
+      "id": "294",
+      "mutatorName": "LogicalOperator",
+      "original": "start<row.endMinute&&end>row.startMinute",
+      "replacement": "start < row.endMinute || end > row.startMinute",
+      "status": "Killed"
+    },
+    {
+      "id": "295",
+      "mutatorName": "ConditionalExpression",
+      "original": "start<row.endMinute",
+      "replacement": "true",
+      "status": "Survived"
+    },
+    {
+      "id": "296",
+      "mutatorName": "EqualityOperator",
+      "original": "start<row.endMinute",
+      "replacement": "start <= row.endMinute",
+      "status": "Survived"
+    },
+    {
+      "id": "297",
+      "mutatorName": "EqualityOperator",
+      "original": "start<row.endMinute",
+      "replacement": "start >= row.endMinute",
+      "status": "Survived"
+    },
+    {
+      "id": "298",
+      "mutatorName": "ConditionalExpression",
+      "original": "end>row.startMinute",
+      "replacement": "true",
+      "status": "Killed"
+    },
+    {
+      "id": "299",
+      "mutatorName": "EqualityOperator",
+      "original": "end>row.startMinute",
+      "replacement": "end >= row.startMinute",
+      "status": "Killed"
+    },
+    {
+      "id": "300",
+      "mutatorName": "EqualityOperator",
+      "original": "end>row.startMinute",
+      "replacement": "end <= row.startMinute",
+      "status": "Killed"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+reports/*.txt
+reports/*.json
+
+node_modules/
+.stryker-tmp/

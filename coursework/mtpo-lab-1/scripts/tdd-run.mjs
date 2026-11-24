@@ -1,0 +1,16 @@
+import {spawnSync} from 'node:child_process';
+import {mkdirSync,writeFileSync,readFileSync,copyFileSync,existsSync} from 'node:fs';
+import {createHash} from 'node:crypto';
+import {fileURLToPath} from 'node:url';
+process.chdir(fileURLToPath(new URL('../',import.meta.url)));
+const phase=process.argv[2];if(!['red','green','refactor'].includes(phase))throw new Error('Specify red, green or refactor');
+const dir='reports/tdd/01-schedule';mkdirSync(dir,{recursive:true});
+if(existsSync(`${dir}/${phase}.json`))throw new Error('This TDD phase is already recorded; history will not be overwritten');
+const result=spawnSync(process.execPath,['--test','tests/algorithms.test.mjs'],{encoding:'utf8'});
+const hash=path=>createHash('sha256').update(readFileSync(path)).digest('hex');
+writeFileSync(`${dir}/${phase}.txt`,(result.stdout??'')+(result.stderr??''));
+copyFileSync('src/slot-search.mjs',`${dir}/${phase}-source.mjs`);
+writeFileSync(`${dir}/${phase}.json`,JSON.stringify({phase,recordedAt:new Date().toISOString(),nodeVersion:process.version,exitCode:result.status,sourceHash:hash('src/slot-search.mjs'),testHash:hash('tests/algorithms.test.mjs'),fixtureHash:hash('test-data/search-fixtures.mjs'),command:'node --test tests/algorithms.test.mjs'},null,2));
+console.log(phase,'exit',result.status,(result.stdout??'').split('\n').slice(-10).join('\n'));
+if(phase==='red'&&result.status===0)throw new Error('Expected failing tests in Red phase');
+if(phase!=='red'&&result.status!==0)process.exitCode=1;

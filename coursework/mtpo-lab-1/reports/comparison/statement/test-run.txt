@@ -1,0 +1,22 @@
+✔ ST01 [statement] date=не дата duration=120 (0.513084ms)
+✔ ST02 [statement] date=2027-01-04 duration=120 (0.455ms)
+✔ ST03 [statement] date=2026-11-25 duration=30 (0.045333ms)
+✔ ST04 [statement] date=2026-11-25 duration=120 (0.031417ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 107.206209
+ℹ start of coverage report
+ℹ --------------------------------------------------------------------------
+ℹ file        | line % | branch % | funcs % | uncovered lines
+ℹ --------------------------------------------------------------------------
+ℹ src         |        |          |         | 
+ℹ  booking.ts |  45.33 |   100.00 |   16.67 | 11-12 33-36 38-40 42-49 52-75
+ℹ --------------------------------------------------------------------------
+ℹ all files   |  45.33 |   100.00 |   16.67 | 
+ℹ --------------------------------------------------------------------------
+ℹ end of coverage report

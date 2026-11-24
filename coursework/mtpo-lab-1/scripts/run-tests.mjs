@@ -1,0 +1,13 @@
+import {spawnSync} from 'node:child_process';
+import {mkdirSync,writeFileSync} from 'node:fs';
+import {fileURLToPath} from 'node:url';
+process.chdir(fileURLToPath(new URL('../',import.meta.url)));
+mkdirSync('reports',{recursive:true});
+const args=['--test'];
+if(process.argv.includes('--coverage'))args.push('--experimental-test-coverage','--test-coverage-include=src/booking.ts','--test-coverage-include=src/slot-search.mjs');
+args.push('--test-reporter=spec','--test-reporter=./scripts/json-reporter.mjs','--test-reporter-destination=stdout','--test-reporter-destination=reports/reporter.txt','tests/schedule.test.mjs','tests/availability.test.mjs','tests/optimization.test.mjs','tests/algorithms.test.mjs','tests/search-validation.test.mjs','tests/console.test.mjs','tests/mutation-regressions.test.mjs','tests/test-techniques.test.mjs');
+const run=spawnSync(process.execPath,args,{encoding:'utf8'});
+writeFileSync('reports/test-run.txt',(run.stdout??'')+(run.stderr??''));
+process.stdout.write(run.stdout??'');process.stderr.write(run.stderr??'');
+if(run.error)console.error(run.error);
+process.exitCode=run.status??1;
